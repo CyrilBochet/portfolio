@@ -17,7 +17,7 @@ $(document).ready(function () {
     setTimeout(function () {
         $("#missions").isotope('shuffle');
         $(".loader").fadeOut("fast");
-        }, 1000);
+    }, 1000);
 
 
     document.getElementById('age').innerHTML = getAge('1998/10/22');
@@ -54,8 +54,8 @@ $(document).ready(function () {
             "titre": "Multi sites Magento",
             "description": "Amélioration et mise à jour de 3 sites e-commerce sur Magento. \n" +
                 "Paramétrage de modules et amélioration de l'expérience utilisateur",
-            "miniature": "assets/img/projects/miniature/miniature-multisite.png",
-            "images": ["assets/img/projects/image/multi-site-1.png","assets/img/projects/image/multi-site-2.png"],
+            "miniature": "assets/img/projects/miniature/miniature-multisite.jpg",
+            "images": ["assets/img/projects/image/multi-site-1.jpg", "assets/img/projects/image/multi-site-2.jpg"],
             "duree": "1",
             "tag": ["MAGENTO", "MULTISITE"],
             "filter": "web",
@@ -65,8 +65,8 @@ $(document).ready(function () {
             "titre": "Bloc-notes",
             "description": "Le projet consistait a créer un bloc-notes en C# avec Windows Form.\n" +
                 "L’application permet d'ouvrir ou de créer un fichier texte modifiable, et de l'enregistrer. \nLe bloc-notes dispose d'un compteur de caractères.",
-            "miniature": "assets/img/projects/miniature/miniature-blocnote.png",
-            "images": ["assets/img/projects/image/bloc-notes-1.png"],
+            "miniature": "assets/img/projects/miniature/miniature-blocnote.jpg",
+            "images": ["assets/img/projects/image/bloc-notes-1.jpg"],
             "duree": "2",
             "tag": ["CSHARP", "WINFORM"],
             "filter": "logiciel",
@@ -87,7 +87,7 @@ $(document).ready(function () {
             "description": "Site Wordpress réalisé selon les demandes du client. " +
                 "Le site comprenait les dates des campagnes, les photos, et les événements importants de la campgne du candidat.\n" +
                 "Il y avait également le fil d'actualité Twitter intégré sur le site.",
-            "miniature": "assets/img/projects/miniature/miniature-wordpress.png",
+            "miniature": "assets/img/projects/miniature/miniature-wordpress.jpg",
             "images": ["assets/img/projects/image/institu-wordpress-1.jpeg"],
             "duree": "2",
             "tag": ["WORDPRESS"],
@@ -100,8 +100,8 @@ $(document).ready(function () {
         //         "L’application permet l’ajout, la modification, la suppression et l'affichage des contacts stockés en base de données.\n" +
         //         "Les contacts sont caractérisés par plusieurs informations dont une photo de profil.\n" +
         //         "L’application disposait d’un système d’authentification.\n",
-        //     "miniature": "assets/img/projects/miniature/miniature-contact.png",
-        //     "images": ["assets/img/projects/image/gestion-contact-1.png"],
+        //     "miniature": "assets/img/projects/miniature/miniature-contact.jpg",
+        //     "images": ["assets/img/projects/image/gestion-contact-1.jpg"],
         //     "duree": "2",
         //     "tag": ["PHP", "SQL"],
         //     "filter": "web",
@@ -112,7 +112,7 @@ $(document).ready(function () {
             "description": "Des capteurs disposés sur un pot de fleurs récoltent des données et les envoient dans le cloud. " +
                 "L'application Lazy Garden récupère et analyse en direct les données depuis le cloud et affiche un message en fonction des besoins en eau et en lumière de la plante. " +
                 "L'application affiche aussi un message en fonction de la température ambiante. Les images changent en fonction de l'état de la plante.",
-            "miniature": "assets/img/projects/miniature/miniature-lazy.png",
+            "miniature": "assets/img/projects/miniature/miniature-lazy.jpg",
             "images": ["assets/img/projects/image/lazy-garden-1.jpg", "assets/img/projects/image/lazy-garden-2.jpg", "assets/img/projects/image/lazy-garden-3.jpg"],
             "duree": "2",
             "tag": ["ANDROID", "MOBILE", "FIREBASE"],
@@ -123,8 +123,8 @@ $(document).ready(function () {
             "titre": "Gestionnaire de commandes\n",
             "description": "Logiciel permettant de gérer le statut des commandes\n" +
                 "(payée, expédiée) et de générer un PDF récapitulatif d'une commande sélectionnée.\n",
-            "miniature": "assets/img/projects/miniature/miniature-menagelec.png",
-            "images": ["assets/img/projects/image/gestion-commande-1.png"],
+            "miniature": "assets/img/projects/miniature/miniature-menagelec.jpg",
+            "images": ["assets/img/projects/image/gestion-commande-1.jpg"],
             "duree": "2",
             "tag": ["CSHARP", "WINFORM"],
             "filter": "logiciel",
@@ -136,8 +136,8 @@ $(document).ready(function () {
                 "Il est possible d'activer ou de désactiver les fournisseurs, et de les classer par ordre de priorité.\n" +
                 "Une fonctionnalité d'automatisation a également été développée afin d'activer automatiquement le produit qui correspond le plus aux critères suivant : \n - Produit avec le meilleur prix. \n - Produit avec le plus grand stock disponible.  \n - Produit avec le founisseur ayant la plus haute priorité." +
                 "\nCompatible pour la version 1.7.x de Prestashop.",
-            "miniature": "assets/img/projects/miniature/miniature-dropship.png",
-            "images": ["assets/img/projects/image/dropship-1.png","assets/img/projects/image/dropship-2.png","assets/img/projects/image/dropship-3.png", "assets/img/projects/image/dropship-4.png"],
+            "miniature": "assets/img/projects/miniature/miniature-dropship.jpg",
+            "images": ["assets/img/projects/image/dropship-1.jpg", "assets/img/projects/image/dropship-2.jpg", "assets/img/projects/image/dropship-3.jpg", "assets/img/projects/image/dropship-4.jpg"],
             "duree": "2",
             "tag": ["PHP", "PRESTASHOP", "SYMFONY"],
             "filter": "web",
@@ -151,8 +151,8 @@ $(document).ready(function () {
                 "Une fois dans le jeu, vous pouvez cliquer sur \"Lancer la roue\" pour tirer un numéro aléatoirement. \n" +
                 "Si le numéro se trouve sur la grille d'un joueur, il doit cliquer dessus pour le valider. \n" +
                 "Le gagnant est celui qui valide une ligne en premier.",
-            "miniature": "assets/img/projects/miniature/miniature-bingo.png",
-            "images": ["assets/img/projects/image/bingo-1.png", "assets/img/projects/image/bingo-2.png", "assets/img/projects/image/bingo-3.png"],
+            "miniature": "assets/img/projects/miniature/miniature-bingo.jpg",
+            "images": ["assets/img/projects/image/bingo-1.jpg", "assets/img/projects/image/bingo-2.jpg", "assets/img/projects/image/bingo-3.jpg"],
             "duree": "2",
             "tag": ["CSHARP", "WINFORM"],
             "filter": "logiciel",
@@ -161,10 +161,23 @@ $(document).ready(function () {
             "titre": "Comparateur de contrats d'assurance\n",
             "description": "Application web qui permet de comparer des contrats d'assurance.\n" +
                 "L'application fait appel à plusieurs API afin de récupérer les contrats et les tarifications de différentes compagnies d'assurance. Ces tarifs varient selon les données saisies dans le dossier du client.",
-            "miniature": "assets/img/projects/miniature/miniature-assurance.png",
-            "images": ["assets/img/projects/image/comparateur-1.png"],
+            "miniature": "assets/img/projects/miniature/miniature-assurance.jpg",
+            "images": ["assets/img/projects/image/comparateur-1.jpg"],
             "duree": "2",
             "tag": ["SYMFONY4", "PHP", "API"],
+            "filter": "web",
+        },
+        {
+            "id": 11,
+            "titre": "Galerie photo\n",
+            "description": "Espace de partage de photos sous forme de galeries.\n" +
+                "Un utilisateur peut s'inscrire, télécharger des photos dans sa galerie personnelle, et les publier à la vue de tous.\n" +
+                "La page d'accueil du site présente une galerie photo aléatoire parmi toutes les galeries du site.",
+            "miniature": "assets/img/projects/miniature/miniature-galerie.jpg",
+            "images": ["assets/img/projects/image/galerie-1.jpg", "assets/img/projects/image/galerie-2.jpg", "assets/img/projects/image/galerie-3.jpg", "assets/img/projects/image/galerie-4.jpg", "assets/img/projects/image/galerie-5" +
+            ".jpg"],
+            "duree": "2",
+            "tag": ["SYMFONY4", "PHP"],
             "filter": "web",
         },
     ]
