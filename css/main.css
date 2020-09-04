@@ -76,3 +76,9 @@ hr.light {
     z-index: 9999;
     background: url('../assets/img/loader.gif') 50% 50% no-repeat rgb(249,249,249);}
 
+
+@media screen and (max-width: 720px) {
+    .text-description {
+       margin-top: 5px;
+    }
+}
