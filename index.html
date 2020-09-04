@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <title>Cyril BOCHET - Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet"/>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.css">
+    <link href="css/styles.css" rel="stylesheet"/>
+    <link href="css/main.css" rel="stylesheet"/>
+</head>
+<body id="page-top">
+<div class="loader"></div>
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Mon Portfolio</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Mon Profil</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects-section">Mes Projets</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Masthead-->
+<header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+            <h1 class="mx-auto my-0 text-uppercase">CYRIL BOCHET</h1>
+            <hr class="divider my-4">
+            <h2 class="text-white-50 mx-auto mt-2 mb-5">Full-stack developer</h2>
+            <a class="btn btn-primary js-scroll-trigger" target="_blank" href="assets/docs/cv.pdf">Télécharger mon CV</a>
+        </div>
+    </div>
+</header>
+<!-- About-->
+<section class="about-section text-center" id="about">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12 col-xs-12  text-center"><h2 class="text-white mt-0">Mon Profil</h2>
+                <hr class="divider light my-4">
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-12 text-center"
+                 style="max-height: 50%; max-width: 50%;    margin-bottom: 10px;"><img
+                    class="img-thumbnail " src="assets/img/profile.jpg" alt="profile picture"></div>
+            <div class="col-lg-8 text-center col-xs-12"><p class="text-white mb-4 text-left">
+                Je m'appelle Cyril, j'ai <span id="age"></span> ans.</p>
+                <p class="text-white mb-4 text-left">Je suis diplômé d'un BTS SIO (Services Informatiques aux Organisations)
+                    et d'une licence MN (Métiers du Numérique). Je suis actuellement en seconde année de Master CCM (Cloud Computing & Mobility) et en alternance
+                    chez <a href="https://afrfinancement.fr/" target="_blank">AFR Financement</a> à
+                    Villeneuve-Saint-Germain.</p>
+                <p class="text-white mb-4 text-left">Mon portfolio a pour but de présenter les différentes
+                    projets sur lesquels j'ai travaillé ces dernières années.</p>
+                <p class="text-white mb-4 text-left">Si vous souhaitez me contacter, vous pouvez m'envoyer
+                    un message sur LinkedIn.</p><a class="btn btn-xl btn-light" target="_blank"
+                                                      href="https://www.linkedin.com/in/cyril-bochet/">Mon profil
+                    Linkedin</a></div>
+        </div>
+    </div>
+</section>
+<!-- Projects-->
+
+<section id="projects-section" class="page-section bg-dark text-white">
+    <div class="container">
+        <div class="col-lg-12 text-center">
+            <h2 class="text-white mt-0">Mes projets</h2>
+            <hr class="divider light my-4">
+        </div>
+        <br>
+        <div align="center" id="filters">
+            <button class="btn btn-outline-primary filter-button active"
+                    data-filter="*" id="all-filter">TOUS
+            </button>
+            <button class="btn btn-outline-primary filter-button"
+                    data-filter=".web">WEB
+            </button>
+            <button class="btn btn-outline-primary filter-button"
+                    data-filter=".mobile">MOBILE
+            </button>
+            <button class="btn btn-outline-primary filter-button"
+                    data-filter=".logiciel">LOGICIEL
+            </button>
+        </div>
+        <br>
+        <div class="container-fluid p-0">
+            <div class="row no-gutters" id="missions" style="position: relative; height: 24px;">
+            </div>
+        </div>
+    </div>
+</section>
+<div class="modal fade" id="missionModal" tabindex="-1" role="dialog"
+     aria-labelledby="missionModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="mission-titre"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="text-center">
+            </div>
+            <div class="modal-body">
+                <p style="white-space: pre-line" id="mission-description"></p>
+                <div class="gallery" id="mission-images"></div>
+                <br>
+                <div id="mission-tags"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Footer-->
+<footer class="footer bg-white small text-center ">
+    <div class="container">Copyright © Cyril BOCHET
+        <script>document.write(new Date().getFullYear())</script>
+    </div>
+    <div class="small text-center text-muted">
+        <a target="_blank" href="https://fr.freepik.com">Vector
+        background and illustrations created by freepik - fr.freepik.com</a></div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+<!-- Third party plugin JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js" integrity="sha512-7KzSt4AJ9bLchXCRllnyYUDjfhO2IFEWSa+a5/3kPGQbr+swRTorHQfyADAhSlVHCs1bpFdB1447ZRzFyiiXsg==" crossorigin="anonymous"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

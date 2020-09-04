@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="06153f85-76ad-4d60-abe7-3a72d5221eb9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gjm3ydE8jKiLxfXnnrJb7K2U0q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cyril\Desktop\startbootstrap-grayscale-gh-pages\assets\docs" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06153f85-76ad-4d60-abe7-3a72d5221eb9" name="Default Changelist" comment="" />
+      <created>1598636180451</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598636180451</updated>
+      <workItem from="1598636181481" duration="2643000" />
+      <workItem from="1598643594190" duration="78000" />
+      <workItem from="1598705286706" duration="6318000" />
+      <workItem from="1598722722647" duration="11378000" />
+      <workItem from="1598870507348" duration="12328000" />
+      <workItem from="1598985524468" duration="9835000" />
+      <workItem from="1599042906164" duration="2476000" />
+      <workItem from="1599073193386" duration="1364000" />
+      <workItem from="1599131822633" duration="1874000" />
+      <workItem from="1599158622248" duration="1406000" />
+      <workItem from="1599167415163" duration="2296000" />
+      <workItem from="1599215761767" duration="2464000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2378" y="186" key="FileChooserDialogImpl" timestamp="1599161414735">
+      <screen x="1920" y="0" width="1280" height="920" />
+    </state>
+    <state x="2378" y="186" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.920@1920.0.1280.920" timestamp="1599161414735" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598708115231" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1598708430588">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1598708430588" />
+  </component>
+</project>
