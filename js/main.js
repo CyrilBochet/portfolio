@@ -89,18 +89,6 @@ $(document).ready(function () {
             "tag": ["WORDPRESS"],
             "filter": "web",
         },
-        // {
-        //     "id": 5,
-        //     "titre": "Application web de gestion de contacts\n",
-        //     "description": "Application web pour gérer des contacts.\n" +
-        //         "L’application permet l’ajout, la modification, la suppression et l'affichage des contacts stockés en base de données.\n" +
-        //         "Les contacts sont caractérisés par plusieurs informations dont une photo de profil.\n" +
-        //         "L’application disposait d’un système d’authentification.\n",
-        //     "miniature": "assets/img/projects/miniature/miniature-contact.jpg",
-        //     "images": ["assets/img/projects/image/gestion-contact-1.jpg"],
-        //     "tag": ["PHP", "SQL"],
-        //     "filter": "web",
-        // },
         {
             "id": 6,
             "titre": "Application android - Lazy Garden\n",
