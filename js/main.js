@@ -56,7 +56,6 @@ $(document).ready(function () {
                 "Paramétrage de modules et amélioration de l'expérience utilisateur",
             "miniature": "assets/img/projects/miniature/miniature-multisite.jpg",
             "images": ["assets/img/projects/image/multi-site-1.jpg", "assets/img/projects/image/multi-site-2.jpg"],
-            "duree": "1",
             "tag": ["MAGENTO", "MULTISITE"],
             "filter": "web",
         },
@@ -67,7 +66,6 @@ $(document).ready(function () {
                 "L’application permet d'ouvrir ou de créer un fichier texte modifiable, et de l'enregistrer. \nLe bloc-notes dispose d'un compteur de caractères.",
             "miniature": "assets/img/projects/miniature/miniature-blocnote.jpg",
             "images": ["assets/img/projects/image/bloc-notes-1.jpg"],
-            "duree": "2",
             "tag": ["CSHARP", "WINFORM"],
             "filter": "logiciel",
         },
@@ -77,7 +75,6 @@ $(document).ready(function () {
             "description": "Création de newsletters programmées sur Mailchimp et retouche des photos des produits sur Photoshop.\n",
             "miniature": "assets/img/projects/miniature/miniature-mailchimp.gif",
             "images": ["assets/img/projects/image/mailchimp-1.gif"],
-            "duree": "2",
             "tag": ["MAILING", "MAILCHIMP", "PHOTOSHOP"],
             "filter": "web",
         },
@@ -89,7 +86,6 @@ $(document).ready(function () {
                 "Il y avait également le fil d'actualité Twitter intégré sur le site.",
             "miniature": "assets/img/projects/miniature/miniature-wordpress.jpg",
             "images": ["assets/img/projects/image/institu-wordpress-1.jpeg"],
-            "duree": "2",
             "tag": ["WORDPRESS"],
             "filter": "web",
         },
@@ -102,7 +98,6 @@ $(document).ready(function () {
         //         "L’application disposait d’un système d’authentification.\n",
         //     "miniature": "assets/img/projects/miniature/miniature-contact.jpg",
         //     "images": ["assets/img/projects/image/gestion-contact-1.jpg"],
-        //     "duree": "2",
         //     "tag": ["PHP", "SQL"],
         //     "filter": "web",
         // },
@@ -114,7 +109,6 @@ $(document).ready(function () {
                 "L'application affiche aussi un message en fonction de la température ambiante. Les images changent en fonction de l'état de la plante.",
             "miniature": "assets/img/projects/miniature/miniature-lazy.jpg",
             "images": ["assets/img/projects/image/lazy-garden-1.jpg", "assets/img/projects/image/lazy-garden-2.jpg", "assets/img/projects/image/lazy-garden-3.jpg"],
-            "duree": "2",
             "tag": ["ANDROID", "MOBILE", "FIREBASE"],
             "filter": "mobile",
         },
@@ -125,7 +119,6 @@ $(document).ready(function () {
                 "(payée, expédiée) et de générer un PDF récapitulatif d'une commande sélectionnée.\n",
             "miniature": "assets/img/projects/miniature/miniature-menagelec.jpg",
             "images": ["assets/img/projects/image/gestion-commande-1.jpg"],
-            "duree": "2",
             "tag": ["CSHARP", "WINFORM"],
             "filter": "logiciel",
         },
@@ -138,7 +131,6 @@ $(document).ready(function () {
                 "\nCompatible pour la version 1.7.x de Prestashop.",
             "miniature": "assets/img/projects/miniature/miniature-dropship.jpg",
             "images": ["assets/img/projects/image/dropship-1.jpg", "assets/img/projects/image/dropship-2.jpg", "assets/img/projects/image/dropship-3.jpg", "assets/img/projects/image/dropship-4.jpg"],
-            "duree": "2",
             "tag": ["PHP", "PRESTASHOP", "SYMFONY"],
             "filter": "web",
         },
@@ -153,7 +145,6 @@ $(document).ready(function () {
                 "Le gagnant est celui qui valide une ligne en premier.",
             "miniature": "assets/img/projects/miniature/miniature-bingo.jpg",
             "images": ["assets/img/projects/image/bingo-1.jpg", "assets/img/projects/image/bingo-2.jpg", "assets/img/projects/image/bingo-3.jpg"],
-            "duree": "2",
             "tag": ["CSHARP", "WINFORM"],
             "filter": "logiciel",
         }, {
@@ -163,7 +154,6 @@ $(document).ready(function () {
                 "L'application fait appel à plusieurs API afin de récupérer les contrats et les tarifications de différentes compagnies d'assurance. Ces tarifs varient selon les données saisies dans le dossier du client.",
             "miniature": "assets/img/projects/miniature/miniature-assurance.jpg",
             "images": ["assets/img/projects/image/comparateur-1.jpg"],
-            "duree": "2",
             "tag": ["SYMFONY4", "PHP", "API"],
             "filter": "web",
         },
@@ -176,7 +166,6 @@ $(document).ready(function () {
             "miniature": "assets/img/projects/miniature/miniature-galerie.jpg",
             "images": ["assets/img/projects/image/galerie-1.jpg", "assets/img/projects/image/galerie-2.jpg", "assets/img/projects/image/galerie-3.jpg", "assets/img/projects/image/galerie-4.jpg", "assets/img/projects/image/galerie-5" +
             ".jpg"],
-            "duree": "2",
             "tag": ["SYMFONY4", "PHP"],
             "filter": "web",
         },
@@ -192,9 +181,8 @@ $(document).ready(function () {
                 var pDesc = projects[i]["description"];
                 var pTitre = projects[i]["titre"];
                 var pTags = projects[i]["tag"];
-                var pDuree = projects[i]["duree"];
-                var pFilter = projects[i]["filter"];
-                var pMinia = projects[i]["miniature"];
+                // var pFilter = projects[i]["filter"];
+                // var pMinia = projects[i]["miniature"];
                 var pImages = projects[i]["images"];
             }
         }
