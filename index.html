@@ -33,6 +33,7 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Mon Profil</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects-section">Mes Projets</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact-section">Me contacter</a></li>
             </ul>
         </div>
     </div>
@@ -44,7 +45,8 @@
             <h1 class="mx-auto my-0 text-uppercase">CYRIL BOCHET</h1>
             <hr class="divider my-4">
             <h2 class="text-white-50 mx-auto mt-2 mb-5">Full-stack developer</h2>
-            <a class="btn btn-primary js-scroll-trigger" target="_blank" href="assets/docs/cv.pdf">Télécharger mon CV</a>
+            <a class="btn btn-primary js-scroll-trigger" target="_blank" href="assets/docs/cv.pdf">Télécharger mon
+                CV</a>
         </div>
     </div>
 </header>
@@ -60,15 +62,20 @@
                     class="img-thumbnail " src="assets/img/profile.jpg" alt="profile picture"></div>
             <div class="col-lg-8 text-center col-xs-12 text-description"><p class="text-white mb-4 text-left">
                 Je m'appelle Cyril, j'ai <span id="age"></span> ans.</p>
-                <p class="text-white mb-4 text-left">Je suis diplômé d'un BTS SIO (Services Informatiques aux Organisations)
-                    et d'une licence MN (Métiers du Numérique). Je suis actuellement en seconde année de Master CCM (Cloud Computing & Mobility) et en alternance
-                    chez <a href="https://afrfinancement.fr/" rel="nofollow" rel="noreferrer" target="_blank">AFR Financement</a> à
+                <p class="text-white mb-4 text-left">Je suis diplômé d'un BTS SIO (Services Informatiques aux
+                    Organisations)
+                    et d'une licence MN (Métiers du Numérique). Je suis actuellement en seconde année de Master CCM
+                    (Cloud Computing & Mobility) et en alternance
+                    chez <a href="https://afrfinancement.fr/" rel="nofollow" rel="noreferrer" target="_blank">AFR
+                        Financement</a> à
                     Villeneuve-Saint-Germain.</p>
                 <p class="text-white mb-4 text-left">Mon portfolio a pour but de présenter les différentes
                     projets sur lesquels j'ai travaillé ces dernières années.</p>
                 <p class="text-white mb-4 text-left">Si vous souhaitez me contacter, vous pouvez m'envoyer
-                    un message directement sur LinkedIn.</p><a rel="nofollow" rel="noreferrer" class="btn btn-xl btn-light" target="_blank"
-                                                      href="https://www.linkedin.com/in/cyril-bochet/">Mon profil
+                    un message directement sur LinkedIn, ou bien utiliser le formulaire de contact.</p><a rel="nofollow" rel="noreferrer"
+                                                               class="btn btn-xl btn-light" target="_blank"
+                                                               href="https://www.linkedin.com/in/cyril-bochet/">Mon
+                    profil
                     Linkedin</a></div>
         </div>
     </div>
@@ -103,6 +110,35 @@
         </div>
     </div>
 </section>
+
+<section id="contact-section" class="contact-section page-section text-white">
+    <div class="container">
+        <div class="col-lg-12 col-xs-12  text-center"><h2 class="text-white mt-0">Formulaire de contact</h2>
+            <hr class="divider light my-4">
+        </div>
+        <p class="alert" id="my-form-status"></p>
+        <form id="my-form"
+              action="https://formspree.io/f/xaylpkqw"
+              method="POST">
+            <div class="form-group">
+                <label for="inputEmail">Email :</label>
+                <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Entrez votre email">
+            </div>
+
+            <div class="form-group">
+                <label for="inputMessage">Message :</label>
+                <textarea type="text" class="form-control" id="inputMessage" name="message"
+                          placeholder="Entrez votre message"></textarea>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-secondary" id="my-form-button">Envoyer</button>
+            </div>
+        </form>
+    </div>
+
+</section>
+
+
 <div class="modal fade" id="missionModal" tabindex="-1" role="dialog"
      aria-labelledby="missionModal" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -136,7 +172,7 @@
     </div>
     <div class="small text-center text-muted">
         <a rel="nofollow" target="_blank" href="https://fr.freepik.com">Vector
-        background and illustrations created by freepik - fr.freepik.com</a></div>
+            background and illustrations created by freepik - fr.freepik.com</a></div>
 </footer>
 <!-- Bootstrap core JS-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -150,5 +186,6 @@
 <!-- Core theme JS-->
 <script src="js/theme.js"></script>
 <script src="js/main.js"></script>
+<script src="js/contact-form.js"></script>
 </body>
 </html>
