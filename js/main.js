@@ -82,7 +82,7 @@ $(document).ready(function () {
             "id": 4,
             "titre": "Site web réalisé sur WordPress\n",
             "description": "Site Wordpress réalisé selon les demandes du client. " +
-                "Le site comprenait les dates des campagnes, les photos, et les événements importants de la campgne du candidat.\n" +
+                "Le site comprenait les dates des campagnes, les photos, et les événements importants de la campagne du candidat.\n" +
                 "Il y avait également le fil d'actualité Twitter intégré sur le site.",
             "miniature": "assets/img/projects/miniature/miniature-wordpress.jpg",
             "images": ["assets/img/projects/image/institu-wordpress-1.jpeg"],

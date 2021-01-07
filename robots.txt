@@ -1,4 +1,14 @@
 User-agent: *
 Allow: /
 
+User-agent: Googlebot-Image
+Disallow: /img/projects/image
+Disallow: /img/favicon.ico
+Disallow: /img/*.ico$
+Disallow: /img/*.gif$
+Disallow: /img/bg-masthead.webp
+Disallow: /img/bg-contact.webp
+Disallow: /img/miniature/miniature-wordpress.jpg
+
+
 Sitemap: https://cyril-bochet.tk/sitemap.xml
