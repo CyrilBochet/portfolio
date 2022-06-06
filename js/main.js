@@ -21,7 +21,7 @@ $(document).ready(function () {
 
 
     document.getElementById('age').innerHTML = getAge('1998/10/22');
-
+    document.getElementById('year').innerHTML = new Date().getFullYear();
     let $container = $('#missions');
 
     $('#filters button').click(function () {
@@ -39,7 +39,7 @@ $(document).ready(function () {
         var value = $(this).attr('data-filter');
 
         if (value == "all") {
-            $('.filter').show('1000');
+            $('.filter').show(1000);
         } else {
             $(".filter").not(value).hide('3000');
             $('.filter').filter(value).show('3000');
@@ -207,21 +207,21 @@ function createProjects(projects) {
     for (let i = 0; i < projects.length; i++) {
 
 
-        let element = '\n' +
-            '                    <a onclick="loadGallery()" class="portfolio-box" data-toggle="modal" href="1" data-project-id="' + projects[i]["id"] + '" data-target="#missionModal"\n' +
-            '                       data-project-description=" ' + projects[i]["description"] + '"\n' +
-            '                       data-project-title=" ' + projects[i]["titre"] + '">\n' +
-            '                        <img class="img-fluid" style="padding: 5px;"\n' +
-            '                             src="' + projects[i]["miniature"] + '"\n' +
-            '                             alt="">\n' +
-            '                        <div class="portfolio-box-caption">\n' +
-            '                            <div class="project-category text-white-50">\n' +
-            '                            </div>\n' +
-            '                            <div class="project-name">\n' +
-            '                                ' + projects[i]["titre"] + '\n' +
-            '                            </div>\n' +
-            '                        </div>\n' +
-            '                    </a>\n'
+        let element = "" +
+            "                    <a onclick='loadGallery()' class='portfolio-box' data-toggle='modal' href='1' data-project-id='" + projects[i]['id'] + "' data-target='#missionModal'" +
+            "                       data-project-description=' " + projects[i]['description'] + "'" +
+            "                       data-project-title=' " + projects[i]['titre'] + "'>" +
+            "                        <img class='img-fluid' style='padding: 5px;'" +
+            "                             src='" + projects[i]['miniature'] + "'" +
+            "                             alt=''>" +
+            "                        <div class='portfolio-box-caption'>" +
+            "                            <div class='project-category text-white-50'>" +
+            "                            </div>" +
+            "                            <div class='project-name'>" +
+            "                                " + projects[i]['titre'] + "" +
+            "                            </div>" +
+            "                        </div>" +
+            "                    </a>"
         ;
 
 
