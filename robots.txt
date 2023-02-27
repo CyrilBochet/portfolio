@@ -11,4 +11,4 @@ Disallow: /img/bg-contact.webp
 Disallow: /img/miniature/miniature-wordpress.jpg
 
 
-Sitemap: https://cyril-bochet.tk/sitemap.xml
+Sitemap: https://cyril-bochet.dev/sitemap.xml
