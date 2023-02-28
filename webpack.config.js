@@ -1,50 +1,21 @@
-const webpack = require('webpack');
 const path = require('path');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-    mode: 'development',
-    entry: './src/js/index.js',
+    entry: './src/app.js',
     output: {
-        filename: 'main.js',
-        path: path.resolve(__dirname, 'dist'),
-    },
-    devServer: {
-        contentBase: './dist',
+        filename: 'app.js',
+        path: path.resolve(__dirname, 'dist')
     },
     module: {
         rules: [
             {
-                test: /\.js$/,
-                exclude: /node_modules/,
-                use: {
-                    loader: 'babel-loader',
-                    options: {
-                        presets: ['@babel/preset-env']
-                    }
-                }
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader']
             },
             {
-                test: /\.css$/,
-                use: [
-                    'style-loader',
-                    'css-loader',
-                ],
+                test: /\.(jpe?g|svg|png|gif|ico|eot|ttf|woff2?)(\?v=\d+\.\d+\.\d+)?$/i,
+                type: 'asset/resource',
             },
-        ],
-    },
-    plugins: [
-        new CopyWebpackPlugin({
-            patterns: [
-                {
-                    from: 'src/img',
-                    to: 'img',
-                },
-            ],
-        }),
-        new webpack.ProvidePlugin({
-            $: 'jquery',
-            jQuery: 'jquery'
-        }),
-    ],
+        ]
+    }
 };

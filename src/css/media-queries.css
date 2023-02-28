@@ -1,0 +1,6 @@
+@media (min-width: 992px) {
+    .landing-bg {
+        height: 100vh;
+        padding: 0;
+    }
+}
