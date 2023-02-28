@@ -1,3 +1,5 @@
+console.log("main")
+
 // Calculate age
 function getAge(dateString) {
     var today = new Date();
@@ -14,14 +16,13 @@ function getAge(dateString) {
 //Filter portfolio
 $(document).ready(function () {
 
-    setTimeout(function () {
+    $("#missions").load(function () {
         $("#missions").isotope('shuffle');
         $(".loader").fadeOut("fast");
-    }, 1000);
+    });
 
-
-    $('#age').innerHTML = getAge('1998/10/22');
-    $('#year').innerHTML = new Date().getFullYear();
+    $('#age').html(getAge('1998/10/22'));
+    $('#year').html(new Date().getFullYear());
     let $container = $('#missions');
 
     $('#filters button').click(function () {
@@ -204,8 +205,6 @@ function createProjects(projects) {
 
 
     for (let i = 0; i < projects.length; i++) {
-
-
         let element = `<a onclick='loadGallery()' class='portfolio-box' data-toggle='modal' href='1' data-project-id='${projects[i]['id']}' 
                         data-target='#missionModal' data-project-description=' ${projects[i]['description']}' data-project-title=' ${projects[i]['titre']}'>                        
                       <img class='img-fluid' style='padding: 5px;' src='dist/img/projets/miniatures/${projects[i]['miniature']}' alt=''>                        
@@ -215,9 +214,7 @@ function createProjects(projects) {
                           </div>
                       </a>`
         ;
-
-
-        var div = document.createElement('div');
+        const div = document.createElement('div');
         div.className = 'col-lg-4 col-sm-6 mission ' + projects[i]["filter"];
         div.innerHTML = element;
 
@@ -230,6 +227,8 @@ function createProjects(projects) {
 
 
 function loadGallery() {
+
+
     setTimeout(function () {
         baguetteBox.run('.gallery')
     }, 200);

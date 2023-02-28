@@ -1,3 +1,4 @@
+console.log("theme")
 import * as bootstrap from 'bootstrap';
 import 'isotope-layout/dist/isotope.pkgd';
 
