@@ -1,0 +1,15 @@
+.flag-icon-fr{
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.2) 0%, rgba(92, 77, 66, 0.8) 100%), url('../assets/images/flags/fr.png');
+}
+
+.flag-bookmarks a {
+    padding-left: 20px;
+}
+.flag-bookmarks a.flag-action {
+    background: url(images/i-dont-like-it.png) no-repeat left center;
+}
+
+
+.flag-bookmarks a.unflag-action {
+    background: url(images/i-like-it.png) no-repeat left center;
+}

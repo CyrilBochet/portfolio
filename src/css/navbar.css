@@ -1,0 +1,15 @@
+/* Create a sticky/fixed navbar */
+#navbar {
+    background-color: transparent;
+}
+
+#navbar.navbar-shrink{
+    /*overflow: hidden;*/
+    background-color: #fff;
+    /*padding: 90px 10px; !* Large padding which will shrink on scroll (using JS) *!*/
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+    position: fixed; /* Sticky/fixed navbar */
+    width: 100%;
+    top: 0; /* At the top */
+    z-index: 99;
+}

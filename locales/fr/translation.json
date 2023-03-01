@@ -1,0 +1,11 @@
+{
+  "job": "Développeur full-stack",
+  "linkedinBtn": "Mon profil LinkedIn",
+  "nav": {
+    "lang": "Langage",
+    "contact": "Me contacter",
+    "projects": "Projets",
+    "profile": "Mon Profil",
+    "brand": "Mon Portfolio"
+  }
+}

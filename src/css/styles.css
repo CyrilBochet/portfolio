@@ -12,12 +12,17 @@
     background-attachment: fixed;
     background-size: cover;
 }
+
 hr.divider {
     max-width: 3.25rem;
     border-width: 0.2rem;
     border-color: #f4623a;
     opacity: 1;
 }
+hr.divider-light {
+    border-color: #fff;
+}
+
 .me {
     color: white;
     font-size: 4rem;
@@ -38,4 +43,11 @@ hr.divider {
     margin-top: 20px;
     text-align: center;
     font-size: 1.25rem;
+}
+
+.about-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    /* background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%); */
+    background-color: #f4623a;
 }
