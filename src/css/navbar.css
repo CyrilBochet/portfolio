@@ -1,15 +1,65 @@
-/* Create a sticky/fixed navbar */
-#navbar {
-    background-color: transparent;
+#sidebar-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 170px;
+    height: 100vh;
+    z-index: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 0.3s ease;
 }
 
-#navbar.navbar-shrink{
-    /*overflow: hidden;*/
-    background-color: #fff;
-    /*padding: 90px 10px; !* Large padding which will shrink on scroll (using JS) *!*/
-    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
-    position: fixed; /* Sticky/fixed navbar */
+#sidebar-wrapper::-webkit-scrollbar {
+    width: 5px;
+    background-color: #f5f5f5;
+}
+
+#sidebar-wrapper::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}
+
+#sidebar-wrapper .sidebar-heading img {
+    border-radius: 50px;
+    width: 70px;
+}
+
+#sidebar-wrapper .list-group-item {
+    border: none;
+}
+
+#sidebar-wrapper .list-group-item:hover {
+    background-color: #c2c2c2;
+}
+
+#page-content-wrapper {
     width: 100%;
-    top: 0; /* At the top */
-    z-index: 99;
+    padding-left: 170px;
+    transition: all 0.3s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 80px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    padding-left: 80px;
+}
+
+@media (max-width: 768px) {
+    #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding-left: 0;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 80px;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        padding-left: 80px;
+    }
 }

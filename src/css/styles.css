@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
 
+
+body {
+    font-family: 'Metropolis-Medium', sans-serif;
+}
+
+button, .btn, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Metropolis-Bold', sans-serif;
+}
+
 .landing-bg {
     position: relative;
     width: 100%;
     height: auto;
     min-height: 35rem;
     padding: 15rem 0;
-    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.2) 0%, rgba(92, 77, 66, 0.8) 100%), url('../assets/images/landing-bg.webp');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: #E8F2EF;
 }
 
 hr.divider {
@@ -19,6 +24,7 @@ hr.divider {
     border-color: #f4623a;
     opacity: 1;
 }
+
 hr.divider-light {
     border-color: #fff;
 }
@@ -32,14 +38,14 @@ hr.divider-light {
     text-transform: uppercase;
     letter-spacing: 0.8rem;
     font-size: 2.5rem;
-    color: white;
+    color: #219F83;
 
 }
 
 .job-title {
-    color: rgba(255, 255, 255, 0.5);
+    color: #B8D0C7;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     margin-top: 20px;
     text-align: center;
     font-size: 1.25rem;
@@ -49,5 +55,6 @@ hr.divider-light {
     padding-top: 3rem;
     padding-bottom: 3rem;
     /* background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%); */
-    background-color: #f4623a;
+    background-color: #B8DAF0;
 }
+
