@@ -4,3 +4,25 @@
         padding: 0;
     }
 }
+@media (max-width: 992px) {
+    .circle {
+        height: 250px;
+        width: 250px;
+    }
+
+    .triangle {
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid #416277;
+    }
+}
+@media (max-width: 768px) {
+    #sidebar-wrapper:not(hover) {
+        width: 0!important;
+        padding: 0px;
+    }
+    #page-content-wrapper {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+}

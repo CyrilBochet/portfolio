@@ -13,7 +13,6 @@ i18next
             loadPath: '/locales/{{lng}}/{{ns}}.json'
         }
     }, function (err, t) {
-        console.log(i18next.lang)
         // Callback appelé lorsque le chargement des fichiers de traduction est terminé
         if (err) return console.error(err);
         document.querySelectorAll('[data-i18n]').forEach(el => {
@@ -24,10 +23,6 @@ i18next
     });
 
 document.addEventListener("DOMContentLoaded", function () {
-
-
-// récupération du bouton du sélecteur de langue
-    const languageSelectorButton = document.getElementById('language-selector-button');
 
 // récupération du menu déroulant du sélecteur de langue
     const languageSelectorMenu = document.getElementById('language-selector-menu');

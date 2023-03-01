@@ -19,41 +19,44 @@
 <body>
 
 <div class="d-flex" id="wrapper">
-    <div class="bg-light border-right" id="sidebar-wrapper">
+    <div class="border-right" id="sidebar-wrapper">
         <div class="sidebar-heading text-center">
             <img src="/dist/profile_picture.jfif" alt="Photo de profil" class="img-fluid m-2">
         </div>
-        <div class="h6 text-center mx-2 text-uppercase" data-i18n="nav.brand"></div>
+        <div class="h5 text-center mx-2 mt-2 text-uppercase" data-i18n="nav.brand"></div>
+        <hr>
         <div class="list-group list-group-flush">
-            <a href="#about" class="list-group-item list-group-item-action bg-light">
-                <i class="fas fa-home mr-2"></i>
+            <a href="#about" class="list-group-item list-group-item-action">
+                <span class="material-symbols-sharp me-3">person</span>
                 <span data-i18n="nav.profile"></span>
             </a>
-            <a href="#" class="list-group-item list-group-item-action bg-light">
-                <i class="fas fa-user mr-2"></i>
+            <a href="#" class="list-group-item list-group-item-action">
+                <span class="material-symbols-sharp me-3">code</span>
                 <span data-i18n="nav.projects"></span>
             </a>
-            <a href="#" class="list-group-item list-group-item-action bg-light">
-                <i class="fas fa-envelope mr-2"></i>
+            <a href="#" class="list-group-item list-group-item-actiont">
+                <span class="material-symbols-sharp me-3">forum</span>
                 <span data-i18n="nav.contact"></span>
             </a>
-            <ul class="navbar-nav list-group-item list-group-item-action bg-light">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle p-0" href="#" id="navbarDropdown" role="button"
-                       data-bs-toggle="dropdown" aria-expanded="false" data-i18n="nav.lang">
-                    </a>
-                    <ul id="language-selector-menu" class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <span id="language-selector-value" class="d-none">fr</span>
-                        <button class="dropdown-item" type="button" data-language="en">English</button>
-                        <button class="dropdown-item" type="button" data-language="fr"><i class="france flag"></i>Français
-                        </button>
-                    </ul>
-                </li>
-            </ul>
+            <div class="list-group-item list-group-item-action" class="dropdown-toggle" type="button"
+                 data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="material-symbols-sharp me-3">translate</span>
+                <span data-i18n="nav.lang"></span><span class="material-symbols-sharp ms-1">arrow_drop_down</span>
+                <ul id="language-selector-menu" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <span id="language-selector-value" class="d-none">fr</span>
+                    <button class="dropdown-item" type="button" data-language="en">English</button>
+                    <button class="dropdown-item" type="button" data-language="fr"><i class="france flag"></i>Français
+                    </button>
+                </ul>
+            </div>
         </div>
     </div>
     <div id="page-content-wrapper">
         <div class="landing-bg">
+            <div class="circle circle-green"></div>
+            <div class="circle circle-blue"></div>
+            <div class="circle circle-red"></div>
+            <div class="triangle"></div>
             <div class="container d-flex h-100 align-items-center">
                 <div class="mx-auto text-center">
                     <h1 class="me">CYRIL BOCHET</h1>
@@ -71,34 +74,26 @@
             </div>
         </div>
 
-        <section class="about-section text-center" id="about">
+        <section class="about-section ps-5" id="about">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12 col-xs-12  text-center"><h2 class="text-white mt-0">Mon Profil</h2>
-                        <hr class="divider divider-light mx-auto my-4">
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-12 text-center"
-                         style="max-height: 50%; max-width: 50%;    margin-bottom: 10px;">
-                        <img class="img-thumbnail " src="./dist/images/profile-picture.jfif" alt="Profile Picture">
-                    </div>
-                    <div class="col-lg-8 text-center col-xs-12 text-description"><p class="text-white mb-4 text-left">
+                <h2 class="mt-0">Mon Profil</h2>
+                <hr class="divider divider-light mt-2 mb-5">
+                <div class="text-description">
+                    <p class="mb-4">
                         Je m'appelle Cyril, j'ai <span id="age"></span> ans.</p>
-                        <p class="text-white mb-4 text-left">Je suis diplômé d'un BTS SIO (Services Informatiques aux
-                            Organisations), d'une licence MN (Métiers du Numérique), ainsi que d'un Master CCM
-                            (Cloud Computing & Mobility).
-                            Je suis actuellement en poste chez <a href="https://afrfinancement.fr/" rel="noreferrer"
-                                                                  target="_blank">AFR financement</a> à
-                            Villeneuve-Saint-Germain.</p>
-                        <p class="text-white mb-4 text-left">Mon portfolio a pour but de présenter une partie des différents
-                            projets sur lesquels j'ai travaillé ces dernières années.</p>
-                        <p class="text-white mb-4 text-left">Si vous souhaitez me contacter, vous pouvez m'envoyer
-                            un message directement sur LinkedIn, ou bien utiliser le formulaire de contact.</p><a
-                                rel="noreferrer"
-                                class="btn btn-xl btn-light" target="_blank"
-                                href="https://www.linkedin.com/in/cyril-bochet/">Mon
-                            profil
-                            Linkedin</a></div>
-                </div>
+                    <p class="mb-4">Je suis diplômé d'un BTS SIO (Services Informatiques aux
+                        Organisations), d'une licence MN (Métiers du Numérique), ainsi que d'un Master CCM
+                        (Cloud Computing & Mobility).
+                        Je suis actuellement en poste chez <a href="https://afrfinancement.fr/" rel="noreferrer"
+                                                              target="_blank">AFR financement</a> à
+                        Villeneuve-Saint-Germain.</p>
+                    <p class="mb-4">Mon portfolio a pour but de présenter une partie des
+                        différents
+                        projets sur lesquels j'ai travaillé ces dernières années.</p>
+                    <p class="mb-4">Si vous souhaitez me contacter, vous pouvez m'envoyer
+                        un message directement sur LinkedIn, ou bien utiliser le formulaire de contact.</p>
+                    <a rel="noreferrer" class="btn btn-secondary" target="_blank"
+                       href="https://www.linkedin.com/in/cyril-bochet/">Télécharger mon CV</a></div>
             </div>
         </section>
 

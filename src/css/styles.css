@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
 
-
 body {
     font-family: 'Metropolis-Medium', sans-serif;
+    background-color: #E8F2EF;
 }
 
 button, .btn, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -15,7 +15,8 @@ button, .btn, .h1, .h2, .h3, .h4, .h5, .h6 {
     height: auto;
     min-height: 35rem;
     padding: 15rem 0;
-    background-color: #E8F2EF;
+    /*background-color: #E8F2EF;*/
+    overflow: hidden;
 }
 
 hr.divider {
@@ -43,18 +44,75 @@ hr.divider-light {
 }
 
 .job-title {
-    color: #B8D0C7;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #4b635b;
+    font-family: 'Metropolis-Bold', sans-serif;
     font-weight: 300;
     margin-top: 20px;
     text-align: center;
     font-size: 1.25rem;
 }
 
+section {
+    padding-left: 10px;
+}
+
 .about-section {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    /* background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%); */
-    background-color: #B8DAF0;
+    background-color: #C5E7FF;
+    color: #001e2d;
+}
+
+.circle {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 250px solid #416277;
+    position: absolute;
+    overflow: hidden;
+    top: 90%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.triangle:hover{
+    border-bottom: 250px solid #0073bb;
+}
+
+.circle,
+.triangle {
+    position: absolute;
+    z-index: -1;
+}
+
+.circle-green {
+    background-color: #006b57;
+    top: 10%;
+    left: 25%;
+    height: 350px;
+    width: 350px;
+}
+
+.circle-blue {
+    background-color: #7d968d;
+    top: 3%;
+    left: 45%;
+    height: 450px;
+    width: 450px;
+}
+
+.circle-red {
+    background-color: #ffdad6;
+    top: 50%;
+    left: 105%;
 }
 
