@@ -8,7 +8,18 @@ body {
 button, .btn, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'Metropolis-Bold', sans-serif;
 }
-
+#mode-toggle{
+    border: none;
+    outline: none;
+    border-radius: 100%;
+    color: var(--md-sys-color-on-surface-variant);
+    border: 1px solid var(--md-sys-color-outline);
+    font-size: 24px;
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+    height: 48px;
+}
 .landing-bg {
     position: relative;
     width: 100%;
@@ -59,8 +70,14 @@ section {
 .about-section {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    background-color: #C5E7FF;
-    color: #001e2d;
+    background-color: var(--md-sys-color-on-surface);
+    color: var(--md-sys-color-surface);
+}
+.projects-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: var(--md-sys-color-surface);
+    color: var(--md-sys-color-surface);
 }
 
 .circle {

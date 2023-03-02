@@ -3,9 +3,11 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 
 import './scripts/i18next/i18next-conf';
 import './scripts/main';
+import './scripts/prefers-color-scheme';
 
 
 import './css/metropolis.css';
+import './css/material-theme/theme.css';
 import './css/styles.css';
 import './css/boostrap.css';
 import './css/material-symbols.css';

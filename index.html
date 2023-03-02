@@ -11,6 +11,7 @@
             });
         });
     </script>
+    <link rel="stylesheet" href="dist/css/material-theme/theme.light.css">
     <script src="dist/app.js"></script>
     <script type='text/javascript'
             src='https://platform-api.sharethis.com/js/sharethis.js#property=63fd2ad0c9c3c1001aca8902&product=sop'
@@ -19,7 +20,7 @@
 <body>
 
 <div class="d-flex" id="wrapper">
-    <div class="border-right" id="sidebar-wrapper">
+    <div id="sidebar-wrapper">
         <div class="sidebar-heading text-center">
             <img src="/dist/profile_picture.jfif" alt="Photo de profil" class="img-fluid m-2">
         </div>
@@ -30,7 +31,7 @@
                 <span class="material-symbols-sharp me-3">person</span>
                 <span data-i18n="nav.profile"></span>
             </a>
-            <a href="#" class="list-group-item list-group-item-action">
+            <a href="#projects" class="list-group-item list-group-item-action">
                 <span class="material-symbols-sharp me-3">code</span>
                 <span data-i18n="nav.projects"></span>
             </a>
@@ -48,6 +49,12 @@
                     <button class="dropdown-item" type="button" data-language="fr"><i class="france flag"></i>Français
                     </button>
                 </ul>
+            </div>
+            <div class="mx-auto mt-5">
+            <button id="mode-toggle">
+                <span id="light-symbol" class="material-symbols-sharp">light_mode</span>
+                <span id="dark-symbol" class="material-symbols-sharp" style="display: none">dark_mode</span>
+            </button>
             </div>
         </div>
     </div>
@@ -76,24 +83,54 @@
 
         <section class="about-section ps-5" id="about">
             <div class="container">
-                <h2 class="mt-0">Mon Profil</h2>
-                <hr class="divider divider-light mt-2 mb-5">
+                <h2 class="mt-0 title-large">Mon Profil</h2>
+                <svg class="mb-4" aria-hidden="true" width="100%" height="8" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <pattern id="a" width="91" height="8" patternUnits="userSpaceOnUse">
+                        <g _ngcontent-dei-c39="" clip-path="url(#clip0_2426_11367)">
+                            <path _ngcontent-dei-c39=""
+                                  d="M114 4c-5.067 4.667-10.133 4.667-15.2 0S88.667-.667 83.6 4 73.467 8.667 68.4 4 58.267-.667 53.2 4 43.067 8.667 38 4 27.867-.667 22.8 4 12.667 8.667 7.6 4-2.533-.667-7.6 4s-10.133 4.667-15.2 0S-32.933-.667-38 4s-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0"
+                                  stroke="#fff" stroke-linecap="square"></path>
+                        </g>
+                    </pattern>
+                    <rect width="100%" height="100%" fill="url(#a)"></rect>
+                </svg>
                 <div class="text-description">
                     <p class="mb-4">
                         Je m'appelle Cyril, j'ai <span id="age"></span> ans.</p>
                     <p class="mb-4">Je suis diplômé d'un BTS SIO (Services Informatiques aux
                         Organisations), d'une licence MN (Métiers du Numérique), ainsi que d'un Master CCM
-                        (Cloud Computing & Mobility).
+                        (Cloud Computing & Mobility). <br>
                         Je suis actuellement en poste chez <a href="https://afrfinancement.fr/" rel="noreferrer"
                                                               target="_blank">AFR financement</a> à
                         Villeneuve-Saint-Germain.</p>
-                    <p class="mb-4">Mon portfolio a pour but de présenter une partie des
-                        différents
-                        projets sur lesquels j'ai travaillé ces dernières années.</p>
+                    <p class="mb-4">Ce portfolio a pour objectif de mettre en valeur mes compétences à travers une
+                        sélection de projets variés.
+                        En présentant ces projets, je souhaite démontrer mon expertise dans des
+                        domaines spécifiques, ainsi que mon expérience professionnelle et mes capacités à m'adapter à
+                        différents contextes de travail.</p>
                     <p class="mb-4">Si vous souhaitez me contacter, vous pouvez m'envoyer
                         un message directement sur LinkedIn, ou bien utiliser le formulaire de contact.</p>
-                    <a rel="noreferrer" class="btn btn-secondary" target="_blank"
+                    <a rel="noreferrer" class="btn btn-neutral" target="_blank"
                        href="https://www.linkedin.com/in/cyril-bochet/">Télécharger mon CV</a></div>
+            </div>
+        </section>
+
+        <section class="projects-section ps-5" id="projects">
+            <div class="container">
+                <h2 class="mt-0 title-large">Mon Profil</h2>
+                <svg class="mb-4" aria-hidden="true" width="100%" height="8" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <pattern id="a" width="91" height="8" patternUnits="userSpaceOnUse">
+                        <g _ngcontent-dei-c39="" clip-path="url(#clip0_2426_11367)">
+                            <path _ngcontent-dei-c39=""
+                                  d="M114 4c-5.067 4.667-10.133 4.667-15.2 0S88.667-.667 83.6 4 73.467 8.667 68.4 4 58.267-.667 53.2 4 43.067 8.667 38 4 27.867-.667 22.8 4 12.667 8.667 7.6 4-2.533-.667-7.6 4s-10.133 4.667-15.2 0S-32.933-.667-38 4s-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0"
+                                  stroke="#fff" stroke-linecap="square"></path>
+                        </g>
+                    </pattern>
+                    <rect width="100%" height="100%" fill="url(#a)"></rect>
+                </svg>
+                <div class="text-description"></div>
             </div>
         </section>
 

@@ -1,169 +1,5 @@
-:root {
-    --md-source: #E8F2EF;
-    /* primary */
-    --md-ref-palette-primary0: #000000;
-    --md-ref-palette-primary10: #00201d;
-    --md-ref-palette-primary20: #003732;
-    --md-ref-palette-primary25: #00443d;
-    --md-ref-palette-primary30: #005049;
-    --md-ref-palette-primary35: #005d55;
-    --md-ref-palette-primary40: #006a61;
-    --md-ref-palette-primary50: #00867b;
-    --md-ref-palette-primary60: #00a295;
-    --md-ref-palette-primary70: #2abfb0;
-    --md-ref-palette-primary80: #52dbcb;
-    --md-ref-palette-primary90: #73f8e7;
-    --md-ref-palette-primary95: #b3fff3;
-    --md-ref-palette-primary98: #e4fff9;
-    --md-ref-palette-primary99: #f2fffc;
-    --md-ref-palette-primary100: #ffffff;
-    /* secondary */
-    --md-ref-palette-secondary0: #000000;
-    --md-ref-palette-secondary10: #05201c;
-    --md-ref-palette-secondary20: #1c3531;
-    --md-ref-palette-secondary25: #27403c;
-    --md-ref-palette-secondary30: #324b48;
-    --md-ref-palette-secondary35: #3e5753;
-    --md-ref-palette-secondary40: #4a635f;
-    --md-ref-palette-secondary50: #627c78;
-    --md-ref-palette-secondary60: #7c9691;
-    --md-ref-palette-secondary70: #96b1ac;
-    --md-ref-palette-secondary80: #b1ccc7;
-    --md-ref-palette-secondary90: #cce8e3;
-    --md-ref-palette-secondary95: #daf7f1;
-    --md-ref-palette-secondary98: #e4fff9;
-    --md-ref-palette-secondary99: #f2fffc;
-    --md-ref-palette-secondary100: #ffffff;
-    /* tertiary */
-    --md-ref-palette-tertiary0: #000000;
-    --md-ref-palette-tertiary10: #001d32;
-    --md-ref-palette-tertiary20: #163349;
-    --md-ref-palette-tertiary25: #223e55;
-    --md-ref-palette-tertiary30: #2e4961;
-    --md-ref-palette-tertiary35: #3a556d;
-    --md-ref-palette-tertiary40: #46617a;
-    --md-ref-palette-tertiary50: #5f7a94;
-    --md-ref-palette-tertiary60: #7894ae;
-    --md-ref-palette-tertiary70: #93aeca;
-    --md-ref-palette-tertiary80: #aecae6;
-    --md-ref-palette-tertiary90: #cde5ff;
-    --md-ref-palette-tertiary95: #e7f2ff;
-    --md-ref-palette-tertiary98: #f7f9ff;
-    --md-ref-palette-tertiary99: #fcfcff;
-    --md-ref-palette-tertiary100: #ffffff;
-    /* neutral */
-    --md-ref-palette-neutral0: #000000;
-    --md-ref-palette-neutral10: #191c1c;
-    --md-ref-palette-neutral20: #2d3130;
-    --md-ref-palette-neutral25: #383c3b;
-    --md-ref-palette-neutral30: #444746;
-    --md-ref-palette-neutral35: #505352;
-    --md-ref-palette-neutral40: #5c5f5e;
-    --md-ref-palette-neutral50: #747876;
-    --md-ref-palette-neutral60: #8e9190;
-    --md-ref-palette-neutral70: #a9acaa;
-    --md-ref-palette-neutral80: #c4c7c5;
-    --md-ref-palette-neutral90: #e0e3e1;
-    --md-ref-palette-neutral95: #eff1ef;
-    --md-ref-palette-neutral98: #f7faf8;
-    --md-ref-palette-neutral99: #fafdfb;
-    --md-ref-palette-neutral100: #ffffff;
-    /* neutral-variant */
-    --md-ref-palette-neutral-variant0: #000000;
-    --md-ref-palette-neutral-variant10: #141d1c;
-    --md-ref-palette-neutral-variant20: #293231;
-    --md-ref-palette-neutral-variant25: #343d3b;
-    --md-ref-palette-neutral-variant30: #3f4947;
-    --md-ref-palette-neutral-variant35: #4b5452;
-    --md-ref-palette-neutral-variant40: #56605e;
-    --md-ref-palette-neutral-variant50: #6f7977;
-    --md-ref-palette-neutral-variant60: #899390;
-    --md-ref-palette-neutral-variant70: #a3adab;
-    --md-ref-palette-neutral-variant80: #bec9c6;
-    --md-ref-palette-neutral-variant90: #dae5e2;
-    --md-ref-palette-neutral-variant95: #e9f3f0;
-    --md-ref-palette-neutral-variant98: #f1fcf8;
-    --md-ref-palette-neutral-variant99: #f4fefb;
-    --md-ref-palette-neutral-variant100: #ffffff;
-    /* error */
-    --md-ref-palette-error0: #000000;
-    --md-ref-palette-error10: #410002;
-    --md-ref-palette-error20: #690005;
-    --md-ref-palette-error25: #7e0007;
-    --md-ref-palette-error30: #93000a;
-    --md-ref-palette-error35: #a80710;
-    --md-ref-palette-error40: #ba1a1a;
-    --md-ref-palette-error50: #de3730;
-    --md-ref-palette-error60: #ff5449;
-    --md-ref-palette-error70: #ff897d;
-    --md-ref-palette-error80: #ffb4ab;
-    --md-ref-palette-error90: #ffdad6;
-    --md-ref-palette-error95: #ffedea;
-    --md-ref-palette-error98: #fff8f7;
-    --md-ref-palette-error99: #fffbff;
-    --md-ref-palette-error100: #ffffff;
-    /* light */
-    --md-sys-color-primary-light: #006a61;
-    --md-sys-color-on-primary-light: #ffffff;
-    --md-sys-color-primary-container-light: #73f8e7;
-    --md-sys-color-on-primary-container-light: #00201d;
-    --md-sys-color-secondary-light: #4a635f;
-    --md-sys-color-on-secondary-light: #ffffff;
-    --md-sys-color-secondary-container-light: #cce8e3;
-    --md-sys-color-on-secondary-container-light: #05201c;
-    --md-sys-color-tertiary-light: #46617a;
-    --md-sys-color-on-tertiary-light: #ffffff;
-    --md-sys-color-tertiary-container-light: #cde5ff;
-    --md-sys-color-on-tertiary-container-light: #001d32;
-    --md-sys-color-error-light: #ba1a1a;
-    --md-sys-color-error-container-light: #ffdad6;
-    --md-sys-color-on-error-light: #ffffff;
-    --md-sys-color-on-error-container-light: #410002;
-    --md-sys-color-background-light: #fafdfb;
-    --md-sys-color-on-background-light: #191c1c;
-    --md-sys-color-surface-light: #fafdfb;
-    --md-sys-color-on-surface-light: #191c1c;
-    --md-sys-color-surface-variant-light: #dae5e2;
-    --md-sys-color-on-surface-variant-light: #3f4947;
-    --md-sys-color-outline-light: #6f7977;
-    --md-sys-color-inverse-on-surface-light: #eff1ef;
-    --md-sys-color-inverse-surface-light: #2d3130;
-    --md-sys-color-inverse-primary-light: #52dbcb;
-    --md-sys-color-shadow-light: #000000;
-    --md-sys-color-surface-tint-light: #006a61;
-    --md-sys-color-outline-variant-light: #bec9c6;
-    --md-sys-color-scrim-light: #000000;
-    /* dark */
-    --md-sys-color-primary-dark: #52dbcb;
-    --md-sys-color-on-primary-dark: #003732;
-    --md-sys-color-primary-container-dark: #005049;
-    --md-sys-color-on-primary-container-dark: #73f8e7;
-    --md-sys-color-secondary-dark: #b1ccc7;
-    --md-sys-color-on-secondary-dark: #1c3531;
-    --md-sys-color-secondary-container-dark: #324b48;
-    --md-sys-color-on-secondary-container-dark: #cce8e3;
-    --md-sys-color-tertiary-dark: #aecae6;
-    --md-sys-color-on-tertiary-dark: #163349;
-    --md-sys-color-tertiary-container-dark: #2e4961;
-    --md-sys-color-on-tertiary-container-dark: #cde5ff;
-    --md-sys-color-error-dark: #ffb4ab;
-    --md-sys-color-error-container-dark: #93000a;
-    --md-sys-color-on-error-dark: #690005;
-    --md-sys-color-on-error-container-dark: #ffdad6;
-    --md-sys-color-background-dark: #191c1c;
-    --md-sys-color-on-background-dark: #e0e3e1;
-    --md-sys-color-surface-dark: #191c1c;
-    --md-sys-color-on-surface-dark: #e0e3e1;
-    --md-sys-color-surface-variant-dark: #3f4947;
-    --md-sys-color-on-surface-variant-dark: #bec9c6;
-    --md-sys-color-outline-dark: #899390;
-    --md-sys-color-inverse-on-surface-dark: #191c1c;
-    --md-sys-color-inverse-surface-dark: #e0e3e1;
-    --md-sys-color-inverse-primary-dark: #006a61;
-    --md-sys-color-shadow-dark: #000000;
-    --md-sys-color-surface-tint-dark: #52dbcb;
-    --md-sys-color-outline-variant-dark: #3f4947;
-    --md-sys-color-scrim-dark: #000000;
+a, a:hover, a:visited {
+    color: var(--md-sys-color-primary-light);
 }
 
 .btn {
@@ -185,24 +21,23 @@
 }
 
 .btn-primary:hover {
-    color: #3C0203;
-    background-color: #FEDAD1;
-    border: 2px solid #3C0203;
+    color: var(--md-ref-palette-primary10);
+    background-color: var(--md-ref-palette-primary90);
+    border: 2px solid var(--md-ref-palette-primary10);
     transition-duration: 0.6s;
 }
 
 .btn-primary:focus, .btn-primary.focus {
-    color: #3C0203;
-    background-color: #FEDAD1;
-    border: 2px solid #3C0203;
+    color: var(--md-ref-palette-primary10);
+    background-color: var(--md-ref-palette-primary90);
+    border: 2px solid var(--md-ref-palette-primary10);
     transition-duration: 0.6s;
 }
 
-
 .btn-secondary {
-    color: white;
-    background-color: #001e2d;
-    border: 2px solid #001e2d;
+    color: var(--md-ref-palette-secondary30);
+    background-color: var(--md-ref-palette-secondary90);
+    border: 2px solid var(--md-ref-palette-secondary90);
     border-radius: 15px;
     font-weight: 600;
 }
@@ -212,16 +47,73 @@
 }
 
 .btn-secondary:hover {
-    color: #3C0203;
-    background-color: #FEDAD1;
-    border: 2px solid #3C0203;
+    color: var(--md-ref-palette-secondary30);
+    background-color: var(--md-ref-palette-secondary90);
+    border: 2px solid var(--md-ref-palette-secondary30);
     transition-duration: 0.6s;
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
-    color: #3C0203;
-    background-color: #FEDAD1;
-    border: 2px solid #3C0203;
+    color: var(--md-ref-palette-secondary30);
+    background-color: var(--md-ref-palette-secondary90);
+    border: 2px solid var(--md-ref-palette-secondary30);
+    transition-duration: 0.6s;
+}
+
+
+
+.btn-tertiary {
+    color: var(--md-ref-palette-tertiary30);
+    background-color: var(--md-ref-palette-tertiary90);
+    border: 2px solid var(--md-ref-palette-tertiary90);
+    border-radius: 15px;
+    font-weight: 600;
+}
+
+.btn-tertiary:not(:hover) {
+    transition-duration: 0.4s;
+}
+
+.btn-tertiary:hover {
+    color: var(--md-ref-palette-tertiary30);
+    background-color: var(--md-ref-palette-tertiary90);
+    border: 2px solid var(--md-ref-palette-tertiary30);
+    transition-duration: 0.6s;
+}
+
+.btn-tertiary:focus, .btn-tertiary.focus {
+    color: var(--md-ref-palette-tertiary30);
+    background-color: var(--md-ref-palette-tertiary90);
+    border: 2px solid var(--md-ref-palette-tertiary30);
+    transition-duration: 0.6s;
+}
+
+
+
+
+.btn-neutral {
+    color: var(--md-ref-palette-neutral30);
+    background-color: var(--md-ref-palette-neutral90);
+    border: 2px solid var(--md-ref-palette-neutral30);
+    border-radius: 15px;
+    font-weight: 600;
+}
+
+.btn-neutral:not(:hover) {
+    transition-duration: 0.4s;
+}
+
+.btn-neutral:hover {
+    color: var(--md-ref-palette-neutral30);
+    background-color: var(--md-ref-palette-neutral90);
+    border: 2px solid var(--md-ref-palette-neutral30);
+    transition-duration: 0.6s;
+}
+
+.btn-neutral:focus, .btn-neutral.focus {
+    color: var(--md-ref-palette-neutral30);
+    background-color: var(--md-ref-palette-neutral90);
+    border: 2px solid var(--md-ref-palette-neutral30);
     transition-duration: 0.6s;
 }
 

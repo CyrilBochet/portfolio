@@ -13,6 +13,8 @@ module.exports = {
         new CopyPlugin({
             patterns: [
                 { from: path.resolve(__dirname, "src/assets/images/"), to: path.resolve(__dirname, "dist/images/") },
+                { from: path.resolve(__dirname, "src/css/material-theme/theme.light.css"), to: path.resolve(__dirname, "dist/css/material-theme/theme.light.css") },
+                { from: path.resolve(__dirname, "src/css/material-theme/theme.dark.css"), to: path.resolve(__dirname, "dist/css/material-theme/theme.dark.css") },
             ],
         }),
         new webpack.ProvidePlugin({

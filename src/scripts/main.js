@@ -13,8 +13,6 @@ function getAge(dateString) {
 
 //Filter portfolio
 $(document).ready(function () {
-
-
     $('#age').html(getAge('1998/10/22'));
     $('#year').html(new Date().getFullYear());
 
