@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Cyril BOCHET - Portfolio</title>
-    <script src="https://www.google.com/recaptcha/api.js?render=6Ld8k6ohAAAAAJ4WhI0bJ5bLZIqh5Ptk1l6xAEJ-"></script>
-    <script>
-        grecaptcha.ready(function () {
-            grecaptcha.execute('6Ld8k6ohAAAAAJ4WhI0bJ5bLZIqh5Ptk1l6xAEJ-', {action: 'submit'}).then(function (token) {
-                document.getElementById('g-recaptcha-response').value = token;
-            });
-        });
-    </script>
-    <link rel="stylesheet" href="dist/css/material-theme/theme.light.css">
+<!--    <script src="https://www.google.com/recaptcha/api.js?render=6Ld8k6ohAAAAAJ4WhI0bJ5bLZIqh5Ptk1l6xAEJ-"></script>-->
+<!--    <script>-->
+<!--        grecaptcha.ready(function () {-->
+<!--            grecaptcha.execute('6Ld8k6ohAAAAAJ4WhI0bJ5bLZIqh5Ptk1l6xAEJ-', {action: 'submit'}).then(function (token) {-->
+<!--                document.getElementById('g-recaptcha-response').value = token;-->
+<!--            });-->
+<!--        });-->
+<!--    </script>-->
+    <link id="material-theme-link" rel="stylesheet" href="dist/css/material-theme/theme.light.css">
     <script src="dist/app.js"></script>
     <script type='text/javascript'
             src='https://platform-api.sharethis.com/js/sharethis.js#property=63fd2ad0c9c3c1001aca8902&product=sop'
@@ -46,15 +46,14 @@
                 <ul id="language-selector-menu" class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <span id="language-selector-value" class="d-none">fr</span>
                     <button class="dropdown-item" type="button" data-language="en">English</button>
-                    <button class="dropdown-item" type="button" data-language="fr"><i class="france flag"></i>Français
-                    </button>
+                    <button class="dropdown-item" type="button" data-language="fr">Français</button>
                 </ul>
             </div>
-            <div class="mx-auto mt-5">
-            <button id="mode-toggle">
-                <span id="light-symbol" class="material-symbols-sharp">light_mode</span>
-                <span id="dark-symbol" class="material-symbols-sharp" style="display: none">dark_mode</span>
-            </button>
+            <div class="dark-mode-switch-container">
+                <button id="mode-toggle">
+                    <span id="light-symbol" class="material-symbols-sharp">light_mode</span>
+                    <span id="dark-symbol" class="material-symbols-sharp" style="display: none">dark_mode</span>
+                </button>
             </div>
         </div>
     </div>
@@ -66,7 +65,7 @@
             <div class="triangle"></div>
             <div class="container d-flex h-100 align-items-center">
                 <div class="mx-auto text-center">
-                    <h1 class="me">CYRIL BOCHET</h1>
+                    <h1 class="me display-large">CYRIL BOCHET</h1>
                     <svg _ngcontent-ruv-c28="" aria-hidden="true" width="155" height="9" fill="none"
                          xmlns="http://www.w3.org/2000/svg" class="ng-tns-c28-3">
                         <path _ngcontent-ruv-c28=""
@@ -74,7 +73,7 @@
                               stroke="#a8c7fa" stroke-width="2" stroke-linecap="round"
                               class="ng-tns-c28-3"></path>
                     </svg>
-                    <h2 class="job-title" data-i18n="job"></h2>
+                    <h2 class="job-title title-large" data-i18n="job"></h2>
                     <a rel="noreferrer" href="https://www.linkedin.com/in/cyril-bochet/" target="_blank"
                        class="mt-3 btn btn-primary" role="button" data-i18n="linkedinBtn"></a>
                 </div>

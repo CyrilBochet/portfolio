@@ -1,14 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
-
 body {
-    font-family: 'Metropolis-Medium', sans-serif;
     background-color: #E8F2EF;
 }
 
-button, .btn, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Metropolis-Bold', sans-serif;
+
+.dark-mode-switch-container {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
 }
-#mode-toggle{
+
+#mode-toggle {
     border: none;
     outline: none;
     border-radius: 100%;
@@ -20,6 +25,7 @@ button, .btn, .h1, .h2, .h3, .h4, .h5, .h6 {
     border-radius: 100px;
     height: 48px;
 }
+
 .landing-bg {
     position: relative;
     width: 100%;
@@ -44,23 +50,16 @@ hr.divider-light {
 .me {
     color: white;
     font-size: 4rem;
-    font-weight: 600;
     text-align: center;
-    font-family: 'Plus Jakarta Sans', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 0.8rem;
-    font-size: 2.5rem;
     color: #219F83;
 
 }
 
 .job-title {
     color: #4b635b;
-    font-family: 'Metropolis-Bold', sans-serif;
-    font-weight: 300;
     margin-top: 20px;
     text-align: center;
-    font-size: 1.25rem;
 }
 
 section {
@@ -73,6 +72,7 @@ section {
     background-color: var(--md-sys-color-on-surface);
     color: var(--md-sys-color-surface);
 }
+
 .projects-section {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -96,17 +96,12 @@ section {
     border-bottom: 250px solid #416277;
     position: absolute;
     overflow: hidden;
-    top: 90%;
+    top: 93%;
     left: 25%;
     transform: translate(-50%, -50%);
 }
 
-.triangle:hover{
-    border-bottom: 250px solid #0073bb;
-}
-
-.circle,
-.triangle {
+.circle, .triangle {
     position: absolute;
     z-index: -1;
 }

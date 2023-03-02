@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'ProductSans-Medium';
+    font-style: normal;
+    font-weight: 100 700;
+    src: url(../assets/fonts/product-sans/ProductSans-Medium.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'ProductSans-Bold';
+    font-style: normal;
+    font-weight: 100 700;
+    src: url(../assets/fonts/product-sans/ProductSans-Bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'ProductSans-Black';
+    font-style: normal;
+    font-weight: 100 700;
+    src: url(../assets/fonts/product-sans/ProductSans-Black.otf) format('opentype');
+}

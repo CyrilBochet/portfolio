@@ -7,6 +7,7 @@ import './scripts/prefers-color-scheme';
 
 
 import './css/metropolis.css';
+import './css/product-sans.css';
 import './css/material-theme/theme.css';
 import './css/styles.css';
 import './css/boostrap.css';
