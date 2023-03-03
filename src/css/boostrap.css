@@ -1,11 +1,33 @@
-a, a:hover, a:visited {
-    color: var(--md-sys-color-on-primary);
-    text-decoration: underline;
+a {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+a, a:hover {
+    text-decoration: none
 }
 
 a:hover {
-    color: var(--md-sys-color-on-primary-container);
+    color: var(--md-sys-color-on-primary);
 }
+
+.link-no-style:hover {
+    text-decoration: none;
+    color: var(--md-sys-color-on-surface-variant)
+}
+
+
+/*a:not([href]):not([class]), a:not([href]):not([class]):hover {*/
+/*    color: inherit;*/
+/*    text-decoration: none*/
+/*}*/
+/*a, a:hover, a:visited {*/
+/*    color: var(--md-sys-color-on-primary);*/
+/*    text-decoration: underline;*/
+/*}*/
+
+/*a:hover {*/
+/*    color: var(--md-sys-color-on-primary-container);*/
+/*}*/
 
 p {
     font-family: 'ProductSans-Medium'

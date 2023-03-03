@@ -83,6 +83,7 @@ nav.fixed-top .navbar-toggler:focus {
 
 #sidebar-wrapper > .list-group > a.list-group-item:hover, #sidebar-wrapper > .list-group > div.list-group-item:hover {
     background-color: #E5E8ED !important;
+    color: var(--md-sys-color-shadow-dark);
 }
 
 #sidebar-wrapper > .list-group > a.list-group-item:active, #sidebar-wrapper > .list-group > div.list-group-item:active {
