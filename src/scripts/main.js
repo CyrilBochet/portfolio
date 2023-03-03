@@ -141,15 +141,15 @@ $(document).ready(function () {
 
         const card = ` <div class="col-lg-4 mb-5" data-project-type="${projects[i]["type"]}">
                         <div class="card">
-                            <div class="card-body p-0 tertiary-container">
+                            <div class="card-body p-0 surface">
                                 <img class="img-fluid card-img"
                                      src="dist/images/projets/miniatures/${projects[i]["miniature"]}" alt="">
                             </div>
-                            <div class="card-body secondary-text tertiary-container">
-                                <div class="title-medium mb-4">${projects[i]["titre"]}</div>
-                                <a class="btn btn-secondary" target="_blank"
+                            <div class="card-body on-surface-text surface">
+                                <div class="title-large mb-4">${projects[i]["titre"]}</div>
+                                <a class="btn btn-tertiary" target="_blank"
                                    href="javascript:void(0)">
-                                    Voir +
+                                    Détails
                                 </a>
                             </div>
                         </div>

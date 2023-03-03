@@ -7,7 +7,7 @@ $(document).ready(function () {
             if (selectedProjectType === "all" || cardProjectType === selectedProjectType) {
                 $(this).show(300);
             } else {
-                $(this).hide();
+                $(this).hide(300);
             }
         });
         $('.tab').removeClass('active');
