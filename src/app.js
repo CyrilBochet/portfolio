@@ -4,6 +4,7 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import './scripts/i18next/i18next-conf';
 import './scripts/main';
 import './scripts/prefers-color-scheme';
+import './scripts/projects-filter';
 import './scripts/contact-form';
 
 

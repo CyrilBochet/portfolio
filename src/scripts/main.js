@@ -34,7 +34,7 @@ $(document).ready(function () {
             "miniature": "miniature-multisite.jpg",
             "images": ["assets/img/projects/image/multi-site-1.jpg", "assets/img/projects/image/multi-site-2.jpg"],
             "tag": ["MAGENTO", "MULTISITE"],
-            "filter": "web",
+            "type": "web",
         },
         {
             "id": 2,
@@ -44,7 +44,7 @@ $(document).ready(function () {
             "miniature": "miniature-blocnote.jpg",
             "images": ["assets/img/projects/image/bloc-notes-1.jpg"],
             "tag": ["CSHARP", "WINFORM"],
-            "filter": "logiciel",
+            "type": "software",
         },
         {
             "id": 3,
@@ -53,7 +53,7 @@ $(document).ready(function () {
             "miniature": "miniature-mailchimp.gif",
             "images": ["assets/img/projects/image/mailchimp-1.gif"],
             "tag": ["MAILING", "MAILCHIMP", "PHOTOSHOP"],
-            "filter": "web",
+            "type": "web",
         },
         {
             "id": 4,
@@ -64,7 +64,7 @@ $(document).ready(function () {
             "miniature": "miniature-wordpress.jpg",
             "images": ["assets/img/projects/image/institu-wordpress-1.jpeg"],
             "tag": ["WORDPRESS"],
-            "filter": "web",
+            "type": "web",
         },
         {
             "id": 6,
@@ -75,17 +75,17 @@ $(document).ready(function () {
             "miniature": "miniature-lazy.jpg",
             "images": ["assets/img/projects/image/lazy-garden-1.jpg", "assets/img/projects/image/lazy-garden-2.jpg", "assets/img/projects/image/lazy-garden-3.jpg"],
             "tag": ["ANDROID", "MOBILE", "FIREBASE"],
-            "filter": "mobile",
+            "type": "mobile",
         },
         {
             "id": 7,
             "titre": "Gestionnaire de commandes\n",
-            "description": "Logiciel permettant de gérer le statut des commandes\n" +
+            "description": "software permettant de gérer le statut des commandes\n" +
                 "(payée, expédiée) et de générer un PDF récapitulatif d'une commande sélectionnée.\n",
             "miniature": "miniature-menagelec.jpg",
             "images": ["assets/img/projects/image/gestion-commande-1.jpg"],
             "tag": ["CSHARP", "WINFORM"],
-            "filter": "logiciel",
+            "type": "software",
         },
         {
             "id": 8,
@@ -97,12 +97,12 @@ $(document).ready(function () {
             "miniature": "miniature-dropship.jpg",
             "images": ["assets/img/projects/image/dropship-1.jpg", "assets/img/projects/image/dropship-2.jpg", "assets/img/projects/image/dropship-3.jpg", "assets/img/projects/image/dropship-4.jpg"],
             "tag": ["PHP", "PRESTASHOP", "SYMFONY"],
-            "filter": "web",
+            "type": "web",
         },
         {
             "id": 9,
             "titre": "Bingo\n",
-            "description": "Logiciel simulant une partie de Bingo. \n" +
+            "description": "software simulant une partie de Bingo. \n" +
                 "Vous sélectionnez tout d'abord le nombre de joueurs (de 2 à 4 joueurs) et saisissez leurs noms.\n" +
                 "Après avoir cliquer sur \"Jouer !\" on vous propose de lire les règles. \n" +
                 "Une fois dans le jeu, vous pouvez cliquer sur \"Lancer la roue\" pour tirer un numéro aléatoirement. \n" +
@@ -111,7 +111,7 @@ $(document).ready(function () {
             "miniature": "miniature-bingo.jpg",
             "images": ["assets/img/projects/image/bingo-1.jpg", "assets/img/projects/image/bingo-2.jpg", "assets/img/projects/image/bingo-3.jpg"],
             "tag": ["CSHARP", "WINFORM"],
-            "filter": "logiciel",
+            "type": "software",
         }, {
             "id": 10,
             "titre": "Comparateur de contrats d'assurance\n",
@@ -120,7 +120,7 @@ $(document).ready(function () {
             "miniature": "miniature-assurance.jpg",
             "images": ["assets/img/projects/image/comparateur-1.jpg"],
             "tag": ["SYMFONY4", "PHP", "API"],
-            "filter": "web",
+            "type": "web",
         },
         {
             "id": 11,
@@ -132,14 +132,14 @@ $(document).ready(function () {
             "images": ["assets/img/projects/image/galerie-1.jpg", "assets/img/projects/image/galerie-2.jpg", "assets/img/projects/image/galerie-3.jpg", "assets/img/projects/image/galerie-4.jpg", "assets/img/projects/image/galerie-5" +
             ".jpg"],
             "tag": ["SYMFONY4", "PHP"],
-            "filter": "web",
+            "type": "web",
         },
     ]
     const projectsGallery = $('#projects-gallery');
 
     for (let i = 0; i < projects.length; i++) {
 
-        const card = ` <div class="col-lg-4 mb-5">
+        const card = ` <div class="col-lg-4 mb-5" data-project-type="${projects[i]["type"]}">
                         <div class="card">
                             <div class="card-body p-0 tertiary-container">
                                 <img class="img-fluid card-img"
@@ -161,7 +161,7 @@ $(document).ready(function () {
         //     var pDesc = projects[i]["description"];
         //     var pTitre = projects[i]["titre"];
         //     var pTags = projects[i]["tag"];
-        //     // var pFilter = projects[i]["filter"];
+        //     // var ptype = projects[i]["type"];
         //     // var pMinia = projects[i]["miniature"];
         //     var pImages = projects[i]["images"];
         // }
