@@ -29,4 +29,6 @@
  --md-sys-color-surface-tint: var(--md-sys-color-surface-tint-dark);
  --md-sys-color-outline-variant: var(--md-sys-color-outline-variant-dark);
  --md-sys-color-scrim: var(--md-sys-color-scrim-dark);
+ --md-sys-color-sidebar-background: var(--md-custom-color-2D2F31);
+ --md-sys-color-link: var(--md-ref-palette-primary100);
 }

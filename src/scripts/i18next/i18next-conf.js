@@ -24,34 +24,28 @@ i18next
 
 document.addEventListener("DOMContentLoaded", function () {
 
-// récupération du menu déroulant du sélecteur de langue
     const languageSelectorMenu = document.getElementById('language-selector-menu');
+    const languageSelectorMenuMobile = document.getElementById('language-selector-menu-mobile');
 
-// ajout d'un écouteur d'événement aux éléments du menu déroulant
-    const languageSelectorItems = languageSelectorMenu.getElementsByTagName('button');
-    for (let i = 0; i < languageSelectorItems.length; i++) {
-        languageSelectorItems[i].addEventListener('click', function () {
-            // récupération de la langue sélectionnée
-            const language = this.dataset.language;
-
-            // changement de la langue de l'application
-            i18next.changeLanguage(language, function (err, t) {
-                if (err) {
-                    console.error(err);
-                } else {
-                    // mise à jour de l'affichage du sélecteur de langue
-                    document.getElementById('language-selector-value').textContent = language;
-                    // mise à jour de la page avec les traductions de la nouvelle langue
-                    updateTranslations();
-                }
-            });
-
-            // masquage du menu déroulant
-            languageSelectorMenu.classList.remove('show');
+    function changeLanguage(language) {
+        i18next.changeLanguage(language, function (err, t) {
+            if (err) {
+                console.error(err);
+            } else {
+                document.getElementById('language-selector-value').textContent = language;
+                updateTranslations();
+            }
         });
     }
 
-// fonction pour mettre à jour les traductions sur la page
+    [...languageSelectorMenu.getElementsByTagName('button'), ...languageSelectorMenuMobile.getElementsByTagName('button')].forEach(button => {
+        button.addEventListener('click', () => {
+            const language = button.dataset.language;
+            changeLanguage(language);
+            button.closest('.dropdown-menu').classList.remove('show');
+        });
+    });
+
     function updateTranslations() {
         document.querySelectorAll('[data-i18n]').forEach(function (element) {
             const key = element.dataset.i18n;

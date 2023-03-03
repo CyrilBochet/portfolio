@@ -1,5 +1,11 @@
 :root {
   --md-source: #A64E3D;
+
+  /* Custom Colors */
+  --md-custom-color-f3f6fc: #f3f6fc;
+  --md-custom-color-2D2F31: #2D2F31;
+  --md-custom-color-219F83: #219F83;
+
   /* primary */
   --md-ref-palette-primary0: #000000;
   --md-ref-palette-primary10: #3f0400;

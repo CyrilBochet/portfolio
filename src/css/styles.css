@@ -1,29 +1,6 @@
 body {
     background-color: #E8F2EF;
-}
-
-
-.dark-mode-switch-container {
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 80px;
-}
-
-#mode-toggle {
-    border: none;
-    outline: none;
-    border-radius: 100%;
-    color: var(--md-sys-color-on-surface-variant);
-    border: 1px solid var(--md-sys-color-outline);
-    font-size: 24px;
-    width: 48px;
-    height: 48px;
-    border-radius: 100px;
-    height: 48px;
+    color: var(--md-sys-color-on-surface-variant);;
 }
 
 .landing-bg {
@@ -64,15 +41,27 @@ hr.divider-light {
 
 section {
     padding-left: 10px;
-}
-
-.about-section {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    background-color: var(--md-sys-color-on-surface);
-    color: var(--md-sys-color-surface);
 }
-
+footer{
+    background-color: var(--md-sys-color-surface);
+    color: var(--md-sys-color-on-surface-variant);
+}
+footer a{
+    color: var(--md-sys-color-on-surface-variant);
+}
+.sharethis-inline-share-buttons{
+    margin-top: 10px;
+}
+.st-total{
+    margin-right: 20px!important;
+    color: var(--md-sys-color-on-surface-variant)!important;
+}
+.contact-section{
+    background-color: var(--md-sys-color-surface);
+    color: var(--md-sys-color-on-surface-variant);
+}
 .projects-section {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -128,3 +117,46 @@ section {
     left: 105%;
 }
 
+
+.card {
+    /*background-color: var(--md-sys-color-surface);*/
+    border-radius: 8px;
+    box-shadow: var(--md-sys-color-shadow);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 1px 2px 0px rgb(0 0 0 / 30%), 0px 2px 6px 2px rgb(0 0 0 / 15%);
+}
+
+.card-header {
+    padding: 16px;
+}
+
+.card-title {
+    color: var(--md-sys-color-on-surface);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-text {
+    color: var(--md-sys-color-on-surface);
+    font-size: 14px;
+    margin: 0;
+}
+
+.card-img {
+    border-radius: 20px;
+}
+
+.alert-danger{
+    background-color: var(--md-sys-color-error-container);
+    background-color: var(--md-sys-color-on-error);
+}

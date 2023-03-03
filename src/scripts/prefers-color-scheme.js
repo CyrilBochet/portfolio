@@ -3,9 +3,9 @@ $(document).ready(function () {
     const lightPath = 'dist/css/material-theme/theme.light.css';
     const darkPath = 'dist/css/material-theme/theme.dark.css';
     const link = $('#material-theme-link');
-    const lightSymbol = $('#light-symbol');
-    const darkSymbol = $('#dark-symbol');
-    const modeToggle = $('#mode-toggle');
+    const lightSymbol = $('.light-symbol');
+    const darkSymbol = $('.dark-symbol');
+    const modeToggle = $('.mode-toggle');
 
     let modePreference = localStorage.getItem('modePreference');
 

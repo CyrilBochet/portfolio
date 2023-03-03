@@ -1,3 +1,11 @@
+const navbarToggler = $('.navbar-toggler');
+const navbarCollapse = $('#navbarCollapse');
+
+navbarToggler.on('click', function () {
+    navbarCollapse.classList.toggle('show');
+});
+
+
 // Calculate age
 function getAge(dateString) {
     var today = new Date();
@@ -23,7 +31,7 @@ $(document).ready(function () {
             "titre": "Multi sites Magento",
             "description": "Amélioration et mise à jour de 3 sites e-commerce sur Magento. \n" +
                 "Paramétrage de modules et amélioration de l'expérience utilisateur",
-            "miniature": "assets/img/projects/miniature/miniature-multisite.jpg",
+            "miniature": "miniature-multisite.jpg",
             "images": ["assets/img/projects/image/multi-site-1.jpg", "assets/img/projects/image/multi-site-2.jpg"],
             "tag": ["MAGENTO", "MULTISITE"],
             "filter": "web",
@@ -33,7 +41,7 @@ $(document).ready(function () {
             "titre": "Bloc-notes",
             "description": "Le projet consistait a créer un bloc-notes en C# avec Windows Form.\n" +
                 "L’application permet d'ouvrir ou de créer un fichier texte modifiable, et de l'enregistrer. \nLe bloc-notes dispose d'un compteur de caractères.",
-            "miniature": "assets/img/projects/miniature/miniature-blocnote.jpg",
+            "miniature": "miniature-blocnote.jpg",
             "images": ["assets/img/projects/image/bloc-notes-1.jpg"],
             "tag": ["CSHARP", "WINFORM"],
             "filter": "logiciel",
@@ -42,7 +50,7 @@ $(document).ready(function () {
             "id": 3,
             "titre": "Newsletters programmées : Mailchimp\n",
             "description": "Création de newsletters programmées sur Mailchimp et retouche des photos des produits sur Photoshop.\n",
-            "miniature": "assets/img/projects/miniature/miniature-mailchimp.gif",
+            "miniature": "miniature-mailchimp.gif",
             "images": ["assets/img/projects/image/mailchimp-1.gif"],
             "tag": ["MAILING", "MAILCHIMP", "PHOTOSHOP"],
             "filter": "web",
@@ -53,7 +61,7 @@ $(document).ready(function () {
             "description": "Site Wordpress réalisé selon les demandes du client. " +
                 "Le site comprenait les dates des campagnes, les photos, et les événements importants de la campagne du candidat.\n" +
                 "Il y avait également le fil d'actualité Twitter intégré sur le site.",
-            "miniature": "assets/img/projects/miniature/miniature-wordpress.jpg",
+            "miniature": "miniature-wordpress.jpg",
             "images": ["assets/img/projects/image/institu-wordpress-1.jpeg"],
             "tag": ["WORDPRESS"],
             "filter": "web",
@@ -64,7 +72,7 @@ $(document).ready(function () {
             "description": "Des capteurs disposés sur un pot de fleurs récoltent des données et les envoient dans le cloud. " +
                 "L'application Lazy Garden récupère et analyse en direct les données depuis le cloud et affiche un message en fonction des besoins en eau et en lumière de la plante. " +
                 "L'application affiche aussi un message en fonction de la température ambiante. Les images changent en fonction de l'état de la plante.",
-            "miniature": "assets/img/projects/miniature/miniature-lazy.jpg",
+            "miniature": "miniature-lazy.jpg",
             "images": ["assets/img/projects/image/lazy-garden-1.jpg", "assets/img/projects/image/lazy-garden-2.jpg", "assets/img/projects/image/lazy-garden-3.jpg"],
             "tag": ["ANDROID", "MOBILE", "FIREBASE"],
             "filter": "mobile",
@@ -74,7 +82,7 @@ $(document).ready(function () {
             "titre": "Gestionnaire de commandes\n",
             "description": "Logiciel permettant de gérer le statut des commandes\n" +
                 "(payée, expédiée) et de générer un PDF récapitulatif d'une commande sélectionnée.\n",
-            "miniature": "assets/img/projects/miniature/miniature-menagelec.jpg",
+            "miniature": "miniature-menagelec.jpg",
             "images": ["assets/img/projects/image/gestion-commande-1.jpg"],
             "tag": ["CSHARP", "WINFORM"],
             "filter": "logiciel",
@@ -86,7 +94,7 @@ $(document).ready(function () {
                 "Il est possible d'activer ou de désactiver les fournisseurs, et de les classer par ordre de priorité.\n" +
                 "Une fonctionnalité d'automatisation a également été développée afin d'activer automatiquement le produit qui correspond le plus aux critères suivant : \n - Produit avec le meilleur prix. \n - Produit avec le plus grand stock disponible.  \n - Produit avec le founisseur ayant la plus haute priorité." +
                 "\nCompatible pour la version 1.7.x de Prestashop.",
-            "miniature": "assets/img/projects/miniature/miniature-dropship.jpg",
+            "miniature": "miniature-dropship.jpg",
             "images": ["assets/img/projects/image/dropship-1.jpg", "assets/img/projects/image/dropship-2.jpg", "assets/img/projects/image/dropship-3.jpg", "assets/img/projects/image/dropship-4.jpg"],
             "tag": ["PHP", "PRESTASHOP", "SYMFONY"],
             "filter": "web",
@@ -100,7 +108,7 @@ $(document).ready(function () {
                 "Une fois dans le jeu, vous pouvez cliquer sur \"Lancer la roue\" pour tirer un numéro aléatoirement. \n" +
                 "Si le numéro se trouve sur la grille d'un joueur, il doit cliquer dessus pour le valider. \n" +
                 "Le gagnant est celui qui valide une ligne en premier.",
-            "miniature": "assets/img/projects/miniature/miniature-bingo.jpg",
+            "miniature": "miniature-bingo.jpg",
             "images": ["assets/img/projects/image/bingo-1.jpg", "assets/img/projects/image/bingo-2.jpg", "assets/img/projects/image/bingo-3.jpg"],
             "tag": ["CSHARP", "WINFORM"],
             "filter": "logiciel",
@@ -109,7 +117,7 @@ $(document).ready(function () {
             "titre": "Comparateur de contrats d'assurance\n",
             "description": "Application web qui permet de comparer des contrats d'assurance.\n" +
                 "L'application fait appel à plusieurs API afin de récupérer les contrats et les tarifications de différentes compagnies d'assurance. Ces tarifs varient selon les données saisies dans le dossier du client.",
-            "miniature": "assets/img/projects/miniature/miniature-assurance.jpg",
+            "miniature": "miniature-assurance.jpg",
             "images": ["assets/img/projects/image/comparateur-1.jpg"],
             "tag": ["SYMFONY4", "PHP", "API"],
             "filter": "web",
@@ -120,13 +128,44 @@ $(document).ready(function () {
             "description": "Espace de partage de photos sous forme de galeries.\n" +
                 "Un utilisateur peut s'inscrire, télécharger des photos dans sa galerie personnelle, et les publier à la vue de tous.\n" +
                 "La page d'accueil du site présente une galerie photo aléatoire parmi toutes les galeries du site.",
-            "miniature": "assets/img/projects/miniature/miniature-galerie.jpg",
+            "miniature": "miniature-galerie.jpg",
             "images": ["assets/img/projects/image/galerie-1.jpg", "assets/img/projects/image/galerie-2.jpg", "assets/img/projects/image/galerie-3.jpg", "assets/img/projects/image/galerie-4.jpg", "assets/img/projects/image/galerie-5" +
             ".jpg"],
             "tag": ["SYMFONY4", "PHP"],
             "filter": "web",
         },
     ]
+    const projectsGallery = $('#projects-gallery');
+
+    for (let i = 0; i < projects.length; i++) {
+
+        const card = ` <div class="col-lg-4 mb-5">
+                        <div class="card">
+                            <div class="card-body p-0 tertiary-container">
+                                <img class="img-fluid card-img"
+                                     src="dist/images/projets/miniatures/${projects[i]["miniature"]}" alt="">
+                            </div>
+                            <div class="card-body secondary-text tertiary-container">
+                                <div class="title-medium mb-4">${projects[i]["titre"]}</div>
+                                <a class="btn btn-secondary" target="_blank"
+                                   href="javascript:void(0)">
+                                    Voir +
+                                </a>
+                            </div>
+                        </div>
+                    </div>`;
+
+        $(projectsGallery).append(card);
+
+        // if (pId == projects[i]["id"]) {
+        //     var pDesc = projects[i]["description"];
+        //     var pTitre = projects[i]["titre"];
+        //     var pTags = projects[i]["tag"];
+        //     // var pFilter = projects[i]["filter"];
+        //     // var pMinia = projects[i]["miniature"];
+        //     var pImages = projects[i]["images"];
+        // }
+    }
 
 });
 
