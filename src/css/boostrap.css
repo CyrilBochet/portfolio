@@ -498,17 +498,79 @@ p {
     color: var(--md-sys-color-scrim);
 }
 
-#my-form input, #my-form textarea {
-    background-color: transparent;
-    border: 2px solid var(--md-sys-color-on-surface);
-    border-radius: 4px;
-    color: var(--md-sys-color-on-surface);
-    font-size: 16px;
-    padding: 8px;
+:is(.text-field) {
+    line-height: var(--md-sys-typescale-body-large-line-height);
+    letter-spacing: var(--md-sys-typescale-body-large-letter-spacing);
+    font-size: var(--md-sys-typescale-body-large-font-size);
+    font-weight: var(--md-sys-typescale-body-large-font-weight);
+    font-family: var(--md-sys-typescale-body-large-font-family-name);
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
 }
 
-#my-form input:hover, #my-form input:focus, #my-form textarea:hover, #my-form textarea:focus {
-    border-color: var(--md-sys-color-primary);
-    box-shadow: 0 0 0 2px var(--md-sys-color-primary);
+
+:where(input, textarea):not(:focus)::placeholder {
+    color: transparent;
+}
+.text-field:is(:focus)::placeholder {
+    color: grey;
+}
+
+:is(.text-field).filled > :where(input, textarea) {
+
+    display: block;
+    box-sizing: border-box;
+    margin: 0px;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    border-top: 27px solid transparent;
+    border-bottom: solid 1px var(--md-sys-color-primary);
+    border-radius: 4px 4px 0px 0px;
+    padding: 0px 12px 10px;
+    width: 100%;
+    height: inherit;
+    color: rgb(var(--md-sys-color-primary) / 0.87);
+    background-color: var(--md-sys-color-on-primary);
+    box-shadow: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    caret-color: var(--md-sys-color-primary);
+    transition: border-bottom 0.2s ease 0s, background-color 0.2s ease 0s;
     outline: none;
+}
+
+:is(.text-field).filled > :where(input, textarea) + span::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--md-sys-color-primary);
+    transform-origin: center bottom;
+    transform: scaleX(0);
+    transition: transform 0.3s ease 0s;
+}
+
+:is(.text-field).filled > :where(input, textarea):not(:focus):placeholder-shown + span {
+    font-size: inherit;
+    line-height: 48px;
+}
+
+:is(.text-field).filled > :where(input, textarea) + span {
+    position: absolute;
+    inset: 0px;
+    display: block;
+    box-sizing: border-box;
+    padding: 7px 12px 0px;
+    margin-left: 12px;
+    color: rgb(var(--md-sys-color-surface) / 0.6);
+    font-size: 75%;
+    line-height: 18px;
+    pointer-events: none;
+    transition: color 0.2s ease 0s, font-size 0.2s ease 0s, line-height 0.2s ease 0s;
 }

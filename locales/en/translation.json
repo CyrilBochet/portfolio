@@ -7,5 +7,27 @@
     "projects": "Projects",
     "profile": "About me",
     "brand": "Portfolio"
+  },
+  "section": {
+    "title": {
+      "about": "About me",
+      "projects": "My projects",
+      "contact": "Contact me"
+    },
+    "filter": {
+      "web": "WEB",
+      "software": "SOFTWARE",
+      "mobile": "MOBILE",
+      "all": "ALL"
+    }
+  },
+  "form": {
+    "label": {
+      "email": "Email",
+      "message": "Message"
+    },
+    "btn": {
+      "send": "SEND"
+    }
   }
 }
