@@ -8,17 +8,18 @@ i18next
     .init({
         debug: false,
         fallbackLng: 'fr',
-        supportedLngs: ['fr', 'en'],
+        supportedLngs: ['fr', 'en', 'es'],
         backend: {
             loadPath: '/locales/{{lng}}/{{ns}}.json'
-        }
+        },
     }, function (err, t) {
         // Callback appelé lorsque le chargement des fichiers de traduction est terminé
         if (err) return console.error(err);
         document.querySelectorAll('[data-i18n]').forEach(el => {
             const key = el.getAttribute('data-i18n');
             const value = i18next.t(key);
-            el.textContent = value;
+            // Remplace les "\n" par des balises <br>
+            el.innerHTML = value.replace(/\n/g, '<br>');
         });
     });
 
@@ -53,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if (element.dataset.i18nOptions) {
                 options = JSON.parse(element.dataset.i18nOptions);
             }
-            element.textContent = i18next.t(key, options);
+            element.innerHTML = i18next.t(key, options).replace(/\n/g, '<br>');
         });
     }
 });

@@ -1,6 +1,5 @@
 {
   "job": "Développeur full-stack",
-  "linkedinBtn": "Mon LinkedIn",
   "nav": {
     "lang": "Langage",
     "contact": "Me contacter",
@@ -13,6 +12,19 @@
       "about": "Mon Profil",
       "projects": "Mes projets",
       "contact": "Me contacter"
+    },
+    "about": {
+      "text": {
+        "part1":"Bonjour, je m'appelle Cyril, j'ai",
+        "part2": "ans et je suis développeur Full-stack chez AFR financement, un réseau de centres de courtage en crédits situé à Villeneuve-Saint-Germain.",
+        "part3": "En tant que membre d'une équipe de développeurs, je collabore étroitement avec mes collègues pour concevoir des solutions numériques innovantes qui répondent aux besoins et aux attentes de nos utilisateurs finaux.",
+        "part4": "Dans mon rôle actuel, je suis impliqué dans toutes les phases du développement de projets web, de la conception initiale à la mise en production. Je suis particulièrement passionné par la création d'interfaces utilisateur intuitives qui offrent une expérience la plus agréable possible.",
+        "part5": "J'ai travaillé sur des projets de toutes tailles, incluant des sites web simples, des applications web complexes, des projets d'e-commerce, ainsi que des applications mobiles, même si ces dernières étaient moins élaborées.",
+        "part6": "J'espère que vous apprécierez mon portfolio et je vous souhaite une bonne visite ! \uD83D\uDE0A"
+      },
+      "btn": {
+        "cv": "Mon curriculum vitae"
+      }
     },
     "filter": {
       "web": "WEB",
@@ -27,7 +39,9 @@
       "message": "Message"
     },
     "btn": {
-      "send": "ENVOYER"
+      "send": "ENVOYER",
+      "linkedin": "Mon LinkedIn",
+      "details": "Détails"
     }
   }
 }

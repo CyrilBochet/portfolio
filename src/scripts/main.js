@@ -148,7 +148,7 @@ $(document).ready(function () {
                             <div class="card-body on-surface-text surface">
                                 <div class="title-large mb-4">${projects[i]["titre"]}</div>
                                 <a class="btn btn-tertiary" target="_blank"
-                                   href="javascript:void(0)">
+                                   href="javascript:void(0)" data-i18n="form.btn.details">
                                     Détails
                                 </a>
                             </div>

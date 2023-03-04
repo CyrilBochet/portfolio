@@ -1,0 +1,47 @@
+{
+  "job": "Desarrollador Full-stack",
+  "nav": {
+    "lang": "Idioma",
+    "contact": "Contáctame",
+    "projects": "Proyectos",
+    "profile": "Mi Perfil",
+    "brand": "Portafolio"
+  },
+  "section": {
+    "title": {
+      "about": "Sobre mí",
+      "projects": "Mis Proyectos",
+      "contact": "Contáctame"
+    },
+    "about": {
+      "text": {
+        "part1": "Hola, mi nombre es Cyril, tengo",
+        "part2": "años y soy Desarrollador Full-stack en AFR Financement, una red de centros de corretaje de crédito ubicada en Villeneuve-Saint-Germain.",
+        "part3": "Como miembro de un equipo de desarrolladores, trabajo estrechamente con mis colegas para diseñar soluciones digitales innovadoras que satisfagan las necesidades y expectativas de nuestros usuarios finales.",
+        "part4": "En mi rol actual, estoy involucrado en todas las fases de proyectos de desarrollo web, desde el diseño inicial hasta la implementación en producción. Me apasiona especialmente crear interfaces de usuario intuitivas que ofrezcan la experiencia más agradable posible.",
+        "part5": "He trabajado en proyectos de todas las dimensiones, incluyendo sitios web simples, aplicaciones web complejas, proyectos de comercio electrónico y aplicaciones móviles, aunque estas últimas eran menos elaboradas.",
+        "part6": "¡Espero que disfrutes de mi portafolio y tengas una buena visita! \uD83D\uDE0A"
+      },
+      "btn": {
+        "cv": "Mi Curriculum Vitae"
+      }
+    },
+    "filter": {
+      "web": "WEB",
+      "software": "SOFTWARE",
+      "mobile": "MÓVIL",
+      "all": "TODOS"
+    }
+  },
+  "form": {
+    "label": {
+      "email": "Correo Electrónico",
+      "message": "Mensaje"
+    },
+    "btn": {
+      "send": "ENVIAR",
+      "linkedin": "Mi LinkedIn",
+      "details": "Detalles"
+    }
+  }
+}

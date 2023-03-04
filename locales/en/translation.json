@@ -1,18 +1,30 @@
 {
-  "job": "Full-stack developer",
-  "linkedinBtn": "My LinkedIn",
+  "job": "Full-stack Developer",
   "nav": {
     "lang": "Language",
-    "contact": "Contact me",
+    "contact": "Contact Me",
     "projects": "Projects",
     "profile": "About me",
     "brand": "Portfolio"
   },
   "section": {
     "title": {
-      "about": "About me",
-      "projects": "My projects",
-      "contact": "Contact me"
+      "about": "My Profile",
+      "projects": "My Projects",
+      "contact": "Contact Me"
+    },
+    "about": {
+      "text": {
+        "part1":"Hello, my name is Cyril, I'm",
+        "part2": "years old, and I'm a Full-stack Developer at AFR Financement, a network of credit brokerage centers located in Villeneuve-Saint-Germain.",
+        "part3": "As a member of a team of developers, I work closely with my colleagues to design innovative digital solutions that meet the needs and expectations of our end users.",
+        "part4": "In my current role, I'm involved in all phases of web development projects, from initial design to production deployment. I'm particularly passionate about creating intuitive user interfaces that offer the most enjoyable experience possible.",
+        "part5": "I've worked on projects of all sizes, including simple websites, complex web applications, e-commerce projects, as well as mobile applications, even though the latter were less elaborate.",
+        "part6": "I hope you'll enjoy my portfolio and have a nice visit! \uD83D\uDE0A"
+      },
+      "btn": {
+        "cv": "My Curriculum Vitae"
+      }
     },
     "filter": {
       "web": "WEB",
@@ -27,7 +39,9 @@
       "message": "Message"
     },
     "btn": {
-      "send": "SEND"
+      "send": "SEND",
+      "linkedin": "My LinkedIn",
+      "details": "Details"
     }
   }
 }
