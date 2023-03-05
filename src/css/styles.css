@@ -174,3 +174,43 @@ footer a {
     background-color: var(--md-sys-color-secondary-container);
     color: var(--md-sys-color-secondary);
 }
+
+/* Collapsible */
+.collapsible li {
+    margin-bottom: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.collapsible-header {
+    cursor: pointer;
+    background-color: var(--md-sys-color-surface-tint);
+    color: var(--md-sys-color-surface-variant);
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+}
+
+.collapsible-header.collapsed {
+    border-radius: 20px 20px 20px 20px;
+    transition-duration: 0.6s;
+}
+
+.collapsible-header:hover {
+    background-color: var(--md-sys-color-surface-tint);
+}
+
+.collapsible-header i.material-icons {
+    font-size: 24px;
+}
+
+.collapsible-body {
+    padding: 12px;
+    background-color: var(--md-sys-color-surface);
+    color: var(--md-sys-color-on-surface);
+    border: none;
+    border-radius: 0 0 20px 20px;
+    /*box-shadow: 0px 1px 2px 0px rgb(0 0 0 / 30%), 0px 2px 6px 2px rgb(0 0 0 / 15%);*/
+}

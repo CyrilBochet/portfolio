@@ -54,6 +54,7 @@
 </head>
 <body>
 
+<!-- Navbar -->
 <nav class="navbar navbar-expand-md fixed-top">
     <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -98,6 +99,7 @@
     </div>
 </nav>
 
+<!-- Sidebar -->
 <div class="d-flex" id="wrapper">
     <div id="sidebar-wrapper">
         <div class="sidebar-heading text-center">
@@ -139,6 +141,7 @@
             </div>
         </div>
     </div>
+    <!--  Landing -->
     <div id="page-content-wrapper">
         <div class="landing-bg">
             <div class="circle circle-green"></div>
@@ -161,7 +164,7 @@
                 </div>
             </div>
         </div>
-
+        <!-- About me -->
         <section class="about-section secondary-container" id="about">
             <div class="container secondary-text">
                 <h2 class="mt-0 display-medium mb-4" data-i18n="section.title.about">Mon Profil</h2>
@@ -192,7 +195,7 @@
                 </div>
             </div>
         </section>
-
+        <!-- Projects -->
         <section class="projects-section tertiary-container" id="projects">
             <div class="container">
                 <h2 class="mt-0 display-medium mb-4 tertiary-text" data-i18n="section.title.projects"></h2>
@@ -226,7 +229,86 @@
             </div>
         </section>
 
+        <!-- Expérience professionnelle -->
+        <section class="primary-container pb-4" id="experience">
+            <div class="container">
+                <h2 class="mt-0 display-medium mb-4 primary-text" data-i18n="section.title.experience">Expérience
+                    professionnelle</h2>
+                <ul class="collapsible primary-text">
+                    <li>
+                        <div class="collapsible-header" data-bs-toggle="collapse" href="#collapse1" role="button"
+                             aria-expanded="true" aria-controls="collapse1">
+                            <div class="title-large">AFR Financement - Villeneuve-Saint-Germain</div>
+                            <p>octobre 2019 – aujourd'hui</p>
+                        </div>
+                        <div class="collapsible-body collapse show" id="collapse1">
+                            <h6>DÉVELOPPEUR FULL STACK</h6>
+                            <ul>
+                                <li>Maintenance d’applications web en Symfony. (CRM)</li>
+                                <li>Maintenance et création de sites WordPress.</li>
+                                <li>Génération automatisée de documents PDF.</li>
+                                <li>Développement d’un comparateur de contrats d’assurance.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header" data-bs-toggle="collapse" href="#collapse2" role="button"
+                             aria-expanded="true" aria-controls="collapse2">
+                            <h5>SARL EMILED</h5>
+                            <p>11 semaines | 2016 – 2017</p>
+                        </div>
+                        <div class="collapsible-body collapse show" id="collapse2">
+                            <h6>STAGIAIRE SERVICE INFORMATIQUE</h6>
+                            <ul>
+                                <li>Réalisation de projets de fidélisation et d'amélioration d'expérience client.</li>
+                                <li>Amélioration et mise à jour de sites web.</li>
+                                <li>Recettage d'un nouvel outil.</li>
+                                <li>Recettage d'un nouvel outil.</li>
+                                <li>Analyse de problèmes recensés sur des fonctionnalités.</li>
+                                <li>Réalisation de vidéos tutoriels pour l'accompagnement utilisateur.</li>
+                                <li>Création de polices d'écriture.</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
+        <!-- Formation -->
+        <section class="primary-container pt-1" id="education">
+            <div class="container">
+                <h2 class="mt-0 display-medium mb-4 primary-text" data-i18n="section.title.education"></h2>
+                <ul class="collapsible primary-text">
+                    <li>
+                        <div class="collapsible-header collapse show" href="#collapse3" role="button"
+                             aria-expanded="true" aria-controls="collapse3">
+                            <h5>Nom de l'école ou de l'université</h5>
+                            <p>Date d'obtention du diplôme</p>
+                        </div>
+                        <div class="collapsible-body collapse show" id="collapse3">
+                            <p>Diplôme obtenu: Baccalauréat en XYZ</p>
+                            <p>Matières principales: XYZ</p>
+                            <p>Mention: Très bien</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header collapse show" href="#collapse4" role="button"
+                             aria-expanded="true" aria-controls="collapse4">
+                            <h5>Nom de l'école ou de l'université</h5>
+                            <p>Date d'obtention du diplôme</p>
+                        </div>
+                        <div class="collapsible-body collapse show" id="collapse4">
+                            <p>Diplôme obtenu: Maîtrise en XYZ</p>
+                            <p>Matières principales: XYZ</p>
+                            <p>Mention: Bien</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!-- Contact me -->
         <section id="contact-me" class="contact-section">
             <div class="container">
                 <h2 class="mt-0 display-medium mb-4" data-i18n="section.title.contact"></h2>
@@ -259,6 +341,7 @@
             </div>
         </section>
 
+        <!-- Footer -->
         <footer class="footer text-center">
             <section>
                 <svg class="mb-4" aria-hidden="true" width="100%" height="8" fill="none"
@@ -282,6 +365,7 @@
     </div>
 </div>
 
+<!-- Offcanvas projects -->
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasProject" aria-labelledby="offcanvasProjectLabel">
     <div class="offcanvas-header">
         <h4 class="offcanvas-title" id="project-title"></h4>
@@ -292,7 +376,9 @@
         <svg class="mb-4" aria-hidden="true" width="100%" height="8" fill="none" xmlns="http://www.w3.org/2000/svg">
             <pattern id="a" width="91" height="8" patternUnits="userSpaceOnUse">
                 <g _ngcontent-dei-c39="" clip-path="url(#clip0_2426_11367)">
-                    <path _ngcontent-dei-c39="" d="M114 4c-5.067 4.667-10.133 4.667-15.2 0S88.667-.667 83.6 4 73.467 8.667 68.4 4 58.267-.667 53.2 4 43.067 8.667 38 4 27.867-.667 22.8 4 12.667 8.667 7.6 4-2.533-.667-7.6 4s-10.133 4.667-15.2 0S-32.933-.667-38 4s-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0" stroke="#a8c7fa" stroke-linecap="square"></path>
+                    <path _ngcontent-dei-c39=""
+                          d="M114 4c-5.067 4.667-10.133 4.667-15.2 0S88.667-.667 83.6 4 73.467 8.667 68.4 4 58.267-.667 53.2 4 43.067 8.667 38 4 27.867-.667 22.8 4 12.667 8.667 7.6 4-2.533-.667-7.6 4s-10.133 4.667-15.2 0S-32.933-.667-38 4s-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0"
+                          stroke="#a8c7fa" stroke-linecap="square"></path>
                 </g>
             </pattern>
             <rect width="100%" height="100%" fill="url(#a)"></rect>
