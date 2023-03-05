@@ -74,7 +74,7 @@ $.getJSON('dist/docs/projects.json', function (projects) {
         $('#project-tags').empty();
         $('#project-images').empty();
 
-        const tagsHtml = tag.map(t => `<span class="badge bg-dark me-2">#${t}</span>`).join('');
+        const tagsHtml = tag.map(t => `<span class="badge badge-project me-2">#${t}</span>`).join('');
         $('#project-tags').html(tagsHtml);
 
         const imagesHtml = images.map((img, index) => `

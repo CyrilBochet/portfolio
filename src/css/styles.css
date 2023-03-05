@@ -164,8 +164,13 @@ footer a {
     max-width: 170px;
     max-height: 150px;
     min-height: 150px;
-    padding: 3px;
+    padding: 2px;
     margin: 3px;
     border-radius: 20px;
     background-color: var(--md-sys-color-tertiary);
+}
+
+.badge-project {
+    background-color: var(--md-sys-color-secondary-container);
+    color: var(--md-sys-color-secondary);
 }
