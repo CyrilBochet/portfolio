@@ -65,6 +65,10 @@ section {
     padding-left: 3rem;
 }
 
+ul > li {
+    margin-bottom: 13px;
+}
+
 .btn {
     padding: 0.7rem 1.2rem;
     border-radius: 20px;

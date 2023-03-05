@@ -4,6 +4,8 @@
     "lang": "Langage",
     "contact": "Me contacter",
     "projects": "Projets",
+    "experience": "Expériences pro.",
+    "education": "Formations",
     "profile": "Mon Profil",
     "brand": "Portfolio"
   },
@@ -11,19 +13,52 @@
     "title": {
       "about": "Mon Profil",
       "projects": "Mes projets",
+      "experience": "Expériences professionnelles",
+      "education": "Formations",
       "contact": "Me contacter"
     },
     "about": {
       "text": {
-        "part1":"Bonjour, je m'appelle Cyril, j'ai",
+        "part1": "Bonjour, je m'appelle Cyril, j'ai",
         "part2": "ans et je suis développeur Full-stack chez AFR financement, un réseau de centres de courtage en crédits situé à Villeneuve-Saint-Germain.",
         "part3": "En tant que membre d'une équipe de développeurs, je collabore étroitement avec mes collègues pour concevoir des solutions numériques innovantes qui répondent aux besoins et aux attentes de nos utilisateurs finaux.",
         "part4": "Dans mon rôle actuel, je suis impliqué dans toutes les phases du développement de projets web, de la conception initiale à la mise en production.",
         "part5": "J'ai travaillé sur des projets de toutes tailles, incluant des sites web simples, des applications web complexes, des projets d'e-commerce, ainsi que des applications mobiles, même si ces dernières étaient moins élaborées.",
         "part6": "J'espère que vous apprécierez mon portfolio et je vous souhaite une bonne visite ! \uD83D\uDE0A"
+      }
+    },
+    "experience": {
+      "afr": {
+        "date": "2019 – aujourd'hui",
+        "job": "Développeur full-stack",
+        "part1": "Conception et maintenance d'applications web Symfony : j'ai été responsable de la conception, du développement et de la maintenance de plusieurs applications web en utilisant le framework Symfony. <br> J'ai travaillé sur toutes les phases du projet, depuis l'analyse des besoins jusqu'à la mise en production, en passant par la conception technique, la programmation, les tests et la documentation.",
+        "part2": "Création et gestion de sites WordPress : j'ai eu l'occasion de créer et de gérer plusieurs sites web basés sur le CMS WordPress. J'ai utilisé des thèmes et des plugins pour personnaliser le design et les fonctionnalités. J'ai également développé mes propres plugins.",
+        "part3": "Génération automatisée de documents PDF : j'ai développé un processus automatisé de génération de documents PDF en utilisant des outils comme TCPDF. <br> Ce processus a permis de produire des documents tels que des factures, des devis ou des contrats.",
+        "part4": "Développement d'un comparateur de contrats d'assurance : j'ai participé à la création d'un outil en ligne permettant de comparer différents contrats d'assurance en fonction du profil de chaque client. J'ai travaillé la conception technique de l'outil, la programmation des fonctionnalités et les tests.",
+        "part5": "Création d'un formulaire de génération de leads : j'ai développé un formulaire en ligne permettant de collecter des informations sur les prospects intéressés par nos services. J'ai travaillé sur la conception graphique du formulaire, la programmation des fonctionnalités et les tests."
       },
-      "btn": {
-        "cv": "Mon curriculum vitae"
+      "emiled": {
+        "date": "11 semaines | 2016 – 2017",
+        "job": "Stagiaire dans le service informatique",
+        "part1": "Réalisation de projets de fidélisation et d'amélioration d'expérience client.",
+        "part2": "Amélioration et maintenance du multi sites sur Magento.<br> Analyse et correction de problèmes recensés sur des fonctionnalités.",
+        "part3": "Recettage d'une solution de personnalisation de produits en ligne et réalisation de tutoriels vidéos sur son utilisation.",
+        "part4": "Mailing sur Mailchimp.",
+        "part5": "Créations graphiques sur PhotoShop."
+      }
+    },
+    "education": {
+      "insset": {
+        "part1": "Diplôme obtenu : Master Cloud Computing & Mobility • mention bien.",
+        "part2": "Diplôme obtenu : Licence Métiers du Numérique."
+      },
+      "claudel": {
+        "part1": "Diplôme obtenu : BTS services informatiques aux organisations • mention bien.",
+        "part2": "Option : solutions logicielles et applications métiers."
+      },
+      "nerval": {
+        "part1": "Diplôme obtenu : Baccalauréat technologique • mention très bien.",
+        "part2": "Options : systèmes d'information de gestion et cinéma-audiovisuel."
       }
     },
     "filter": {

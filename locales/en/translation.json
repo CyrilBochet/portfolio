@@ -4,6 +4,8 @@
     "lang": "Language",
     "contact": "Contact Me",
     "projects": "Projects",
+    "experience": "Professional exp.",
+    "education": "Education",
     "profile": "About me",
     "brand": "Portfolio"
   },
@@ -11,11 +13,13 @@
     "title": {
       "about": "My Profile",
       "projects": "My Projects",
+      "experience": "Professional experiences",
+      "education": "Education",
       "contact": "Contact Me"
     },
     "about": {
       "text": {
-        "part1":"Hello, my name is Cyril, I'm",
+        "part1": "Hello, my name is Cyril, I'm",
         "part2": "years old, and I'm a Full-stack Developer at AFR Financement, a network of credit brokerage centers located in Villeneuve-Saint-Germain.",
         "part3": "As a member of a team of developers, I work closely with my colleagues to design innovative digital solutions that meet the needs and expectations of our end users.",
         "part4": "In my current role, I'm involved in all phases of web development projects, from initial design to production deployment. I'm particularly passionate about creating intuitive user interfaces that offer the most enjoyable experience possible.",
@@ -24,6 +28,40 @@
       },
       "btn": {
         "cv": "My Curriculum Vitae"
+      }
+    },
+    "experience": {
+      "afr": {
+        "date": "2019 – today",
+        "job": "Full-stack Developer",
+        "part1": "Building and maintaining Symfony web applications: I was responsible for designing, developing, and maintaining several web applications using the Symfony framework. <br> I worked on all phases of the project, from analyzing requirements to production deployment, including technical design, programming, testing, and documentation.",
+        "part2": "Building and maintaining WordPress sites: I had the opportunity to create and maintain several websites based on the WordPress CMS. I used themes and plugins to customize the design and functionality. I also developed my own plugins.",
+        "part3": "Automated generation of PDF documents: I developed an automated process for generating PDF documents using tools such as TCPDF. <br> This process enabled the production of documents such as invoices, quotes, or contracts.",
+        "part4": "Development of an insurance contract comparison tool: I participated in the creation of an online tool for comparing different insurance contracts based on each client's profile. I worked on the technical design of the tool, programming the features, and testing.",
+        "part5": "Creation of a lead generation form: I developed an online form for collecting information on prospects interested in our services. I worked on the graphical design of the form, programming the features, and testing."
+      },
+      "emiled": {
+        "date": "11 weeks | 2016 - 2017",
+        "job": "Interno en el departamento de TI",
+        "part1": "Realization of customer loyalty and experience improvement projects.",
+        "part2": "Improvement and maintenance of multi-sites on Magento. <br> Analysis and resolution of issues identified on functionalities.",
+        "part3": "Testing of an online product personalization solution and creation of video tutorials on its use.",
+        "part4": "Mailing on Mailchimp.",
+        "part5": "Graphic design on Photoshop."
+      }
+    },
+    "education": {
+      "insset": {
+        "part1": "Degree obtained: Master's in Cloud Computing & Mobility • with honors.",
+        "part2": "Degree obtained: Bachelor's in Digital Professions."
+      },
+      "claudel": {
+        "part1": "Degree obtained: BTS in IT services to organizations • with honors.",
+        "part2": "Option: software solutions and business applications."
+      },
+      "nerval": {
+        "part1": "Degree obtained: Technological Baccalaureate • with highest honors.",
+        "part2": "Options: information systems management and cinema-audiovisual."
       }
     },
     "filter": {

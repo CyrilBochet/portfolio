@@ -112,20 +112,29 @@
         <div class="list-group list-group-flush">
             <a href="#about" class="list-group-item list-group-item-action">
                 <span class="material-symbols-sharp me-3">person</span>
-                <span data-i18n="nav.profile"></span>
+                <span data-i18n="nav.profile">Mon profil</span>
             </a>
             <a href="#projects" class="list-group-item list-group-item-action">
                 <span class="material-symbols-sharp me-3">code</span>
-                <span data-i18n="nav.projects"></span>
+                <span data-i18n="nav.projects">Projets</span>
+            </a>
+            <a href="#experience" class="list-group-item list-group-item-action">
+                <span class="material-symbols-sharp me-3">work</span>
+                <span data-i18n="nav.experience">Expériences pro.</span>
+            </a>
+            <a href="#education" class="list-group-item list-group-item-action">
+                <span class="material-symbols-sharp me-3">school</span>
+                <span data-i18n="nav.education">Formations</span>
             </a>
             <a href="#contact-me" class="list-group-item list-group-item-action">
                 <span class="material-symbols-sharp me-3">forum</span>
-                <span data-i18n="nav.contact"></span>
+                <span data-i18n="nav.contact">Me contacter</span>
             </a>
             <div class="list-group-item list-group-item-action" class="dropdown-toggle" type="button"
                  data-bs-toggle="dropdown" aria-expanded="false">
                 <span class="material-symbols-sharp me-3">translate</span>
-                <span data-i18n="nav.lang"></span><span class="material-symbols-sharp ms-1">arrow_drop_down</span>
+                <span data-i18n="nav.lang">Langage</span><span
+                    class="material-symbols-sharp ms-1">arrow_drop_down</span>
                 <ul id="language-selector-menu" class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <span id="language-selector-value" class="d-none">fr</span>
                     <button class="dropdown-item" type="button" data-language="fr">Français</button>
@@ -234,76 +243,128 @@
             <div class="container">
                 <h2 class="mt-0 display-medium mb-4 primary-text" data-i18n="section.title.experience">Expérience
                     professionnelle</h2>
-                <ul class="collapsible primary-text">
-                    <li>
-                        <div class="collapsible-header" data-bs-toggle="collapse" href="#collapse1" role="button"
-                             aria-expanded="true" aria-controls="collapse1">
-                            <div class="title-large">AFR Financement - Villeneuve-Saint-Germain</div>
-                            <p>octobre 2019 – aujourd'hui</p>
-                        </div>
-                        <div class="collapsible-body collapse show" id="collapse1">
-                            <h6>DÉVELOPPEUR FULL STACK</h6>
-                            <ul>
-                                <li>Maintenance d’applications web en Symfony. (CRM)</li>
-                                <li>Maintenance et création de sites WordPress.</li>
-                                <li>Génération automatisée de documents PDF.</li>
-                                <li>Développement d’un comparateur de contrats d’assurance.</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header" data-bs-toggle="collapse" href="#collapse2" role="button"
-                             aria-expanded="true" aria-controls="collapse2">
-                            <h5>SARL EMILED</h5>
-                            <p>11 semaines | 2016 – 2017</p>
-                        </div>
-                        <div class="collapsible-body collapse show" id="collapse2">
-                            <h6>STAGIAIRE SERVICE INFORMATIQUE</h6>
-                            <ul>
-                                <li>Réalisation de projets de fidélisation et d'amélioration d'expérience client.</li>
-                                <li>Amélioration et mise à jour de sites web.</li>
-                                <li>Recettage d'un nouvel outil.</li>
-                                <li>Recettage d'un nouvel outil.</li>
-                                <li>Analyse de problèmes recensés sur des fonctionnalités.</li>
-                                <li>Réalisation de vidéos tutoriels pour l'accompagnement utilisateur.</li>
-                                <li>Création de polices d'écriture.</li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
+                <div class="collapsible primary-text">
+                    <div class="collapsible-header collapsed" data-bs-toggle="collapse" href="#collapse1"
+                         role="button" aria-expanded="false" aria-controls="collapse1">
+                        <div class="title-large mb-2">AFR Financement • Villeneuve-Saint-Germain</div>
+                        <div class="title-medium" data-i18n="section.experience.afr.date">2019 – aujourd'hui</div>
+                    </div>
+                    <div class="collapsible-body collapsed collapse" id="collapse1">
+                        <div class="title-medium mb-2" data-i18n="section.experience.afr.job">DÉVELOPPEUR FULL STACK</div>
+                        <ul>
+                            <li data-i18n="section.experience.afr.part1">Conception et maintenance d'applications web
+                                Symfony : j'ai été
+                                responsable de la conception, du développement et de la maintenance de plusieurs
+                                applications web en utilisant le framework Symfony. <br>
+                                J'ai travaillé sur toutes les
+                                phases du projet, depuis l'analyse des besoins jusqu'à la mise en
+                                production, en passant par la conception technique, la programmation, les tests et
+                                la documentation.
+                            </li>
+                            <li data-i18n="section.experience.afr.part2">
+                                Création et gestion de sites WordPress : j'ai eu l'occasion de créer et de
+                                gérer plusieurs sites web basés sur le CMS WordPress. J'ai utilisé des thèmes et des
+                                plugins pour personnaliser le design et les fonctionnalités.
+                                J'ai également développé mes propres plugins.
+                            </li>
+                            <li data-i18n="section.experience.afr.part3">
+                                Génération automatisée de documents PDF : j'ai développé un processus
+                                automatisé de génération de documents PDF en utilisant des outils comme TCPDF. <br>
+                                Ce processus a permis de produire des documents tels que des factures, des devis ou
+                                des contrats.
+                            </li>
+                            <li data-i18n="section.experience.afr.part4">
+                                Développement d'un comparateur de contrats d'assurance : j'ai participé à la
+                                création d'un outil
+                                en ligne permettant de comparer différents contrats d'assurance en fonction du
+                                profil de chaque client.
+                                J'ai travaillé la conception technique de l'outil, la programmation des
+                                fonctionnalités et les tests.
+                            </li>
+                            <li data-i18n="section.experience.afr.part5">
+                                Création d'un formulaire de génération de leads : j'ai développé un formulaire en
+                                ligne permettant de collecter des informations sur les prospects intéressés par nos
+                                services. J'ai travaillé sur la conception graphique du formulaire,
+                                la programmation des fonctionnalités et les
+                                tests.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="collapsible-header collapsed" data-bs-toggle="collapse" href="#collapse2"
+                         role="button"
+                         aria-expanded="false" aria-controls="collapse2">
+                        <div class="title-large mb-2">SARL EMILED • Laon</div>
+                        <div class="title-medium" data-i18n="section.experience.afr.date">11 semaines | 2016 – 2017</div>
+                    </div>
+                    <div class="collapsible-body collapsed collapse" id="collapse2">
+                        <div class="title-medium mb-2" data-i18n="section.experience.afr.job">Stagiaire dans le service informatique</div>
+                        <ul>
+                            <li data-i18n="section.experience.emiled.part1">
+                                Réalisation de projets de fidélisation et d'amélioration d'expérience client.
+                            </li>
+                            <li data-i18n="section.experience.emiled.part2">
+                                Amélioration et maintenance du multi sites sur Magento.<br>
+                                Analyse et correction de problèmes recensés sur des fonctionnalités.
+                            </li>
+                            <li data-i18n="section.experience.emiled.part3">
+                                Recettage d'une solution de personnalisation de produits en ligne et réalisation de
+                                tutoriels vidéos sur son utilisation.
+                            </li>
+                            <li data-i18n="section.experience.emiled.part4">
+                                Mailing sur Mailchimp.
+                            </li>
+                            <li data-i18n="section.experience.emiled.part5">
+                                Créations graphiques sur PhotoShop.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
 
         <!-- Formation -->
         <section class="primary-container pt-1" id="education">
             <div class="container">
-                <h2 class="mt-0 display-medium mb-4 primary-text" data-i18n="section.title.education"></h2>
-                <ul class="collapsible primary-text">
-                    <li>
-                        <div class="collapsible-header collapse show" href="#collapse3" role="button"
-                             aria-expanded="true" aria-controls="collapse3">
-                            <h5>Nom de l'école ou de l'université</h5>
-                            <p>Date d'obtention du diplôme</p>
+                <h2 class="mt-0 display-medium mb-4 primary-text" data-i18n="section.title.education">Formations</h2>
+                <div class="collapsible primary-text">
+                    <div class="collapsible-header collapsed" data-bs-toggle="collapse" href="#collapse3"
+                         role="button"
+                         aria-expanded="false" aria-controls="collapse1">
+                        <div class="title-large mb-2">Institut Supérieur des Sciences et Techniques • Saint-Quentin
                         </div>
-                        <div class="collapsible-body collapse show" id="collapse3">
-                            <p>Diplôme obtenu: Baccalauréat en XYZ</p>
-                            <p>Matières principales: XYZ</p>
-                            <p>Mention: Très bien</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header collapse show" href="#collapse4" role="button"
-                             aria-expanded="true" aria-controls="collapse4">
-                            <h5>Nom de l'école ou de l'université</h5>
-                            <p>Date d'obtention du diplôme</p>
-                        </div>
-                        <div class="collapsible-body collapse show" id="collapse4">
-                            <p>Diplôme obtenu: Maîtrise en XYZ</p>
-                            <p>Matières principales: XYZ</p>
-                            <p>Mention: Bien</p>
-                        </div>
-                    </li>
-                </ul>
+                        <div class="title-medium">2018 - 2021</div>
+                    </div>
+                    <div class="collapsible-body collapsed collapse" id="collapse3">
+                        <ul>
+                            <li data-i18n="section.education.insset.part1">Diplôme obtenu : Master Cloud Computing & Mobility • mention bien.</li>
+                            <li data-i18n="section.education.insset.part2">Diplôme obtenu : Licence Métiers du Numérique.</li>
+                        </ul>
+                    </div>
+                    <div class="collapsible-header collapsed" data-bs-toggle="collapse" href="#collapse4"
+                         role="button"
+                         aria-expanded="false" aria-controls="collapse1">
+                        <div class="title-large mb-2">Lycée Paul Claudel • Laon</div>
+                        <div class="title-medium">2016 - 2018</div>
+                    </div>
+                    <div class="collapsible-body collapsed collapse" id="collapse4">
+                        <ul>
+                            <li data-i18n="section.education.claudel.part1">Diplôme obtenu : BTS services informatiques aux organisations • mention bien.</li>
+                            <li data-i18n="section.education.claudel.part2">Option : solutions logicielles et applications métiers.</li>
+                        </ul>
+                    </div>
+                    <div class="collapsible-header collapsed" data-bs-toggle="collapse" href="#collapse5"
+                         role="button"
+                         aria-expanded="false" aria-controls="collapse5">
+                        <div class="title-large mb-2">Lycée Gérard de Nerval • Soissons</div>
+                        <div class="title-medium">2013 - 2016</div>
+                    </div>
+                    <div class="collapsible-body collapsed collapse" id="collapse5">
+                        <ul>
+                            <li data-i18n="section.education.nerval.part1">Diplôme obtenu : Baccalauréat technologique • mention très bien.</li>
+                            <li data-i18n="section.education.nerval.part2">Options : systèmes d'information de gestion et cinéma-audiovisuel.</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -311,7 +372,7 @@
         <!-- Contact me -->
         <section id="contact-me" class="contact-section">
             <div class="container">
-                <h2 class="mt-0 display-medium mb-4" data-i18n="section.title.contact"></h2>
+                <h2 class="mt-0 display-medium mb-4" data-i18n="section.title.contact">Me contacter</h2>
                 <p class="alert" id="contact-form-status" style="display: none"></p>
                 <div class="row">
                     <div class="col-lg-10">

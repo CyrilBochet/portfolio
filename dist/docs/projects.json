@@ -22,7 +22,7 @@
   {
     "id": 2,
     "titre": "Bloc-notes",
-    "description": "Ce projet scolaire sur lequel j'ai travaillé était l'un de mes premiers en C#, et il consistait à concevoir un bloc-notes avec Windows Form.<br><br>\nL'objectif de cette application était de permettre aux utilisateurs d'ouvrir ou de créer des fichiers texte modifiables et de les enregistrer. En somme, le bloc-notes offrait les fonctionnalités de base attendues d'un éditeur de texte.<br>Le bloc-notes dispose également d'un compteur de caractères pour aider l'utilisateur à suivre la quantité de texte saisie.",
+    "description": "Ce projet scolaire sur lequel j'ai travaillé était l'un de mes premiers ecn C#, et il consistait à concevoir un bloc-notes avec Windows Form.<br><br>\nL'objectif de cette application était de permettre aux utilisateurs d'ouvrir ou de créer des fichiers texte modifiables et de les enregistrer. En somme, le bloc-notes offrait les fonctionnalités de base attendues d'un éditeur de texte.<br>Le bloc-notes dispose également d'un compteur de caractères pour aider l'utilisateur à suivre la quantité de texte saisie.",
     "miniature": "miniature-blocnote.jpg",
     "images": [
       "bloc-notes-1.jpg"

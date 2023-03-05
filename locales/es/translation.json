@@ -4,6 +4,8 @@
     "lang": "Idioma",
     "contact": "Contáctame",
     "projects": "Proyectos",
+    "experience": "Experiencias pro.",
+    "education": "Educación",
     "profile": "Sobre mí",
     "brand": "Portafolio"
   },
@@ -11,6 +13,8 @@
     "title": {
       "about": "Sobre mí",
       "projects": "Mis Proyectos",
+      "experience": "Experiencias profesionales",
+      "education": "Educación",
       "contact": "Contáctame"
     },
     "about": {
@@ -24,6 +28,40 @@
       },
       "btn": {
         "cv": "Mi Curriculum Vitae"
+      }
+    },
+    "experience": {
+      "afr": {
+        "date": "2019 – actualidad",
+        "job": "Desarrollador Full-stack",
+        "part1": "Construcción y mantenimiento de aplicaciones web Symfony: fui responsable del diseño, desarrollo y mantenimiento de varias aplicaciones web utilizando el framework Symfony. <br> Trabajé en todas las fases del proyecto, desde el análisis de requisitos hasta la implementación en producción, incluyendo diseño técnico, programación, pruebas y documentación.",
+        "part2": "Construcción y mantenimiento de sitios WordPress: tuve la oportunidad de crear y mantener varios sitios web basados en el CMS WordPress. Usé temas y plugins para personalizar el diseño y la funcionalidad. También desarrollé mis propios plugins.",
+        "part3": "Generación automatizada de documentos PDF: desarrollé un proceso automatizado para generar documentos PDF utilizando herramientas como TCPDF. <br> Este proceso permitió la producción de documentos como facturas, presupuestos o contratos.",
+        "part4": "Desarrollo de una herramienta de comparación de contratos de seguros: participé en la creación de una herramienta en línea para comparar diferentes contratos de seguros según el perfil de cada cliente. Trabajé en el diseño técnico de la herramienta, programación de características y pruebas.",
+        "part5": "Creación de un formulario de generación de clientes potenciales: desarrollé un formulario en línea para recopilar información sobre prospectos interesados en nuestros servicios. Trabajé en el diseño gráfico del formulario, programación de características y pruebas."
+      },
+      "emiled": {
+        "date": "2019 – today",
+        "job": "Full-stack Developer",
+        "part1": "Realización de proyectos de fidelización y mejora de la experiencia del cliente.",
+        "part2": "Mejora y mantenimiento de sitios múltiples en Magento. <br> Análisis y corrección de problemas identificados en funcionalidades.",
+        "part3": "Pruebas de una solución de personalización de productos en línea y creación de tutoriales en video sobre su uso.",
+        "part4": "Envío de correos electrónicos en Mailchimp.",
+        "part5": "Diseño gráfico en Photoshop."
+      }
+    },
+    "education": {
+      "insset": {
+        "part1": "Diploma obtenido: Máster en Cloud Computing y Movilidad • con mención de honor.",
+        "part2": "Diploma obtenido: Licenciatura en Profesiones del Área Digital."
+      },
+      "claudel": {
+        "part1": "Diploma obtenido: BTS en servicios informáticos para organizaciones • con mención honorífica.",
+        "part2": "Opción: soluciones de software y aplicaciones empresariales."
+      },
+      "nerval": {
+        "part1": "Diploma obtenido: Bachillerato tecnológico • con mención muy bien.",
+        "part2": "Opciones: sistemas de información de gestión y cine-audiovisual."
       }
     },
     "filter": {
