@@ -124,4 +124,19 @@ $(document).ready(function () {
         loadJSon()
     });
 
+    $("#navbarCollapse .navbar-nav .nav-item, #language-selector-menu-mobile .dropdown-item").on('click', function () {
+        $('.navbar-toggler').trigger("click");
+    });
+
+    var lastScrollTop = 0;
+    window.addEventListener("scroll", function(){
+        var currentScrollTop = window.scrollY || document.documentElement.scrollTop;
+        if (currentScrollTop > lastScrollTop){
+            document.querySelector(".navbar").classList.add("navbar-hidden");
+        } else {
+            document.querySelector(".navbar").classList.remove("navbar-hidden");
+        }
+        lastScrollTop = currentScrollTop;
+    });
+
 });

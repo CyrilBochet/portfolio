@@ -230,3 +230,28 @@ nav.fixed-top .navbar-toggler:focus {
 nav.fixed-top {
     display: none;
 }
+
+.navbar{
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar.navbar-hidden {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler.collapsed {
+    margin-top: 0;
+}
+
+.navbar-toggler .material-symbols-sharp {
+    font-size: 30px;
+}
+
+.navbar-toggler {
+    margin-top: 10px;
+}

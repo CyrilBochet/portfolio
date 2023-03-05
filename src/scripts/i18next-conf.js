@@ -34,6 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 console.error(err);
             } else {
                 document.getElementById('language-selector-value').textContent = language;
+                document.getElementById('language-selector-value-mobile').textContent = language;
                 updateTranslations();
             }
         });
