@@ -15,7 +15,7 @@ module.exports = {
                 { from: path.resolve(__dirname, "src/assets/images/"), to: path.resolve(__dirname, "dist/images/") },
                 { from: path.resolve(__dirname, "src/css/material-theme/theme.light.css"), to: path.resolve(__dirname, "dist/css/material-theme/theme.light.css") },
                 { from: path.resolve(__dirname, "src/css/material-theme/theme.dark.css"), to: path.resolve(__dirname, "dist/css/material-theme/theme.dark.css") },
-                { from: path.resolve(__dirname, "src/assets/docs/cv.pdf"), to: path.resolve(__dirname, "dist/docs/cv.pdf") },
+                { from: path.resolve(__dirname, "src/assets/docs/"), to: path.resolve(__dirname, "dist/docs/") },
             ],
         }),
         new webpack.ProvidePlugin({

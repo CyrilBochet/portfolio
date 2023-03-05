@@ -620,3 +620,13 @@ section {
     --bs-alert-border-color: var(--md-sys-color-error) !important;
 }
 
+
+.offcanvas {
+    background-color: var(--md-sys-color-sidebar-background);
+    border-radius: 16px 0px 0px 16px;
+    padding: 2rem;
+}
+
+.offcanvas.offcanvas-end {
+    width: 800px;
+}

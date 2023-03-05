@@ -93,7 +93,7 @@
         </div>
         <div class="h5 text-center mx-2 mt-2 text-uppercase" data-i18n="nav.brand"></div>
         <div class="sidebar-heading text-center">
-            <img src="/dist/profile_picture.jfif" alt="Photo de profil" class="img-fluid m-2 rounded" width="50">
+            <img src="/dist/images/profile-picture.jfif" alt="Photo de profil" class="img-fluid m-2 rounded" width="50">
         </div>
     </div>
 </nav>
@@ -101,7 +101,7 @@
 <div class="d-flex" id="wrapper">
     <div id="sidebar-wrapper">
         <div class="sidebar-heading text-center">
-            <img src="/dist/profile_picture.jfif" alt="Photo de profil" class="img-fluid m-2">
+            <img src="/dist/images/profile-picture.jfif" alt="Photo de profil" class="img-fluid m-2">
         </div>
         <a href="#page-content-wrapper" class="link-no-style">
             <h2 class="h5 text-center mx-2 mt-2 text-uppercase" data-i18n="nav.brand"></h2>
@@ -180,8 +180,6 @@
                     <p data-i18n="section.about.text.part4">
                         Dans mon rôle actuel, je suis impliqué dans toutes les phases du développement de projets web,
                         de la conception initiale à la mise en production.
-                        Je suis particulièrement passionné par la création d'interfaces utilisateur intuitives qui
-                        offrent une expérience la plus agréable possible
                     </p>
                     <p data-i18n="section.about.text.part5">
                         J'ai travaillé sur des projets de
@@ -222,6 +220,7 @@
                     </div>
                 </nav>
                 <div class="row mt-5 justify-content-center">
+                    <span id="btn-details-text" class="fade" data-i18n="form.btn.details">Détails</span>
                     <div class="gallery row" id="projects-gallery"></div>
                 </div>
             </div>
@@ -280,6 +279,18 @@
             </section>
         </footer>
 
+    </div>
+</div>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasProject" aria-labelledby="offcanvasProjectLabel">
+    <div class="offcanvas-header">
+        <h4 class="offcanvas-title" id="project-title"></h4>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <p id="project-description"></p>
+        <div id="project-tags" class="mb-3"></div>
+        <div id="project-images"></div>
     </div>
 </div>
 </body>

@@ -56,15 +56,4 @@
         padding: 0 12px;
     }
 
-    /*.tab-label {*/
-    /*    display: none;*/
-    /*}*/
-
-    /*.tab.active > .tab-label {*/
-    /*    display: block;*/
-    /*}*/
-
-    .tab:not(.active) > .material-symbols-sharp {
-        margin-right: 0;
-    }
 }

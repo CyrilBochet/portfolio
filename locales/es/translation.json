@@ -4,7 +4,7 @@
     "lang": "Idioma",
     "contact": "Contáctame",
     "projects": "Proyectos",
-    "profile": "Mi Perfil",
+    "profile": "Sobre mí",
     "brand": "Portafolio"
   },
   "section": {
@@ -41,7 +41,7 @@
     "btn": {
       "send": "ENVIAR",
       "linkedin": "Mi LinkedIn",
-      "details": "Detalles"
+      "details": "+ Detalles"
     }
   }
 }

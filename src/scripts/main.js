@@ -1,8 +1,12 @@
+import {Fancybox} from "@fancyapps/ui/dist/fancybox/fancybox.esm.js";
+import "@fancyapps/ui/dist/fancybox/fancybox.css";
+
+
 const navbarToggler = $('.navbar-toggler');
 const navbarCollapse = $('#navbarCollapse');
 
 navbarToggler.on('click', function () {
-    navbarCollapse.classList.toggle('show');
+    navbarCollapse.toggleClass('show');
 });
 
 
@@ -20,126 +24,18 @@ function getAge(dateString) {
 
 
 //Filter portfolio
-$(document).ready(function () {
-    $('#age').html(getAge('1998/10/22'));
-    $('#year').html(new Date().getFullYear());
 
+$.getJSON('dist/docs/projects.json', function (projects) {
+    $(document).ready(function () {
+        $('#age').html(getAge('1998/10/22'));
+        $('#year').html(new Date().getFullYear());
 
-    let projects = [
-        {
-            "id": 1,
-            "titre": "Multi sites Magento",
-            "description": "Amélioration et mise à jour de 3 sites e-commerce sur Magento. \n" +
-                "Paramétrage de modules et amélioration de l'expérience utilisateur",
-            "miniature": "miniature-multisite.jpg",
-            "images": ["assets/img/projects/image/multi-site-1.jpg", "assets/img/projects/image/multi-site-2.jpg"],
-            "tag": ["MAGENTO", "MULTISITE"],
-            "type": "web",
-        },
-        {
-            "id": 2,
-            "titre": "Bloc-notes",
-            "description": "Le projet consistait a créer un bloc-notes en C# avec Windows Form.\n" +
-                "L’application permet d'ouvrir ou de créer un fichier texte modifiable, et de l'enregistrer. \nLe bloc-notes dispose d'un compteur de caractères.",
-            "miniature": "miniature-blocnote.jpg",
-            "images": ["assets/img/projects/image/bloc-notes-1.jpg"],
-            "tag": ["CSHARP", "WINFORM"],
-            "type": "software",
-        },
-        {
-            "id": 3,
-            "titre": "Newsletters programmées : Mailchimp\n",
-            "description": "Création de newsletters programmées sur Mailchimp et retouche des photos des produits sur Photoshop.\n",
-            "miniature": "miniature-mailchimp.gif",
-            "images": ["assets/img/projects/image/mailchimp-1.gif"],
-            "tag": ["MAILING", "MAILCHIMP", "PHOTOSHOP"],
-            "type": "web",
-        },
-        {
-            "id": 4,
-            "titre": "Site web réalisé sur WordPress\n",
-            "description": "Site Wordpress réalisé selon les demandes du client. " +
-                "Le site comprenait les dates des campagnes, les photos, et les événements importants de la campagne du candidat.\n" +
-                "Il y avait également le fil d'actualité Twitter intégré sur le site.",
-            "miniature": "miniature-wordpress.jpg",
-            "images": ["assets/img/projects/image/institu-wordpress-1.jpeg"],
-            "tag": ["WORDPRESS"],
-            "type": "web",
-        },
-        {
-            "id": 6,
-            "titre": "Application android - Lazy Garden\n",
-            "description": "Des capteurs disposés sur un pot de fleurs récoltent des données et les envoient dans le cloud. " +
-                "L'application Lazy Garden récupère et analyse en direct les données depuis le cloud et affiche un message en fonction des besoins en eau et en lumière de la plante. " +
-                "L'application affiche aussi un message en fonction de la température ambiante. Les images changent en fonction de l'état de la plante.",
-            "miniature": "miniature-lazy.jpg",
-            "images": ["assets/img/projects/image/lazy-garden-1.jpg", "assets/img/projects/image/lazy-garden-2.jpg", "assets/img/projects/image/lazy-garden-3.jpg"],
-            "tag": ["ANDROID", "MOBILE", "FIREBASE"],
-            "type": "mobile",
-        },
-        {
-            "id": 7,
-            "titre": "Gestionnaire de commandes\n",
-            "description": "software permettant de gérer le statut des commandes\n" +
-                "(payée, expédiée) et de générer un PDF récapitulatif d'une commande sélectionnée.\n",
-            "miniature": "miniature-menagelec.jpg",
-            "images": ["assets/img/projects/image/gestion-commande-1.jpg"],
-            "tag": ["CSHARP", "WINFORM"],
-            "type": "software",
-        },
-        {
-            "id": 8,
-            "titre": "Module PrestaShop \n",
-            "description": "Module PrestaShop qui permet de gérer plusieurs fournisseurs avec plusieurs prix d'achat pour les produits du catalogue. \n" +
-                "Il est possible d'activer ou de désactiver les fournisseurs, et de les classer par ordre de priorité.\n" +
-                "Une fonctionnalité d'automatisation a également été développée afin d'activer automatiquement le produit qui correspond le plus aux critères suivant : \n - Produit avec le meilleur prix. \n - Produit avec le plus grand stock disponible.  \n - Produit avec le founisseur ayant la plus haute priorité." +
-                "\nCompatible pour la version 1.7.x de Prestashop.",
-            "miniature": "miniature-dropship.jpg",
-            "images": ["assets/img/projects/image/dropship-1.jpg", "assets/img/projects/image/dropship-2.jpg", "assets/img/projects/image/dropship-3.jpg", "assets/img/projects/image/dropship-4.jpg"],
-            "tag": ["PHP", "PRESTASHOP", "SYMFONY"],
-            "type": "web",
-        },
-        {
-            "id": 9,
-            "titre": "Bingo\n",
-            "description": "software simulant une partie de Bingo. \n" +
-                "Vous sélectionnez tout d'abord le nombre de joueurs (de 2 à 4 joueurs) et saisissez leurs noms.\n" +
-                "Après avoir cliquer sur \"Jouer !\" on vous propose de lire les règles. \n" +
-                "Une fois dans le jeu, vous pouvez cliquer sur \"Lancer la roue\" pour tirer un numéro aléatoirement. \n" +
-                "Si le numéro se trouve sur la grille d'un joueur, il doit cliquer dessus pour le valider. \n" +
-                "Le gagnant est celui qui valide une ligne en premier.",
-            "miniature": "miniature-bingo.jpg",
-            "images": ["assets/img/projects/image/bingo-1.jpg", "assets/img/projects/image/bingo-2.jpg", "assets/img/projects/image/bingo-3.jpg"],
-            "tag": ["CSHARP", "WINFORM"],
-            "type": "software",
-        }, {
-            "id": 10,
-            "titre": "Comparateur de contrats d'assurance\n",
-            "description": "Application web qui permet de comparer des contrats d'assurance.\n" +
-                "L'application fait appel à plusieurs API afin de récupérer les contrats et les tarifications de différentes compagnies d'assurance. Ces tarifs varient selon les données saisies dans le dossier du client.",
-            "miniature": "miniature-assurance.jpg",
-            "images": ["assets/img/projects/image/comparateur-1.jpg"],
-            "tag": ["SYMFONY4", "PHP", "API"],
-            "type": "web",
-        },
-        {
-            "id": 11,
-            "titre": "Galerie photo\n",
-            "description": "Espace de partage de photos sous forme de galeries.\n" +
-                "Un utilisateur peut s'inscrire, télécharger des photos dans sa galerie personnelle, et les publier à la vue de tous.\n" +
-                "La page d'accueil du site présente une galerie photo aléatoire parmi toutes les galeries du site.",
-            "miniature": "miniature-galerie.jpg",
-            "images": ["assets/img/projects/image/galerie-1.jpg", "assets/img/projects/image/galerie-2.jpg", "assets/img/projects/image/galerie-3.jpg", "assets/img/projects/image/galerie-4.jpg", "assets/img/projects/image/galerie-5" +
-            ".jpg"],
-            "tag": ["SYMFONY4", "PHP"],
-            "type": "web",
-        },
-    ]
-    const projectsGallery = $('#projects-gallery');
+        const projectsGallery = $('#projects-gallery');
+        let btnDetailsText = $('#btn-details-text').text();
 
-    for (let i = 0; i < projects.length; i++) {
+        for (let i = 0; i < projects.length; i++) {
 
-        const card = ` <div class="col-lg-4 mb-5" data-project-type="${projects[i]["type"]}">
+            const card = ` <div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-5" data-project-type="${projects[i]["type"]}">
                         <div class="card">
                             <div class="card-body p-0 surface">
                                 <img class="img-fluid card-img"
@@ -147,25 +43,56 @@ $(document).ready(function () {
                             </div>
                             <div class="card-body on-surface-text surface">
                                 <div class="title-large mb-4">${projects[i]["titre"]}</div>
-                                <a class="btn btn-tertiary" target="_blank"
-                                   href="javascript:void(0)" data-i18n="form.btn.details">
-                                    Détails
-                                </a>
                             </div>
                         </div>
                     </div>`;
+            const cardElement = $(card);
+            cardElement.find('div.card-body.on-surface-text').append($('<a>').addClass('btn btn-tertiary')
+                .attr('data-project-id', projects[i]["id"])
+                .attr('data-bs-toggle', 'offcanvas')
+                .attr('data-bs-target', '#offcanvasProject')
+                .attr('aria-controls', 'offcanvasProject')
+                .attr('data-i18n', 'form.btn.details')
+                .text(btnDetailsText)
+                .click(function (event) {
+                    getProject(event, projects[i]["id"]);
+                }));
+            $(projectsGallery).append(cardElement);
+        }
 
-        $(projectsGallery).append(card);
 
-        // if (pId == projects[i]["id"]) {
-        //     var pDesc = projects[i]["description"];
-        //     var pTitre = projects[i]["titre"];
-        //     var pTags = projects[i]["tag"];
-        //     // var ptype = projects[i]["type"];
-        //     // var pMinia = projects[i]["miniature"];
-        //     var pImages = projects[i]["images"];
-        // }
+    });
+
+    function getProject(e, projectId) {
+        const project = projects.find(p => p.id === projectId);
+        if (!project) return;
+
+        const {description, titre, tag, images} = project;
+
+        $('#project-description').html(description);
+        $('#project-title').text(titre);
+        $('#project-tags').empty();
+        $('#project-images').empty();
+
+        const tagsHtml = tag.map(t => `<span class="badge bg-dark me-2">#${t}</span>`).join('');
+        $('#project-tags').html(tagsHtml);
+
+        const imagesHtml = images.map((img, index) => `
+        <a href="dist/images/projets/illustrations/${img}">
+            <img class="img-fluid img-project" src="dist/images/projets/illustrations/${img}" data-fancybox="project-${projectId}" data-caption="${titre} - ${index + 1}">
+        </a>
+    `).join('');
+        $('#project-images').html(imagesHtml);
+
+        // Initialize Fancybox
+
+        Fancybox.bind('[data-fancybox=project-' + projectId + ']', {
+            // Toolbar: {
+            //     display: [ "close"],
+            // },
+        });
     }
+
 
 });
 

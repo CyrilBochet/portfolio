@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "titre": "Multi sites Magento",
+    "description": "Au cours de mon stage en BTS SIO, j'ai eu l'opportunité de participer à un projet de gestion de plusieurs sites e-commerce créés sur Magento.<br><br>Mon rôle principal consistait à améliorer et mettre à jour ces sites pour offrir une expérience utilisateur agréable et augmenter les taux de conversion des ventes.<br><br>Pour y parvenir, j'ai réalisé plusieurs tâches telles que le paramétrage de différents modules, notamment pour automatiser la distribution de coupons. <br><br>J'ai mis en place un système automatique de calcul de points de fidélité pour chaque achat en fonction du montant total du panier.<br> J'ai également créé des newsletters programmées pour la période des soldes. <br><br>Enfin, j'ai ajouté un chat en ligne sur chaque site pour permettre aux clients de poser facilement et rapidement leurs questions, avec des modèles de réponses préétablis.",
+    "miniature": "miniature-multisite.jpg",
+    "images": [
+      "multi-site-1.jpg",
+      "mailchimp-1.gif",
+      "price-rule-cart-coupon-settings-ee.png",
+      "price-rule-cart-new.png"
+    ],
+    "tag": [
+      "MAGENTO",
+      "MULTISITE",
+      "MAILING",
+      "MAILCHIMP",
+      "PHOTOSHOP"
+    ],
+    "type": "web"
+  },
+  {
+    "id": 2,
+    "titre": "Bloc-notes",
+    "description": "Le projet consistait a créer un bloc-notes en C# avec Windows Form.<br>L’application permet d'ouvrir ou de créer un fichier texte modifiable, et de l'enregistrer. <br>Le bloc-notes dispose d'un compteur de caractères.",
+    "miniature": "miniature-blocnote.jpg",
+    "images": [
+      "bloc-notes-1.jpg"
+    ],
+    "tag": [
+      "CSHARP",
+      "WINFORM"
+    ],
+    "type": "software"
+  },
+  {
+    "id": 6,
+    "titre": "Lazy Garden - Android",
+    "description": "Lazy Garden est une application Android conçue pour aider les amateurs de jardinage à prendre soin de leurs plantes en temps réel.<br><br>Le fonctionnement de cette application repose sur des capteurs placés sur le pot de fleurs qui collectent les données nécessaires pour évaluer les besoins en eau et en lumière de la plante. Ces données sont ensuite envoyées dans le cloud où elles sont analysées par l'application Lazy Garden.<br><br>En fonction des données collectées, l'application affiche un message indiquant les besoins de la plante en termes d'arrosage, d'exposition à la lumière et de température ambiante. Elle permet ainsi à l'utilisateur de savoir exactement quand et comment prendre soin de ses plantes pour qu'elles restent en bonne santé.<br><br>L'application propose une interface simple qui affiche des images en fonction de l'état de la plante, ce qui permet à l'utilisateur de visualiser facilement la situation de ses plantes et de suivre leur évolution.",
+    "miniature": "miniature-lazy.jpg",
+    "images": [
+      "lazy-garden-1.jpg",
+      "lazy-garden-2.jpg",
+      "lazy-garden-3.jpg",
+      "lazy-garden-schema.png"
+    ],
+    "tag": [
+      "ANDROID",
+      "MOBILE",
+      "FIREBASE"
+    ],
+    "type": "mobile"
+  },
+  {
+    "id": 7,
+    "titre": "Gestionnaire de commandes",
+    "description": "Le projet sur lequel j'ai travaillé était de concevoir un logiciel de gestion de commandes avec C# et Winform.<br><br>\nLe logiciel comprend une interface de connexion pour permettre aux utilisateurs de s'authentifier et d'accéder aux fonctionnalités de gestion de commandes. Une fois connectés, les utilisateurs peuvent accéder à différentes fonctionnalités, telles que la visualisation de la liste des commandes, la mise à jour du statut des commandes (payée, expédiée, etc.), le détail du client et de sa commande et la génération d'un PDF récapitulatif pour une commande sélectionnée.",
+    "miniature": "miniature-menagelec.jpg",
+    "images": [
+      "menagelec-login.png",
+      "menagelec-menu.png",
+      "gestion-commande-1.jpg",
+      "menagelec-colisage.png",
+      "menagelec-recherche.png"
+    ],
+    "tag": [
+      "CSHARP",
+      "WINFORM"
+    ],
+    "type": "software"
+  },
+  {
+    "id": 8,
+    "titre": "Module PrestaShop - Gestion fournisseurs",
+    "description": "Ce module pour PrestaShop permet de gérer efficacement plusieurs fournisseurs avec différents prix d'achat pour les produits du catalogue. Les fournisseurs peuvent être activés ou désactivés et classés par ordre de priorité. Une fonctionnalité d'automatisation a été développée pour activer automatiquement le produit qui répond le mieux aux critères suivants :<br><br>- Meilleur prix<br>- Stock disponible le plus important<br>- Fournisseur avec la plus haute priorité<br>- Ce module est compatible avec la version 1.7.x de PrestaShop, offrant ainsi une solution de gestion de fournisseurs plus efficace et pratique pour les utilisateurs de PrestaShop.<br>",
+    "miniature": "miniature-dropship.jpg",
+    "images": [
+      "dropship-1.jpg",
+      "dropship-2.jpg",
+      "dropship-3.jpg",
+      "dropship-4.jpg"
+    ],
+    "tag": [
+      "PHP",
+      "PRESTASHOP",
+      "SYMFONY"
+    ],
+    "type": "web"
+  },
+  {
+    "id": 9,
+    "titre": "Bingo",
+    "description": "Ceci est un logiciel de simulation de partie de Bingo. Le programme permet à l'utilisateur de sélectionner le nombre de joueurs (de 2 à 4) et de saisir leur nom. Avant de commencer la partie, une option est disponible pour lire les règles. Une fois dans le jeu, l'utilisateur peut cliquer sur \"Lancer la roue\" pour tirer un numéro aléatoire. Si le numéro apparaît sur la grille d'un joueur, il doit cliquer dessus pour le valider. Le joueur qui valide une ligne en premier est déclaré gagnant.",
+    "miniature": "miniature-bingo.jpg",
+    "images": [
+      "bingo-1.jpg",
+      "bingo-2.jpg",
+      "bingo-3.jpg"
+    ],
+    "tag": [
+      "CSHARP",
+      "WINFORM"
+    ],
+    "type": "software"
+  },
+  {
+    "id": 10,
+    "titre": "Comparateur de contrats d'assurance",
+    "description": "Il s'agit d'une application web développée en Symfony qui permet de créer des dossiers pour ses clients. Cette application offre une fonctionnalité permettant de comparer des contrats d'assurance en faisant appel à plusieurs API pour récupérer les contrats et les tarifications de différentes compagnies.<br> Les tarifs varient en fonction des données saisies dans le dossier du client et sont affichés dans un tableau pour une comparaison facile.<br>\nEn plus de cela, les dossiers peuvent être exportés directement vers l'extranet des compagnies d'assurance pour finaliser la souscription. Cette fonctionnalité permet de gagner du temps et de simplifier le processus de souscription.",
+    "miniature": "miniature-assurance.jpg",
+    "images": [
+      "comparateur-1.jpg"
+    ],
+    "tag": [
+      "SYMFONY4",
+      "PHP",
+      "API"
+    ],
+    "type": "web"
+  }
+]
