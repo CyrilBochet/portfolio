@@ -1,4 +1,10 @@
 @font-face {
+    font-family: 'ProductSans-Light';
+    font-style: normal;
+    font-weight: 100 700;
+    src: url(../assets/fonts/product-sans/ProductSans-Light.otf) format('opentype');
+}
+@font-face {
     font-family: 'ProductSans-Medium';
     font-style: normal;
     font-weight: 100 700;
