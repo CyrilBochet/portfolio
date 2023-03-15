@@ -6,6 +6,7 @@
     url(../assets/fonts/material-symbols/MaterialIconsSharp-Regular.eot) format("eot"),
     url(../assets/fonts/material-symbols/MaterialSymbolsSharp-Regular.ttf) format("ttf"),
     url(../assets/fonts/material-symbols/MaterialSymbolsSharp-Regular.woff) format("woff");
+    font-display: block;
 }
 
 .material-symbols-sharp {

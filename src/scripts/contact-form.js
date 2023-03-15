@@ -17,10 +17,18 @@ window.addEventListener("DOMContentLoaded", function () {
         status.style.display = 'block';
     }
 
-    function error() {
+    function error(statusCode) {
         status.classList.remove("alert-success");
         status.classList.add("alert-danger");
-        status.innerHTML = "Oups ! Une erreur est survenue.";
+        if (statusCode === 401) {
+            status.innerHTML = "La vérification reCAPTCHA a échoué. Veuillez réessayer.";
+        } else if (statusCode === 403) {
+            status.innerHTML = "Le serveur a refusé la demande. Veuillez réessayer plus tard.";
+        } else if (statusCode === 500) {
+            status.innerHTML = "Une erreur s'est produite sur le serveur. Veuillez réessayer plus tard.";
+        } else {
+            status.innerHTML = "Oups ! Une erreur est survenue.. 😅";
+        }
         status.style.display = 'block';
     }
 

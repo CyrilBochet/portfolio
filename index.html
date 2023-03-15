@@ -34,20 +34,9 @@
           content="Je suis un développeur Full-Stack expérimenté spécialisé dans le développement d'applications web en Symfony. Découvrez mes projets et mon parcours professionnel sur mon portfolio.">
     <meta name="keywords" content="développeur Full-Stack, Symfony, JavaScript, CSS, portfolio, projets">
     <meta name="author" content="Cyril BOCHET">
-
-    <script src="https://www.google.com/recaptcha/api.js?render=6Ld8k6ohAAAAAJ4WhI0bJ5bLZIqh5Ptk1l6xAEJ-"></script>
-    <script>
-        grecaptcha.ready(function () {
-            grecaptcha.execute('6Ld8k6ohAAAAAJ4WhI0bJ5bLZIqh5Ptk1l6xAEJ-', {action: 'submit'}).then(function (token) {
-                document.getElementById('g-recaptcha-response').value = token;
-            });
-        });
-    </script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <link id="material-theme-link" rel="stylesheet" href="dist/css/material-theme/theme.light.css">
     <script src="dist/app.js"></script>
-    <script type='text/javascript'
-            src='https://platform-api.sharethis.com/js/sharethis.js#property=63fd2ad0c9c3c1001aca8902&product=sop'
-            async></script>
 </head>
 <body>
 
@@ -412,6 +401,7 @@
                                               placeholder="Saisissez votre message..."></textarea>
                                     <span data-i18n="form.label.message">Message</span>
                                 </label>
+                                <div class="g-recaptcha" data-sitekey="6Ld8k6ohAAAAAJ4WhI0bJ5bLZIqh5Ptk1l6xAEJ-"></div>
 
                                 <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
                                 <div class="form-group mt-3">
@@ -431,9 +421,8 @@
                 <svg class="mb-4" aria-hidden="true" width="100%" height="8" fill="none"
                      xmlns="http://www.w3.org/2000/svg">
                     <pattern id="a" width="91" height="8" patternUnits="userSpaceOnUse">
-                        <g _ngcontent-dei-c39="" clip-path="url(#clip0_2426_11367)">
-                            <path _ngcontent-dei-c39=""
-                                  d="M114 4c-5.067 4.667-10.133 4.667-15.2 0S88.667-.667 83.6 4 73.467 8.667 68.4 4 58.267-.667 53.2 4 43.067 8.667 38 4 27.867-.667 22.8 4 12.667 8.667 7.6 4-2.533-.667-7.6 4s-10.133 4.667-15.2 0S-32.933-.667-38 4s-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0"
+                        <g clip-path="url(#clip0_2426_11367)">
+                            <path d="M114 4c-5.067 4.667-10.133 4.667-15.2 0S88.667-.667 83.6 4 73.467 8.667 68.4 4 58.267-.667 53.2 4 43.067 8.667 38 4 27.867-.667 22.8 4 12.667 8.667 7.6 4-2.533-.667-7.6 4s-10.133 4.667-15.2 0S-32.933-.667-38 4s-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0"
                                   stroke="#a8c7fa" stroke-linecap="square"></path>
                         </g>
                     </pattern>
@@ -459,9 +448,8 @@
         <p id="project-description"></p>
         <svg class="mb-4" aria-hidden="true" width="100%" height="8" fill="none" xmlns="http://www.w3.org/2000/svg">
             <pattern id="a" width="91" height="8" patternUnits="userSpaceOnUse">
-                <g _ngcontent-dei-c39="" clip-path="url(#clip0_2426_11367)">
-                    <path _ngcontent-dei-c39=""
-                          d="M114 4c-5.067 4.667-10.133 4.667-15.2 0S88.667-.667 83.6 4 73.467 8.667 68.4 4 58.267-.667 53.2 4 43.067 8.667 38 4 27.867-.667 22.8 4 12.667 8.667 7.6 4-2.533-.667-7.6 4s-10.133 4.667-15.2 0S-32.933-.667-38 4s-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0"
+                <g clip-path="url(#clip0_2426_11367)">
+                    <path d="M114 4c-5.067 4.667-10.133 4.667-15.2 0S88.667-.667 83.6 4 73.467 8.667 68.4 4 58.267-.667 53.2 4 43.067 8.667 38 4 27.867-.667 22.8 4 12.667 8.667 7.6 4-2.533-.667-7.6 4s-10.133 4.667-15.2 0S-32.933-.667-38 4s-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0"
                           stroke="#a8c7fa" stroke-linecap="square"></path>
                 </g>
             </pattern>
