@@ -72,6 +72,7 @@ function processJson() {
                 .attr('data-bs-target', '#offcanvasProject')
                 .attr('aria-controls', 'offcanvasProject')
                 .attr('data-i18n', 'form.btn.details')
+                .attr('href', 'javascript:void(0);')
                 .text(btnDetailsText)
                 .click(function (event) {
                     getProject(event, projects[i]["id"]);

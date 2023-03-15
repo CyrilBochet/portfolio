@@ -2,8 +2,8 @@ User-agent: *
 Allow: /
 
 User-agent: Googlebot-Image
-Disallow: dist/images/projets/
-Disallow: /img/favicon.ico
+Disallow: /dist/images/projets/
+Disallow: /dist/images/favicons/
 Disallow: *.ico$
 Disallow: /img/*.gif$
 
