@@ -66,18 +66,17 @@ function processJson() {
                         </div>
                     </div>`;
             const cardElement = $(card);
-            cardElement.find('div.card-body.on-surface-text').append($('<a>').addClass('btn btn-tertiary')
+            const button = $('<button>').addClass('btn btn-tertiary')
                 .attr('data-project-id', projects[i]["id"])
                 .attr('data-bs-toggle', 'offcanvas')
                 .attr('data-bs-target', '#offcanvasProject')
                 .attr('aria-controls', 'offcanvasProject')
                 .attr('data-i18n', 'form.btn.details')
-                .attr('href', 'javascript:void(0);')
-                .attr('rel', 'nofollow')
                 .text(btnDetailsText)
                 .click(function (event) {
                     getProject(event, projects[i]["id"]);
-                }));
+                });
+            cardElement.find('div.card-body.on-surface-text').append(button);
             $(projectsGallery).append(cardElement);
         }
 
