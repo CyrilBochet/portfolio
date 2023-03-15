@@ -30,7 +30,7 @@ $.getJSON('dist/docs/projects.json', function (projectsJson) {
     projects = projectsJson.sort(function () {
         return 0.5 - Math.random()
     });
-        processJson();
+    processJson();
 
 });
 
@@ -58,7 +58,7 @@ function processJson() {
                         <div class="card">
                             <div class="card-body p-0 surface">
                                 <img class="img-fluid card-img"
-                                     src="dist/images/projets/miniatures/${projects[i]["miniature"]}" alt="">
+                                     src="dist/images/projets/miniatures/${projects[i]["miniature"]}" alt="projet ${projects[i][titleKey]} / ${projects[i]["miniature"]}">
                             </div>
                             <div class="card-body on-surface-text surface">
                                 <div class="title-large mb-4">${projects[i][titleKey]}</div>
@@ -73,6 +73,7 @@ function processJson() {
                 .attr('aria-controls', 'offcanvasProject')
                 .attr('data-i18n', 'form.btn.details')
                 .attr('href', 'javascript:void(0);')
+                .attr('rel', 'nofollow')
                 .text(btnDetailsText)
                 .click(function (event) {
                     getProject(event, projects[i]["id"]);
