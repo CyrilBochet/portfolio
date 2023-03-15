@@ -9,10 +9,10 @@
     "description-es": "Durante mi práctica en BTS SIO, tuve la oportunidad de participar en un proyecto de gestión de varios sitios de comercio electrónico creados en Magento.<br><br>Mi papel principal consistía en mejorar y actualizar estos sitios para ofrecer una agradable experiencia de usuario y aumentar las tasas de conversión de ventas.<br><br>Para lograrlo, realicé varias tareas, como la configuración de diferentes módulos, en particular para automatizar la distribución de cupones.<br><br>Implementé un sistema automático de cálculo de puntos de fidelidad para cada compra en función del monto total del carrito. También creé boletines programados para el período de ventas. <br><br>Finalmente, agregué un chat en línea en cada sitio para permitir a los clientes hacer sus preguntas fácil y rápidamente, con modelos de respuestas preestablecidos.",
     "miniature": "miniature-magento.webp",
     "images": [
-      "multi-site-1.webp",
-      "mailchimp-1.gif",
-      "price-rule-cart-coupon-settings-ee.webp",
-      "price-rule-cart-new.webp"
+      "magento-site.webp",
+      "magento-mailchimp.gif",
+      "magento-cart-rule.webp",
+      "magento-coupon.webp"
     ],
     "tag": [
       "Magento",
@@ -72,13 +72,14 @@
     "description-en": "The project I worked on was to design an order management software with C# and WinForms.<br><br>\nThe software includes a login interface to allow users to authenticate and access order management functionalities. Once logged in, users can access different features, such as viewing the list of orders, updating the order status (paid, shipped, etc.), customer and order details, and generating a summary PDF for a selected order.",
     "titre-es": "Gestor de Pedidos",
     "description-es": "El proyecto en el que trabajé consistió en diseñar un software de gestión de pedidos con C# y WinForms.<br><br>\nEl software incluye una interfaz de inicio de sesión para permitir que los usuarios se autentiquen y accedan a las funcionalidades de gestión de pedidos. Una vez iniciada la sesión, los usuarios pueden acceder a diferentes funciones, como ver la lista de pedidos, actualizar el estado del pedido (pagado, enviado, etc.), los detalles del cliente y del pedido, y generar un resumen PDF para un pedido seleccionado.",
-    "miniature": "miniature-commande.webp",
+    "miniature": "miniature-gestionnaire-commandes.webp",
     "images": [
-      "menagelec-login.webp",
-      "menagelec-menu.webp",
-      "gestion-commande-1.webp",
-      "menagelec-colisage.webp",
-      "menagelec-recherche.webp"
+      "gestion-commandes-installation.webp",
+      "gestion-commandes-login.webp",
+      "gestion-commandes-menu.webp",
+      "gestion-commandes-home.webp",
+      "gestion-commandes-colisage.webp",
+      "gestion-commandes-recherche.webp"
     ],
     "tag": [
       "Csharp",
@@ -138,7 +139,7 @@
     "description-en": "This is a web application developed in Symfony that allows creating folders for clients. This application offers a feature that allows comparing insurance contracts by using multiple APIs to retrieve contracts and pricing from different companies. The prices vary depending on the data entered in the client's folder and are displayed in a table for easy comparison. In addition to that, folders can be directly exported to insurance companies' extranet to finalize the subscription. This feature saves time and simplifies the subscription process.",
     "titre-es": "Comparador de contratos de seguros",
     "description-es": "Esta es una aplicación web desarrollada en Symfony que permite crear carpetas para clientes. Esta aplicación ofrece una funcionalidad que permite comparar contratos de seguros utilizando múltiples APIs para recuperar contratos y precios de diferentes compañías. Los precios varían en función de los datos introducidos en la carpeta del cliente y se muestran en una tabla para una fácil comparación. Además, las carpetas pueden ser exportadas directamente al extranet de las compañías de seguros para finalizar la suscripción. Esta funcionalidad ahorra tiempo y simplifica el proceso de suscripción.",
-    "miniature": "miniature-assurance.webp",
+    "miniature": "miniature-comparateur-assurance.webp",
     "images": [
       "comparateur-1.webp"
     ],
@@ -157,7 +158,7 @@
     "description-en": "This CRM is a web application developed in Symfony that allows businesses to efficiently manage their customer relationships. It offers a wide range of features to help users better manage their interactions with clients.<br><br>One of the main features of the CRM is lead and prospect management. Users can easily track their interactions with them and add notes to facilitate follow-up. In addition, to optimize contact management, email templates are available to users. These are automatically completed to schedule appointments or send follow-up emails.<br><br>The CRM also allows for the creation of invoices for clients. Users can easily create invoices, send them by email to clients, and track them until payment is received. Invoices are automatically saved in client files.<br><br>Another very useful feature is the generation of contracts and electronic signatures. Users can launch electronic signature procedures on contracts automatically generated by the CRM and track them until they are signed. Contracts are also automatically saved in client files after signature.<br><br>Additionally, the CRM offers a feature for generating statistics to analyze performance, either as an agency director with a global view of everything, or with a more limited view as an advisor who only sees their own data. Users can obtain information on current or past files, invoices awaiting payment, etc. This information is presented in tables and excel extractions for easy reading.<br><br>Finally, to ensure better security and organization, the application allows for the management of users and their roles. Users can be assigned to specific roles with different access permissions. In addition, to strengthen application security, two-factor authentication is mandatory.",
     "titre-es": "Software de gestión de relaciones con clientes (CRM)",
     "description-es": "Este CRM es una aplicación web desarrollada en Symfony que permite a las empresas gestionar eficientemente sus relaciones con los clientes. Ofrece una amplia gama de funciones para ayudar a los usuarios a gestionar mejor sus interacciones con los clientes.<br><br>Una de las funciones principales del CRM es la gestión de prospectos y leads. Los usuarios pueden seguir fácilmente sus interacciones con ellos y agregar notas para facilitar el seguimiento. Además, para optimizar la gestión de contactos, se ofrecen plantillas de correo electrónico a los usuarios. Estas se completan automáticamente para programar citas o enviar correos de seguimiento.<br><br>El CRM también permite la creación de facturas para los clientes. Los usuarios pueden crear fácilmente facturas, enviarlas por correo electrónico a los clientes y realizar un seguimiento de ellas hasta que se reciba el pago. Las facturas se guardan automáticamente en los archivos de los clientes.<br><br>Otra función muy útil es la generación de contratos y firmas electrónicas. Los usuarios pueden iniciar procedimientos de firma electrónica en contratos generados automáticamente por el CRM y realizar un seguimiento de ellos hasta que se firmen. Los contratos también se guardan automáticamente en los archivos de los clientes después de la firma.<br><br>Además, el CRM ofrece una función para generar estadísticas para analizar el rendimiento, ya sea como director de agencia con una visión global de todo o con una visión más limitada como asesor que solo ve sus propios datos. Los usuarios pueden obtener información sobre archivos actuales o pasados, facturas pendientes de pago, etc. Esta información se presenta en tablas y extracciones de Excel para una lectura fácil.<br><br>Por último, para garantizar una mejor seguridad y organización, la aplicación permite la gestión de usuarios y sus roles. Los usuarios pueden ser asignados a roles específicos con diferentes permisos de acceso. Además, para fortalecer la seguridad de la aplicación, se requiere la autenticación de dos factores.",
-    "miniature": "placeholder.webp",
+    "miniature": "miniature-placeholder.webp",
     "images": [
       "placeholder.webp"
     ],
