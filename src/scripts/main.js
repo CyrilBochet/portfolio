@@ -54,12 +54,14 @@ function processJson() {
         }
 
         for (let i = 0; i < projects.length; i++) {
+            // https://www.responsivebreakpoints.com/
+            const pathProject = 'dist/images/projets/' + projects[i]["id"] + '/' + projects[i]["miniature"];
 
             const card = ` <div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-5" data-project-type="${projects[i]["type"]}">
                         <div class="card">
                             <div class="card-body p-0 surface">
-                                <img class="img-fluid card-img" width="968" height="900"
-                                     src="dist/images/projets/miniatures/${projects[i]["miniature"]}" alt="projet ${projects[i][titleKey]} / ${projects[i]["miniature"]}">
+                            <img class="img-fluid card-img" width="408" height="379" sizes="(max-width: 408px) 100vw, 408px" srcset="${pathProject}_w200.webp 200w, ${pathProject}_w408.webp 408w"
+                                src="${pathProject}_w408.webp" alt="projet ${projects[i][titleKey]} / ${projects[i]["miniature"]}">
                             </div>
                             <div class="card-body on-surface-text surface">
                                 <div class="title-large mb-4">${projects[i][titleKey]}</div>
@@ -113,8 +115,8 @@ function processJson() {
         $('#project-tags').html(tagsHtml);
 
         const imagesHtml = images.map((img, index) => `
-        <a href="dist/images/projets/illustrations/${projectId}/${img}">
-            <img class="img-fluid img-project" src="dist/images/projets/illustrations/${projectId}/${img}" data-fancybox="project-${projectId}" data-caption="${titre} - ${index + 1}">
+        <a href="dist/images/projets/${projectId}/${img}">
+            <img class="img-fluid img-project" src="dist/images/projets/${projectId}/${img}" data-fancybox="project-${projectId}" data-caption="${titre} - ${index + 1}">
         </a>
     `).join('');
         $('#project-images').html(imagesHtml);
