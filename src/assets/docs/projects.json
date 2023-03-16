@@ -1,5 +1,69 @@
 [
   {
+    "id": 2,
+    "titre-fr": "Bloc-notes",
+    "description-fr": "Ce projet scolaire sur lequel j'ai travaillé était l'un de mes premiers cn C#, et il consistait à concevoir un bloc-notes avec Windows Form.<br><br>\nL'objectif de cette application était de permettre aux utilisateurs d'ouvrir ou de créer des fichiers texte modifiables et de les enregistrer. En somme, le bloc-notes offrait les fonctionnalités de base attendues d'un éditeur de texte.<br>Le bloc-notes dispose également d'un compteur de caractères pour aider l'utilisateur à suivre la quantité de texte saisie.",
+    "titre-en": "Notepad",
+    "description-en": "This school project I worked on was one of my first C# projects, and it involved designing a notepad application using Windows Forms.<br><br>\nThe purpose of this application was to allow users to open or create editable text files and save them. In essence, the notepad offered the basic functionalities expected of a text editor.<br>The notepad also has a character counter to help the user keep track of the amount of text input.",
+    "titre-es": "Bloc de notas",
+    "description-es": "Este proyecto escolar en el que trabajé fue uno de mis primeros en C#, y consistió en diseñar un bloc de notas con Windows Form.<br><br>\nEl objetivo de esta aplicación era permitir a los usuarios abrir o crear archivos de texto editables y guardarlos. En resumen, el bloc de notas ofrecía las funciones básicas esperadas de un editor de texto.<br>El bloc de notas también tiene un contador de caracteres para ayudar al usuario a seguir la cantidad de texto ingresado.",
+    "miniature": "miniature-bloc-notes.webp",
+    "images": [
+      "bloc-notes.webp"
+    ],
+    "tag": [
+      "Csharp",
+      "WinForms",
+      "Projet scolaire"
+    ],
+    "type": "software"
+  },
+
+  {
+    "id": 4,
+    "titre-fr": "Gestionnaire de commandes",
+    "description-fr": "Le projet sur lequel j'ai travaillé était de concevoir un logiciel de gestion de commandes avec C# et WinForms.<br><br>\nLe logiciel comprend une interface de connexion pour permettre aux utilisateurs de s'authentifier et d'accéder aux fonctionnalités de gestion de commandes. Une fois connectés, les utilisateurs peuvent accéder à différentes fonctionnalités, telles que la visualisation de la liste des commandes, la mise à jour du statut des commandes (payée, expédiée, etc.), le détail du client et de sa commande et la génération d'un PDF récapitulatif pour une commande sélectionnée.",
+    "titre-en": "Order Manager",
+    "description-en": "The project I worked on was to design an order management software with C# and WinForms.<br><br>\nThe software includes a login interface to allow users to authenticate and access order management functionalities. Once logged in, users can access different features, such as viewing the list of orders, updating the order status (paid, shipped, etc.), customer and order details, and generating a summary PDF for a selected order.",
+    "titre-es": "Gestor de Pedidos",
+    "description-es": "El proyecto en el que trabajé consistió en diseñar un software de gestión de pedidos con C# y WinForms.<br><br>\nEl software incluye una interfaz de inicio de sesión para permitir que los usuarios se autentiquen y accedan a las funcionalidades de gestión de pedidos. Una vez iniciada la sesión, los usuarios pueden acceder a diferentes funciones, como ver la lista de pedidos, actualizar el estado del pedido (pagado, enviado, etc.), los detalles del cliente y del pedido, y generar un resumen PDF para un pedido seleccionado.",
+    "miniature": "miniature-gestionnaire-commandes.webp",
+    "images": [
+      "gestion-commandes-installation.webp",
+      "gestion-commandes-login.webp",
+      "gestion-commandes-menu.webp",
+      "gestion-commandes-home.webp",
+      "gestion-commandes-colisage.webp",
+      "gestion-commandes-recherche.webp"
+    ],
+    "tag": [
+      "Csharp",
+      "WinForms"
+    ],
+    "type": "software"
+  },
+  {
+    "id": 6,
+    "titre-fr": "Bingo",
+    "description-fr": "Ceci est un logiciel de simulation de partie de Bingo. Le programme permet à l'utilisateur de sélectionner le nombre de joueurs (de 2 à 4) et de saisir leur nom. Avant de commencer la partie, une option est disponible pour lire les règles. Une fois dans le jeu, l'utilisateur peut cliquer sur \"Lancer la roue\" pour tirer un numéro aléatoire. Si le numéro apparaît sur la grille d'un joueur, il doit cliquer dessus pour le valider. Le joueur qui valide une ligne en premier est déclaré gagnant.",
+    "titre-en": "Bingo",
+    "description-en": "This is a bingo game simulation software. The program allows the user to select the number of players (from 2 to 4) and enter their names. Before starting the game, an option is available to read the rules. Once in the game, the user can click on \"Spin the wheel\" to draw a random number. If the number appears on a player's card, they must click on it to validate it. The player who validates a line first is declared the winner.",
+    "titre-es": "Bingo",
+    "description-es": "Este es un software de simulación de juego de bingo. El programa permite al usuario seleccionar el número de jugadores (de 2 a 4) e ingresar sus nombres. Antes de comenzar el juego, hay una opción disponible para leer las reglas. Una vez en el juego, el usuario puede hacer clic en \"Girar la rueda\" para sacar un número al azar. Si el número aparece en la tarjeta de un jugador, debe hacer clic en él para validarlo. El jugador que valide una línea primero es declarado el ganador.",
+    "miniature": "miniature-bingo.webp",
+    "images": [
+      "bingo-1.webp",
+      "bingo-2.webp",
+      "bingo-3.webp"
+    ],
+    "tag": [
+      "Csharp",
+      "WinForms",
+      "Projet personnel"
+    ],
+    "type": "software"
+  },
+  {
     "id": 1,
     "titre-fr": "Multi sites Magento",
     "description-fr": "Au cours de mon stage en BTS SIO, j'ai eu l'opportunité de participer à un projet de gestion de plusieurs sites e-commerce créés sur Magento.<br><br>Mon rôle principal consistait à améliorer et mettre à jour ces sites pour offrir une expérience utilisateur agréable et augmenter les taux de conversion des ventes.<br><br>Pour y parvenir, j'ai réalisé plusieurs tâches telles que le paramétrage de différents modules, notamment pour automatiser la distribution de coupons. <br><br>J'ai mis en place un système automatique de calcul de points de fidélité pour chaque achat en fonction du montant total du panier.<br> J'ai également créé des newsletters programmées pour la période des soldes. <br><br>Enfin, j'ai ajouté un chat en ligne sur chaque site pour permettre aux clients de poser facilement et rapidement leurs questions, avec des modèles de réponses préétablis.",
@@ -24,71 +88,7 @@
     "type": "web"
   },
   {
-    "id": 2,
-    "titre-fr": "Bloc-notes",
-    "description-fr": "Ce projet scolaire sur lequel j'ai travaillé était l'un de mes premiers cn C#, et il consistait à concevoir un bloc-notes avec Windows Form.<br><br>\nL'objectif de cette application était de permettre aux utilisateurs d'ouvrir ou de créer des fichiers texte modifiables et de les enregistrer. En somme, le bloc-notes offrait les fonctionnalités de base attendues d'un éditeur de texte.<br>Le bloc-notes dispose également d'un compteur de caractères pour aider l'utilisateur à suivre la quantité de texte saisie.",
-    "titre-en": "Notepad",
-    "description-en": "This school project I worked on was one of my first C# projects, and it involved designing a notepad application using Windows Forms.<br><br>\nThe purpose of this application was to allow users to open or create editable text files and save them. In essence, the notepad offered the basic functionalities expected of a text editor.<br>The notepad also has a character counter to help the user keep track of the amount of text input.",
-    "titre-es": "Bloc de notas",
-    "description-es": "Este proyecto escolar en el que trabajé fue uno de mis primeros en C#, y consistió en diseñar un bloc de notas con Windows Form.<br><br>\nEl objetivo de esta aplicación era permitir a los usuarios abrir o crear archivos de texto editables y guardarlos. En resumen, el bloc de notas ofrecía las funciones básicas esperadas de un editor de texto.<br>El bloc de notas también tiene un contador de caracteres para ayudar al usuario a seguir la cantidad de texto ingresado.",
-    "miniature": "miniature-bloc-notes.webp",
-    "images": [
-      "bloc-notes-1.webp"
-    ],
-    "tag": [
-      "Csharp",
-      "WinForms",
-      "Projet scolaire"
-    ],
-    "type": "software"
-  },
-  {
-    "id": 6,
-    "titre-fr": "Lazy Garden : L'assistant des jardiniers en herbe",
-    "description-fr": "Lazy Garden est une application Android conçue pour aider les amateurs de jardinage à prendre soin de leurs plantes en temps réel.<br><br>Le fonctionnement de cette application repose sur des capteurs placés sur le pot de fleurs qui collectent les données nécessaires pour évaluer les besoins en eau et en lumière de la plante. Ces données sont ensuite envoyées dans le cloud où elles sont analysées par l'application Lazy Garden.<br><br>En fonction des données collectées, l'application affiche un message indiquant les besoins de la plante en termes d'arrosage, d'exposition à la lumière et de température ambiante. Elle permet ainsi à l'utilisateur de savoir exactement quand et comment prendre soin de ses plantes pour qu'elles restent en bonne santé.<br><br>L'application propose une interface simple qui affiche des images en fonction de l'état de la plante, ce qui permet à l'utilisateur de visualiser facilement la situation de ses plantes et de suivre leur évolution.",
-    "titre-en": "Lazy Garden : The Assistant for Budding Gardeners",
-    "description-en": "Lazy Garden is an Android application designed to help gardening enthusiasts take care of their plants in real-time.<br><br>The functioning of this application is based on sensors placed on the flowerpot which collect the necessary data to evaluate the plant's water and light needs. This data is then sent to the cloud where it is analyzed by the Lazy Garden application.<br><br>Based on the collected data, the application displays a message indicating the plant's needs in terms of watering, exposure to light, and ambient temperature. This allows the user to know exactly when and how to take care of their plants to keep them healthy.<br><br>The application offers a simple interface that displays images based on the state of the plant, allowing the user to easily visualize the situation of their plants and track their progress.",
-    "titre-es": "Lazy Garden : El Asistente para Jardineros Novatos",
-    "description-es": "Lazy Garden es una aplicación de Android diseñada para ayudar a los amantes de la jardinería a cuidar sus plantas en tiempo real.<br><br>El funcionamiento de esta aplicación se basa en sensores colocados en la maceta que recopilan los datos necesarios para evaluar las necesidades de agua y luz de la planta. Estos datos se envían luego a la nube donde son analizados por la aplicación Lazy Garden.<br><br>En función de los datos recopilados, la aplicación muestra un mensaje indicando las necesidades de la planta en términos de riego, exposición a la luz y temperatura ambiente. Esto permite al usuario saber exactamente cuándo y cómo cuidar de sus plantas para que se mantengan saludables.<br><br>La aplicación ofrece una interfaz sencilla que muestra imágenes según el estado de la planta, lo que permite al usuario visualizar fácilmente la situación de sus plantas y seguir su evolución.",
-    "miniature": "miniature-lazy-garden.webp",
-    "images": [
-      "lazy-garden-1.webp",
-      "lazy-garden-2.webp",
-      "lazy-garden-3.webp",
-      "lazy-garden-schema.webp"
-    ],
-    "tag": [
-      "Android",
-      "Firebase",
-      "Projet scolaire"
-    ],
-    "type": "mobile"
-  },
-  {
-    "id": 7,
-    "titre-fr": "Gestionnaire de commandes",
-    "description-fr": "Le projet sur lequel j'ai travaillé était de concevoir un logiciel de gestion de commandes avec C# et WinForms.<br><br>\nLe logiciel comprend une interface de connexion pour permettre aux utilisateurs de s'authentifier et d'accéder aux fonctionnalités de gestion de commandes. Une fois connectés, les utilisateurs peuvent accéder à différentes fonctionnalités, telles que la visualisation de la liste des commandes, la mise à jour du statut des commandes (payée, expédiée, etc.), le détail du client et de sa commande et la génération d'un PDF récapitulatif pour une commande sélectionnée.",
-    "titre-en": "Order Manager",
-    "description-en": "The project I worked on was to design an order management software with C# and WinForms.<br><br>\nThe software includes a login interface to allow users to authenticate and access order management functionalities. Once logged in, users can access different features, such as viewing the list of orders, updating the order status (paid, shipped, etc.), customer and order details, and generating a summary PDF for a selected order.",
-    "titre-es": "Gestor de Pedidos",
-    "description-es": "El proyecto en el que trabajé consistió en diseñar un software de gestión de pedidos con C# y WinForms.<br><br>\nEl software incluye una interfaz de inicio de sesión para permitir que los usuarios se autentiquen y accedan a las funcionalidades de gestión de pedidos. Una vez iniciada la sesión, los usuarios pueden acceder a diferentes funciones, como ver la lista de pedidos, actualizar el estado del pedido (pagado, enviado, etc.), los detalles del cliente y del pedido, y generar un resumen PDF para un pedido seleccionado.",
-    "miniature": "miniature-gestionnaire-commandes.webp",
-    "images": [
-      "gestion-commandes-installation.webp",
-      "gestion-commandes-login.webp",
-      "gestion-commandes-menu.webp",
-      "gestion-commandes-home.webp",
-      "gestion-commandes-colisage.webp",
-      "gestion-commandes-recherche.webp"
-    ],
-    "tag": [
-      "Csharp",
-      "WinForms"
-    ],
-    "type": "software"
-  },
-  {
-    "id": 8,
+    "id": 5,
     "titre-fr": "Module PrestaShop - Gestion fournisseurs",
     "description-fr": "Ce module pour PrestaShop permet de gérer efficacement plusieurs fournisseurs avec différents prix d'achat pour les produits du catalogue. Les fournisseurs peuvent être activés ou désactivés et classés par ordre de priorité. Une fonctionnalité d'automatisation a été développée pour activer automatiquement le produit qui répond le mieux aux critères suivants :<br><br>- Meilleur prix<br>- Stock disponible le plus important<br>- Fournisseur avec la plus haute priorité<br>- Ce module est compatible avec la version 1.7.x de PrestaShop, offrant ainsi une solution de gestion de fournisseurs plus efficace et pratique pour les utilisateurs de PrestaShop.<br>",
     "titre-en": "PrestaShop Module - Supplier Management",
@@ -111,28 +111,31 @@
     "type": "web"
   },
   {
-    "id": 9,
-    "titre-fr": "Bingo",
-    "description-fr": "Ceci est un logiciel de simulation de partie de Bingo. Le programme permet à l'utilisateur de sélectionner le nombre de joueurs (de 2 à 4) et de saisir leur nom. Avant de commencer la partie, une option est disponible pour lire les règles. Une fois dans le jeu, l'utilisateur peut cliquer sur \"Lancer la roue\" pour tirer un numéro aléatoire. Si le numéro apparaît sur la grille d'un joueur, il doit cliquer dessus pour le valider. Le joueur qui valide une ligne en premier est déclaré gagnant.",
-    "titre-en": "Bingo",
-    "description-en": "This is a bingo game simulation software. The program allows the user to select the number of players (from 2 to 4) and enter their names. Before starting the game, an option is available to read the rules. Once in the game, the user can click on \"Spin the wheel\" to draw a random number. If the number appears on a player's card, they must click on it to validate it. The player who validates a line first is declared the winner.",
-    "titre-es": "Bingo",
-    "description-es": "Este es un software de simulación de juego de bingo. El programa permite al usuario seleccionar el número de jugadores (de 2 a 4) e ingresar sus nombres. Antes de comenzar el juego, hay una opción disponible para leer las reglas. Una vez en el juego, el usuario puede hacer clic en \"Girar la rueda\" para sacar un número al azar. Si el número aparece en la tarjeta de un jugador, debe hacer clic en él para validarlo. El jugador que valide una línea primero es declarado el ganador.",
-    "miniature": "miniature-bingo.webp",
+    "id": 3,
+    "titre-fr": "Lazy Garden : L'assistant des jardiniers en herbe",
+    "description-fr": "Lazy Garden est une application Android conçue pour aider les amateurs de jardinage à prendre soin de leurs plantes en temps réel.<br><br>Le fonctionnement de cette application repose sur des capteurs placés sur le pot de fleurs qui collectent les données nécessaires pour évaluer les besoins en eau et en lumière de la plante. Ces données sont ensuite envoyées dans le cloud où elles sont analysées par l'application Lazy Garden.<br><br>En fonction des données collectées, l'application affiche un message indiquant les besoins de la plante en termes d'arrosage, d'exposition à la lumière et de température ambiante. Elle permet ainsi à l'utilisateur de savoir exactement quand et comment prendre soin de ses plantes pour qu'elles restent en bonne santé.<br><br>L'application propose une interface simple qui affiche des images en fonction de l'état de la plante, ce qui permet à l'utilisateur de visualiser facilement la situation de ses plantes et de suivre leur évolution.",
+    "titre-en": "Lazy Garden : The Assistant for Budding Gardeners",
+    "description-en": "Lazy Garden is an Android application designed to help gardening enthusiasts take care of their plants in real-time.<br><br>The functioning of this application is based on sensors placed on the flowerpot which collect the necessary data to evaluate the plant's water and light needs. This data is then sent to the cloud where it is analyzed by the Lazy Garden application.<br><br>Based on the collected data, the application displays a message indicating the plant's needs in terms of watering, exposure to light, and ambient temperature. This allows the user to know exactly when and how to take care of their plants to keep them healthy.<br><br>The application offers a simple interface that displays images based on the state of the plant, allowing the user to easily visualize the situation of their plants and track their progress.",
+    "titre-es": "Lazy Garden : El Asistente para Jardineros Novatos",
+    "description-es": "Lazy Garden es una aplicación de Android diseñada para ayudar a los amantes de la jardinería a cuidar sus plantas en tiempo real.<br><br>El funcionamiento de esta aplicación se basa en sensores colocados en la maceta que recopilan los datos necesarios para evaluar las necesidades de agua y luz de la planta. Estos datos se envían luego a la nube donde son analizados por la aplicación Lazy Garden.<br><br>En función de los datos recopilados, la aplicación muestra un mensaje indicando las necesidades de la planta en términos de riego, exposición a la luz y temperatura ambiente. Esto permite al usuario saber exactamente cuándo y cómo cuidar de sus plantas para que se mantengan saludables.<br><br>La aplicación ofrece una interfaz sencilla que muestra imágenes según el estado de la planta, lo que permite al usuario visualizar fácilmente la situación de sus plantas y seguir su evolución.",
+    "miniature": "miniature-lazy-garden.webp",
     "images": [
-      "bingo-1.webp",
-      "bingo-2.webp",
-      "bingo-3.webp"
+      "lazy-garden-1.webp",
+      "lazy-garden-2.webp",
+      "lazy-garden-3.webp",
+      "lazy-garden-schema.webp"
     ],
     "tag": [
-      "Csharp",
-      "WinForms",
-      "Projet personnel"
+      "Android",
+      "Firebase",
+      "Android Studio",
+      "Projet scolaire"
     ],
-    "type": "software"
+    "type": "mobile"
   },
+
   {
-    "id": 10,
+    "id": 7,
     "titre-fr": "Comparateur de contrats d'assurance",
     "description-fr": "Il s'agit d'une application web développée en Symfony qui permet de créer des dossiers pour ses clients. Cette application offre une fonctionnalité permettant de comparer des contrats d'assurance en faisant appel à plusieurs API pour récupérer les contrats et les tarifications de différentes compagnies.<br> Les tarifs varient en fonction des données saisies dans le dossier du client et sont affichés dans un tableau pour une comparaison facile.<br>\nEn plus de cela, les dossiers peuvent être exportés directement vers l'extranet des compagnies d'assurance pour finaliser la souscription. Cette fonctionnalité permet de gagner du temps et de simplifier le processus de souscription.",
     "titre-en": "Insurance Contract Comparator",
@@ -141,36 +144,36 @@
     "description-es": "Esta es una aplicación web desarrollada en Symfony que permite crear carpetas para clientes. Esta aplicación ofrece una funcionalidad que permite comparar contratos de seguros utilizando múltiples APIs para recuperar contratos y precios de diferentes compañías. Los precios varían en función de los datos introducidos en la carpeta del cliente y se muestran en una tabla para una fácil comparación. Además, las carpetas pueden ser exportadas directamente al extranet de las compañías de seguros para finalizar la suscripción. Esta funcionalidad ahorra tiempo y simplifica el proceso de suscripción.",
     "miniature": "miniature-comparateur-assurance.webp",
     "images": [
-      "comparateur-1.webp"
+      "comparateur.webp"
     ],
     "tag": [
       "Symfony 5",
       "PHP 7.4",
-      "API"
+      "API",
+      "MySQL"
     ],
     "type": "web"
   },
   {
-    "id": 11,
+    "id": 8,
     "titre-fr": "Gestionnaire de relations clients (CRM)",
     "description-fr": "Ce CRM est une application web développée en Symfony qui permet de gérer efficacement ses relations clients. Elle regorge de fonctionnalités pour aider les utilisateurs à mieux gérer les interactions avec les clients.<br><br>L'une des fonctionnalités principales du CRM est la gestion des prospects et des leads. Les utilisateurs peuvent facilement suivre l'historique de leurs interactions avec ceux-ci, et ajouter des notes pour faciliter leur suivi. De plus, pour optimiser la gestion des contacts, des modèles de mails sont mis à leur disposition. Ces derniers sont complétés automatiquement pour planifier des prises de rendez-vous ou des relances par mail.<br><br>Le CRM permet par ailleurs la création de factures pour les clients. Les utilisateurs peuvent facilement créer des factures, les envoyer par e-mail aux clients, et les suivre jusqu'à leur paiement. Les factures sont automatiquement enregistrées dans les dossiers clients.<br><br>Une autre fonctionnalité très utile est la génération de contrats et leur signature électronique. Les utilisateurs peuvent lancer des procédures de signature électronique sur des contrats générés automatiquement par le CRM, et les suivre jusqu'à leur signature. Les contrats sont également automatiquement enregistrés dans les dossiers après signature.<br><br>De plus, le CRM propose une fonctionnalité de génération de statistiques pour analyser ses performances, soit en tant que directeur d'agence avec une vue globale sur tout, soit avec une vue plus restreinte en tant que conseiller qui ne voit que ses données à lui. Les utilisateurs peuvent obtenir des informations sur les dossiers en cours ou passés, les factures en attente de paiement, etc. Ces informations sont présentées sous forme de tableaux et d'extractions excel pour faciliter leur lecture.<br><br>Enfin, pour assurer une meilleure sécurité et une meilleure organisation, l'application permet la gestion des utilisateurs et de leurs rôles. Les utilisateurs peuvent être assignés à des rôles spécifiques avec des autorisations d'accès différentes. De surcroît, pour renforcer la sécurité de l'application, la double authentification est obligatoire.",
     "titre-en": "Customer Relationship Management (CRM)",
     "description-en": "This CRM is a web application developed in Symfony that allows businesses to efficiently manage their customer relationships. It offers a wide range of features to help users better manage their interactions with clients.<br><br>One of the main features of the CRM is lead and prospect management. Users can easily track their interactions with them and add notes to facilitate follow-up. In addition, to optimize contact management, email templates are available to users. These are automatically completed to schedule appointments or send follow-up emails.<br><br>The CRM also allows for the creation of invoices for clients. Users can easily create invoices, send them by email to clients, and track them until payment is received. Invoices are automatically saved in client files.<br><br>Another very useful feature is the generation of contracts and electronic signatures. Users can launch electronic signature procedures on contracts automatically generated by the CRM and track them until they are signed. Contracts are also automatically saved in client files after signature.<br><br>Additionally, the CRM offers a feature for generating statistics to analyze performance, either as an agency director with a global view of everything, or with a more limited view as an advisor who only sees their own data. Users can obtain information on current or past files, invoices awaiting payment, etc. This information is presented in tables and excel extractions for easy reading.<br><br>Finally, to ensure better security and organization, the application allows for the management of users and their roles. Users can be assigned to specific roles with different access permissions. In addition, to strengthen application security, two-factor authentication is mandatory.",
     "titre-es": "Software de gestión de relaciones con clientes (CRM)",
     "description-es": "Este CRM es una aplicación web desarrollada en Symfony que permite a las empresas gestionar eficientemente sus relaciones con los clientes. Ofrece una amplia gama de funciones para ayudar a los usuarios a gestionar mejor sus interacciones con los clientes.<br><br>Una de las funciones principales del CRM es la gestión de prospectos y leads. Los usuarios pueden seguir fácilmente sus interacciones con ellos y agregar notas para facilitar el seguimiento. Además, para optimizar la gestión de contactos, se ofrecen plantillas de correo electrónico a los usuarios. Estas se completan automáticamente para programar citas o enviar correos de seguimiento.<br><br>El CRM también permite la creación de facturas para los clientes. Los usuarios pueden crear fácilmente facturas, enviarlas por correo electrónico a los clientes y realizar un seguimiento de ellas hasta que se reciba el pago. Las facturas se guardan automáticamente en los archivos de los clientes.<br><br>Otra función muy útil es la generación de contratos y firmas electrónicas. Los usuarios pueden iniciar procedimientos de firma electrónica en contratos generados automáticamente por el CRM y realizar un seguimiento de ellos hasta que se firmen. Los contratos también se guardan automáticamente en los archivos de los clientes después de la firma.<br><br>Además, el CRM ofrece una función para generar estadísticas para analizar el rendimiento, ya sea como director de agencia con una visión global de todo o con una visión más limitada como asesor que solo ve sus propios datos. Los usuarios pueden obtener información sobre archivos actuales o pasados, facturas pendientes de pago, etc. Esta información se presenta en tablas y extracciones de Excel para una lectura fácil.<br><br>Por último, para garantizar una mejor seguridad y organización, la aplicación permite la gestión de usuarios y sus roles. Los usuarios pueden ser asignados a roles específicos con diferentes permisos de acceso. Además, para fortalecer la seguridad de la aplicación, se requiere la autenticación de dos factores.",
-    "miniature": "miniature-placeholder.webp",
-    "images": [
-      "placeholder.webp"
-    ],
+    "miniature": "miniature-crm.webp",
+    "images": [],
     "tag": [
       "Symfony 6",
       "PHP 8",
-      "CRM"
+      "CRM",
+      "MySQL"
     ],
     "type": "web"
   },
   {
-    "id": 12,
+    "id": 9,
     "titre-fr": "Pinsta : une application mobile inspirée d'Instagram",
     "description-fr": "Pinsta est une application mobile développée avec Flutter et le langage Dart, utilisant Firebase pour stocker les données. Cette application est inspirée du réseau social Instagram et offre des fonctionnalités similaires.<br><br>La première fonctionnalité est bien évidemment la possibilité de créer un compte et de se connecter, permettant ainsi à l'utilisateur d'accéder à l'application.<br><br>Une fois connecté, l'utilisateur peut personnaliser sa biographie, son nom d'affichage et sa photo de profil.<br><br>Ensuite, il peut commencer à prendre une photo qu'il pourra recadrer, filtrer, faire pivoter et publier pour la partager avec ses followers.<br><br>Pinsta offre également une fonctionnalité de recherche de photos libres de droits grâce à l'API Pixabay. Cela permet aux utilisateurs de trouver facilement des images pertinentes en tapant des mots-clés pour effectuer une recherche dans la banque d'images de Pixabay.<br><br>Comme tout réseau social, Pinsta dispose d'un système d'abonnements entre utilisateurs. Ce système permet d'avoir un fil d'actualité personnalisé avec les photos mises en ligne par les personnes suivies. De plus, Pinsta offre un système de \"j'aime\" sur les photos, permettant aux utilisateurs de montrer leur appréciation pour une photo en particulier.",
     "titre-en": "Pinsta: an Instagram-inspired mobile app",
@@ -180,8 +183,16 @@
     "miniature": "miniature-pinsta.webp",
     "images": [
       "pinsta-app.webp",
+      "pinsta-register.webp",
       "pinsta-login.webp",
-      "pinsta-register.webp"
+      "pinsta-profile.webp",
+      "pinsta-explorateur.webp",
+      "pinsta-crop.webp",
+      "pinsta-filter.webp",
+      "pinsta-pixabay.webp",
+      "pinsta-pixabay-resultats.webp",
+      "pinsta-abonnement.webp"
+
     ],
     "tag": [
       "Flutter",

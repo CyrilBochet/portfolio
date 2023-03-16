@@ -27,9 +27,10 @@ function getAge(dateString) {
 
 let projects;
 $.getJSON('dist/docs/projects.json', function (projectsJson) {
-    projects = projectsJson.sort(function () {
-        return 0.5 - Math.random()
-    });
+    // projects = projectsJson.sort(function () {
+    //     return 0.5 - Math.random()
+    // });
+    projects = projectsJson.reverse();
     processJson();
 
 });
@@ -112,8 +113,8 @@ function processJson() {
         $('#project-tags').html(tagsHtml);
 
         const imagesHtml = images.map((img, index) => `
-        <a href="dist/images/projets/illustrations/${img}">
-            <img class="img-fluid img-project" src="dist/images/projets/illustrations/${img}" data-fancybox="project-${projectId}" data-caption="${titre} - ${index + 1}">
+        <a href="dist/images/projets/illustrations/${projectId}/${img}">
+            <img class="img-fluid img-project" src="dist/images/projets/illustrations/${projectId}/${img}" data-fancybox="project-${projectId}" data-caption="${titre} - ${index + 1}">
         </a>
     `).join('');
         $('#project-images').html(imagesHtml);
