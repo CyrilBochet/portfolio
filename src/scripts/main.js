@@ -58,7 +58,7 @@ function processJson() {
             const card = ` <div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-5" data-project-type="${projects[i]["type"]}">
                         <div class="card">
                             <div class="card-body p-0 surface">
-                                <img class="img-fluid card-img w-100 h-100"
+                                <img class="img-fluid card-img" width="968" height="900"
                                      src="dist/images/projets/miniatures/${projects[i]["miniature"]}" alt="projet ${projects[i][titleKey]} / ${projects[i]["miniature"]}">
                             </div>
                             <div class="card-body on-surface-text surface">
