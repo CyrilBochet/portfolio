@@ -202,5 +202,21 @@
       "Projet scolaire"
     ],
     "type": "mobile"
+  },
+  {
+    "id": 10,
+    "titre-fr": "Intranet d'Entreprise Polyvalent",
+    "description-fr": "Dans le cadre de mon parcours professionnel, j'ai eu l'opportunité de concevoir et de développer en binôme un intranet d'entreprise complet répondant à des besoins diversifiés. Cet intranet offre une plateforme collaborative complète, intégrant une gamme variée d'outils et de fonctionnalités visant à améliorer l'efficacité opérationnelle et la communication interne, et à simplifier le quotidien.<br><br>Fonctionnalités clés :<br><br>Applications métiers centralisées : L'intranet intègre toutes les applications métiers développées en interne, offrant ainsi un accès facile et centralisé à ces outils, avec une fonctionnalité de connexion \"en un clic\".<br><br>Cloud de stockage commun : Un espace de stockage partagé est disponible pour faciliter le partage de documents et la collaboration entre les membres du réseau.<br><br>Outil de création de publications pour les réseaux sociaux : Une fonctionnalité intégrée permet la création de publications normées pour les réseaux sociaux, simplifiant ainsi la gestion de la présence en ligne de l'entreprise.<br><br>Système de ticketing guidé et chat textuel intégré : Les utilisateurs peuvent soumettre des demandes et des questions via un système de ticketing guidé, tout en bénéficiant d'un chat textuel intégré garantissant des échanges simplifiés.<br><br>Connexion avec une plateforme d'avis en ligne : L'intranet est connecté à une plateforme d'avis en ligne, offrant aux utilisateurs la possibilité de consulter leurs derniers avis directement depuis la page d'accueil.<br><br>Gestion des accès des salariés : Les directeurs d'agence bénéficient d'un système de gestion des accès leur permettant de contrôler et de gérer les autorisations d'accès des salariés aux différents outils et fonctionnalités.<br><br>FAQ : Une section FAQ est disponible pour répondre aux questions fréquemment posées et fournir des informations utiles.<br><br>Système de notifications global avec réactions emojis : Les utilisateurs reçoivent des notifications en temps réel sur les nouveautés pertinentes, les anniversaires, etc., avec la possibilité de réagir aux notifications à l'aide d'emojis, favorisant ainsi l'engagement et la collaboration.<br>Système de connexions sécurisées avec du 2FA : Un système de connexion sécurisé est mis en place, intégrant une authentification à deux facteurs (2FA) pour renforcer la sécurité.<br>Toutes les fonctionnalités de cet intranet ont été développées en interne de A à Z. Ce projet d'intranet d'entreprise complet a représenté une contribution significative à l'amélioration de la productivité, de la communication et de la collaboration au sein de l'entreprise. Son développement en interne a non seulement garanti une solution personnalisée et évolutive, mais également une amélioration des processus internes.",
+    "miniature": "miniature-crm",
+    "images": [
+      "intranet-1.webp"
+    ],
+    "tag": [
+      "Symfony 6",
+      "PHP 8",
+      "Intranet",
+      "MySQL"
+    ],
+    "type": "web"
   }
 ]
