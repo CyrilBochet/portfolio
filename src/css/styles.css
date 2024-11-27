@@ -3,6 +3,14 @@ body {
     color: var(--md-sys-color-on-surface-variant);;
 }
 
+strong {
+    font-family: var(--md-sys-typescale-display-medium-font-family-name);
+}
+
+.text-description > * {
+    font-family: 'ProductSans-Medium', Arial, Helvetica, sans-serif;
+}
+
 .landing-bg {
     position: relative;
     width: 100%;
@@ -178,6 +186,7 @@ footer a {
 .badge-project {
     background-color: var(--md-sys-color-secondary-container);
     color: var(--md-sys-color-secondary);
+    font-family: var(--md-sys-typescale-display-small-font-family-name);
 }
 
 .collapsible {
