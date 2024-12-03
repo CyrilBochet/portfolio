@@ -16,5 +16,3 @@ import './css/boostrap.css';
 import './css/material-symbols.css';
 import './css/navbar.css';
 import './css/media-queries.css';
-
-;

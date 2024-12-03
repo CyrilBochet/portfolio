@@ -1,67 +1,67 @@
 {
-  "job": "Full-stack Developer",
+  "job": "Full-Stack Developer",
   "nav": {
     "lang": "Language",
     "contact": "Contact Me",
     "projects": "Projects",
-    "experience": "Professional exp.",
+    "experience": "Work Experience",
     "education": "Education",
     "profile": "About me",
     "brand": "Portfolio"
   },
   "section": {
     "title": {
-      "about": "My Profile",
+      "about": "About me",
       "projects": "My Projects",
-      "experience": "Professional experiences",
+      "experience": "Work Experience",
       "education": "Education",
       "contact": "Contact Me"
     },
     "about": {
       "text": {
-        "part1": "Hello, my name is Cyril, I'm",
-        "part2": "years old, and I'm a Full-stack Developer at AFR Financement, a network of credit brokerage centers located in Villeneuve-Saint-Germain.",
-        "part3": "As a member of a team of developers, I work closely with my colleagues to design innovative digital solutions that meet the needs and expectations of our end users.",
-        "part4": "In my current role, I'm involved in all phases of web development projects, from initial design to production deployment. I'm particularly passionate about creating intuitive user interfaces that offer the most enjoyable experience possible.",
-        "part5": "I've worked on projects of all sizes, including simple websites, complex web applications, e-commerce projects, as well as mobile applications, even though the latter were less elaborate.",
-        "part6": "I hope you'll enjoy my portfolio and have a nice visit! \uD83D\uDE0A"
-      },
-      "btn": {
-        "cv": "My Curriculum Vitae"
+        "part1": "Hello, my name is Cyril, I am",
+        "part2": "years old, and I am a Full-Stack Developer at AFR Financement, a network of credit brokerage centers located in Villeneuve-Saint-Germain.",
+        "part3": "As a member of a development team, I work closely with my colleagues to design innovative digital solutions that meet the needs and expectations of our end users.",
+        "part4": "In my current role, I am involved in all phases of web project development, from initial design to production deployment.",
+        "part5": "I have worked on projects of all sizes, including simple websites, complex web applications, e-commerce projects, and even mobile applications, though the latter were less advanced.",
+        "part6": "I hope you enjoy my portfolio and have a great visit!"
       }
     },
     "experience": {
       "afr": {
-        "date": "2019 – today",
-        "job": "Full-stack Developer",
-        "part1": "Building and maintaining Symfony web applications: I was responsible for designing, developing, and maintaining several web applications using the Symfony framework. <br> I worked on all phases of the project, from analyzing requirements to production deployment, including technical design, programming, testing, and documentation.",
-        "part2": "Building and maintaining WordPress sites: I had the opportunity to create and maintain several websites based on the WordPress CMS. I used themes and plugins to customize the design and functionality. I also developed my own plugins.",
-        "part3": "Automated generation of PDF documents: I developed an automated process for generating PDF documents using tools such as TCPDF. <br> This process enabled the production of documents such as invoices, quotes, or contracts.",
-        "part4": "Development of an insurance contract comparison tool: I participated in the creation of an online tool for comparing different insurance contracts based on each client's profile. I worked on the technical design of the tool, programming the features, and testing.",
-        "part5": "Creation of a lead generation form: I developed an online form for collecting information on prospects interested in our services. I worked on the graphical design of the form, programming the features, and testing."
+        "date": "2019 – Present",
+        "job": "Full-Stack Developer",
+        "part1": "Development and maintenance of web applications used across the entire AFR Financement franchise, including: <ul><li><strong>CRM for credit brokers - personal financing</strong>: A Symfony-based web application designed to centralize lead management, client files, and contractual documents, with analytical tools and dedicated access for business introducers.</li><li><strong>CRM for credit brokers - professional financing</strong>: A web application offering similar functionalities to the personal financing CRM, but tailored to the specifics of professional financing processes.</li><li><strong>Borrower insurance contract comparison tool</strong>: Connected to around ten insurance company APIs, enabling automated comparisons of offers based on client profiles, with direct export to extranets to simplify subscriptions.</li><li><strong>Intranet</strong>: Centralizes all internal applications with advanced collaborative features to streamline user and brokerage center management.</li><li><strong>Forms</strong>: Design and development of interactive forms to efficiently collect prospect information. These forms are linked to CRMs for personalized and optimized follow-up, focusing on conversions.</li></ul>",
+        "part2": "API and API integrations: <ul><li><strong>API for leads</strong>: Development of an external API enabling partners to directly send leads to the various CRMs, ensuring smooth and automated tracking.</li><li><strong>Yousign API Client</strong>: Creation of a PHP-based client to facilitate the integration of electronic signatures via the Yousign API.</li></ul>",
+        "part3": "Network and system administration: <ul><li><strong>Site configuration on Windows Server</strong>: Setup of web applications and services hosted on Windows servers.</li><li><strong>Automated task scheduling</strong>: Implementation of scheduled tasks to automate processes such as report generation, data backups, or alerts.</li></ul>",
+        "part4": "I played a key role in the design, development, and maintenance of strategic web solutions for AFR Financement. My work improved the operational efficiency of brokers, automated critical processes, and enhanced the user experience across the franchise."
       },
       "emiled": {
-        "date": "11 weeks | 2016 - 2017",
-        "job": "Intern in the IT department",
-        "part1": "Realization of customer loyalty and experience improvement projects.",
-        "part2": "Improvement and maintenance of multi-sites on Magento. <br> Analysis and resolution of issues identified on functionalities.",
-        "part3": "Testing of an online product personalization solution and creation of video tutorials on its use.",
-        "part4": "Mailing on Mailchimp.",
-        "part5": "Graphic design on Photoshop."
+        "date": "11 weeks | 2016 – 2017",
+        "job": "IT Intern",
+        "part1": "Participation in projects aimed at enhancing customer loyalty and improving the user experience on e-commerce platforms.",
+        "part2": "Optimization and maintenance of multi-store websites on <strong>Magento</strong>, including analysis and resolution of identified functional issues.",
+        "part3": "Testing and validation of an online product customization solution, along with the creation of video tutorials to facilitate end-user adoption.",
+        "part4": "Design and execution of email campaigns using <strong>Mailchimp</strong>, from conception to dispatch, to support marketing initiatives.",
+        "part5": "Creation of various graphic assets using <strong>Photoshop</strong>, tailored to marketing needs and product personalization."
       }
     },
     "education": {
       "insset": {
-        "part1": "Degree obtained: Master's in Cloud Computing & Mobility • with honors.",
-        "part2": "Degree obtained: Bachelor's in Digital Professions."
+        "part1": "<strong>Degree:</strong> Master's in Cloud Computing & Mobility • with honors.",
+        "part2": "<strong>Degree:</strong> Bachelor's in Digital Careers.",
+        "description1": "This Master's program trains experts in mobile development, microservices, and cloud solutions. The curriculum emphasizes security, IoT, and project management, preparing students for roles such as engineers, project managers, or specialized consultants.",
+        "description2": "The Bachelor's in Digital Careers at INSSET provides a strong foundation in digital technologies, web development, and cloud computing. It focuses on practical skills in application development, database management, and introductory machine learning, opening pathways to careers in the tech industry."
       },
       "claudel": {
-        "part1": "Degree obtained: BTS in IT services to organizations • with honors.",
-        "part2": "Option: software solutions and business applications."
+        "part1": "<strong>Degree:</strong> BTS in IT Services to Organizations • with honors.",
+        "part2": "<strong>Specialization:</strong> Software Solutions and Business Applications.",
+        "description": "The BTS SIO trains professionals to design, develop, and maintain software solutions tailored to business needs. The Software Solutions and Business Applications specialization emphasizes development technologies, database management, and adapting digital tools to organizational requirements."
       },
       "nerval": {
-        "part1": "Degree obtained: Technological Baccalaureate • with highest honors.",
-        "part2": "Options: information systems management and cinema-audiovisual."
+        "part1": "<strong>Degree:</strong> Technological Baccalaureate • with high honors.",
+        "part2": "<strong>Specializations:</strong> Information Systems Management and Film/Audio-Visual Studies.",
+        "description": "The STMG Baccalaureate with the Information Systems Management option introduces students to web development and data management fundamentals. The Film/Audio-Visual option complements this with a technical and creative approach to multimedia production."
       }
     },
     "filter": {
@@ -78,7 +78,7 @@
     },
     "btn": {
       "send": "SEND",
-      "linkedin": "My LinkedIn profile",
+      "linkedin": "My LinkedIn Profile",
       "details": "+ Details"
     }
   }
