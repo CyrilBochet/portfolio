@@ -167,6 +167,24 @@
       "Projet d'étude"
     ],
     "type": "mobile"
+  },
+  {
+    "id": 10,
+    "titre-fr": "Intranet collaboratif - réseau de franchise",
+    "description-fr": "Cet intranet est une application web développée en <strong>Symfony</strong>, conçue pour centraliser et simplifier l'accès aux outils du réseau de franchise AFR Financement. Voici ses principales fonctionnalités :<br><br><ul><li><strong>Espace collaboratif</strong> : Facilite la collaboration entre les agences grâce à une bibliothèque de documents partagée, la mise en avant des campagnes marketing et des événements réseau.</li><li><strong>Administration des droits et permissions</strong> : Gestion avancée permettant de contrôler précisément chaque action réalisable par chaque utilisateur, tant sur les différents CRM du réseau que sur l'intranet, afin d'assurer une utilisation entièrement personnalisée et sécurisée.</li><li><strong>Gestion des demandes</strong> : Offre un outil de ticketing permettant de soumettre des demandes dans des catégories variées telles que créations graphiques, assistance technique ou gestion des ressources humaines.</li><li><strong>Création de publications pour réseaux sociaux</strong> : Génère automatiquement des visuels chartés à partir d’une photo ou d’un avis client pour créer des posts ou stories prêts à être diffusés sur les réseaux sociaux.</li><li><strong>FAQ et recherche</strong> : Une FAQ centralisée avec recherche par mots-clés pour répondre rapidement aux interrogations des utilisateurs.</li><li><strong>Affichage personnalisé</strong> : Affiche les avis clients de l'agence de l'utilisateur connecté ainsi que son classement régional et national.</li><li><strong>Notifications et rappels</strong> : Notifie les utilisateurs des anniversaires des collaborateurs ou d'événements importants pour renforcer la cohésion d'équipe.</li><li><strong>Suivi des mises à jour</strong> : Fournit un récapitulatif des notes de version et des nouveautés des différents outils du réseau.</li></ul>",
+    "titre-en": "Collaborative intranet - franchise network",
+    "description-en": "This intranet is a web application developed with <strong>Symfony</strong>, designed to centralize and simplify access to the tools of the AFR Financement franchise network. Here are its key features:<br><br><ul><li><strong>Collaborative space</strong>: Facilitates collaboration between agencies through a shared document library, highlights of marketing campaigns, and network events.</li><li><strong>Rights and permissions administration</strong>: Advanced management allowing precise control over each action that can be performed by each user, both on the network's CRMs and on the intranet, ensuring fully personalized and secure usage.</li><li><strong>Request management</strong>: Includes a ticketing tool to submit requests across various categories such as graphic creation, technical assistance, or HR management.</li><li><strong>Social media publication tool</strong>: Automatically generates branded visuals from a photo or client review to create ready-to-share posts or stories for social media platforms.</li><li><strong>FAQ and search</strong>: Centralized FAQ with keyword search for quick answers to user questions.</li><li><strong>Personalized display</strong>: Shows client reviews for the user’s agency along with their regional and national rankings.</li><li><strong>Notifications and reminders</strong>: Alerts users about colleagues’ birthdays or important events to foster team cohesion.</li><li><strong>Update tracking</strong>: Provides a summary of version notes and new features for the network's tools.</li></ul>",
+    "miniature": "miniature-intranet",
+    "images": [],
+    "tag": [
+      "Symfony 6",
+      "PHP 8",
+      "MySQL",
+      "API",
+      "Tâches planifiées"
+    ],
+    "type": "web"
   }
+
 
 ]
