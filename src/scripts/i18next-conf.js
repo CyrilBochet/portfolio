@@ -8,7 +8,7 @@ i18next
     .init({
         debug: false,
         fallbackLng: 'fr',
-        supportedLngs: ['fr', 'en', 'es'],
+        supportedLngs: ['fr', 'en'],
         backend: {
             loadPath: '/locales/{{lng}}/{{ns}}.json'
         },
