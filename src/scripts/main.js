@@ -49,6 +49,16 @@ function processJson() {
             titleKey = `titre-${langPreference}`;
         }
 
+        // Shuffle the projects array using Fisher-Yates algorithm
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+            }
+        }
+
+        shuffleArray(projects); // Shuffle before looping
+
         for (let i = 0; i < projects.length; i++) {
             const pathProject = 'dist/images/projets/' + projects[i]["id"] + '/' + projects[i]["miniature"];
             const card = `
@@ -79,7 +89,6 @@ function processJson() {
             $(projectsGallery).append(cardElement);
         }
     });
-
 
     function getProject(e, projectId) {
         const project = projects.find(p => p.id === projectId);

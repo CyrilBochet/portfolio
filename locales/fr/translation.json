@@ -1,5 +1,5 @@
 {
-  "job": "Développeur full-stack",
+  "job": "Chef de Projet IT",
   "nav": {
     "lang": "Langage",
     "contact": "Me contacter",
@@ -20,17 +20,26 @@
     "about": {
       "text": {
         "part1": "Bonjour, je m'appelle Cyril, j'ai",
-        "part2": "ans et je suis développeur Full-stack chez AFR financement, un réseau de centres de courtage en crédits situé à Villeneuve-Saint-Germain.",
-        "part3": "En tant que membre d'une équipe de développeurs, je collabore étroitement avec mes collègues pour concevoir des solutions numériques innovantes qui répondent aux besoins et aux attentes de nos utilisateurs finaux.",
-        "part4": "Dans mon rôle actuel, je suis impliqué dans toutes les phases du développement de projets web, de la conception initiale à la mise en production.",
-        "part5": "J'ai travaillé sur des projets de toutes tailles, incluant des sites web simples, des applications web complexes, des projets d'e-commerce, ainsi que des petites applications mobiles.",
+        "part2": "ans et je suis Chef de Projet IT chez AFR Financement, un réseau de centres de courtage en crédits situé à Villeneuve-Saint-Germain.",
+        "part3": "J'assure la gestion et la coordination des projets IT, en supervisant le développement des outils numériques internes et en veillant à leur performance et leur sécurité. Mon rôle consiste à piloter les différentes phases des projets, de l'analyse des besoins jusqu'à la mise en production, tout en garantissant une livraison de qualité.",
+        "part4": "Je travaille en collaboration avec les développeurs et les différents services métiers pour concevoir des solutions adaptées aux besoins des utilisateurs. J'interviens sur l'évolution et l'amélioration continue des applications, sites web et API, en assurant leur maintenance et leur optimisation.",
+        "part5": "Mon expertise couvre un large spectre de projets, incluant la mise en place de solutions web complexes, l’intégration d’API, la gestion des flux de données et le renforcement des standards de sécurité.",
         "part6": "J'espère que vous apprécierez mon portfolio et je vous souhaite une bonne visite !"
       }
     },
+
     "experience": {
-      "afr": {
-        "date": "2019 – aujourd'hui",
-        "job": "Développeur Full Stack",
+      "afr-cp": {
+        "date": "2025 – aujourd'hui",
+        "job": "Chef de Projet IT • AFR financement • Villeneuve-Saint-Germain",
+        "part1": "Gestion et coordination des projets IT, de l’<strong>analyse des besoins</strong> à la mise en production, en passant par la <strong>planification</strong>, le <strong>développement et le suivi d’avancement</strong>. Supervision des équipes de développement internes et externes pour garantir des livraisons <strong>de qualité</strong> et dans les délais impartis.",
+        "part2": "Conception, amélioration et maintenance des <strong>applications internes</strong>, sites web et API. Identification des opportunités d’optimisation et proposition de solutions pour améliorer la <strong>performance</strong> des outils numériques.",
+        "part3": "Veille technologique et recommandations pour optimiser les <strong>systèmes d’information</strong> et améliorer l’<strong>expérience utilisateur</strong>.",
+        "part4": "Sécurisation des systèmes d’information : définition des <strong>standards de sécurité</strong> et mise en place de protocoles garantissant la protection des <strong>données sensibles</strong>."
+      },
+      "afr-fs": {
+        "date": "5 ans et 5 mois | 2019 – 2025",
+        "job": "Développeur full-tack • AFR financement • Villeneuve-Saint-Germain",
         "part1": "Développement et maintenance d'applications web utilisées par l'ensemble de la franchise AFR Financement, incluant : <ul><li><strong>CRM pour courtiers en crédits - financements particuliers</strong> : Application web en Symfony conçue pour centraliser la gestion des leads, des dossiers clients et des documents contractuels, avec des outils d’analyse et un accès dédié pour les apporteurs d'affaires.</li><li><strong>CRM pour courtiers en crédits - financements professionnels</strong> : Application web offrant des fonctionnalités similaires au CRM précédent, avec une adaptation des processus pour répondre aux spécificités des financements professionnels.</li><li><strong>Comparateur de contrats d'assurance emprunteur</strong> : Connecté à une dizaine d'APIs de compagnies d'assurance, permettant une comparaison automatisée des offres selon les profils clients, avec export vers les extranets pour simplifier les souscriptions.</li><li><strong>Intranet </strong> : Fédère toutes les applications internes, avec des fonctionnalités collaboratives avancées pour centraliser la gestion des utilisateurs et des centres de courtage.</li><li><strong>Formulaires</strong> : Conception et développement de formulaires interactifs pour collecter efficacement les informations des prospects. Ces formulaires sont reliés aux CRM pour un suivi personnalisé et optimisé, avec une conception axée sur la conversion.</li></ul>",
         "part2": "API et intégrations API : <ul><li><strong>API Leads</strong> : Développement d'une API externe permettant aux partenaires de transmettre directement des leads aux différents CRM, garantissant un suivi fluide et automatisé.</li><li><strong>Client API Yousign</strong> : Création d'un client API en PHP pour simplifier l'intégration de la signature électronique via l'API Yousign.</li></ul>",
         "part3": "Gestion réseau et administration système : <ul><li><strong>Paramétrage de sites sur Windows Server</strong> : Configuration d'applications web et services hébergés sur des serveurs Windows.</li><li><strong>Planification de tâches automatisées</strong> : Mise en place de tâches planifiées pour automatiser des processus tels que la génération de rapports, la sauvegarde des données, ou des alertes.</li></ul>",
@@ -38,14 +47,13 @@
       },
       "emiled": {
         "date": "11 semaines | 2016 – 2017",
-        "job": "Stagiaire au service informatique",
+        "job": "Stagiaire IT • SARL EMILED • Laon",
         "part1": "Participation à des projets visant à renforcer la fidélisation et améliorer l'expérience client sur les plateformes e-commerce.",
         "part2": "Optimisation et maintenance de sites multi-boutiques sur <strong>Magento</strong>, incluant l'analyse et la correction de problèmes fonctionnels recensés.",
         "part3": "Recettage et validation d'une solution de personnalisation de produits en ligne, avec création de tutoriels vidéo pour faciliter l'utilisation par les utilisateurs finaux.",
         "part4": "Réalisation de campagnes de mailing avec <strong>Mailchimp</strong>, depuis la conception jusqu'à l'envoi, pour soutenir les actions marketing.",
         "part5": "Création de supports graphiques variés à l'aide de <strong>Photoshop</strong>, en lien avec les besoins marketing et la personnalisation de produits."
       }
-
     },
     "education": {
       "insset": {
