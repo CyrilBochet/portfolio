@@ -5,7 +5,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KYWZX69H0B"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-KYWZX69H0B');
@@ -14,7 +18,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <meta name="robots" content="index, follow">
-    <title >Cyril BOCHET - Portfolio de développeur Full-Stack</title>
+    <title>Cyril BOCHET - Portfolio de développeur Full-Stack</title>
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="dist/images/favicons/apple-touch-icon.png">
@@ -42,7 +46,7 @@
     <!-- Search Engine Display -->
     <meta name="description"
           content="Développeur Full-Stack spécialisé en Symfony, expert en applications web. Découvrez mes réalisations et mon parcours sur mon portfolio.">
-    <meta name="keywords" content="développeur Full-Stack, Symfony, JavaScript, CSS, portfolio, projets">
+    <meta name="keywords" content="Chef de Projet IT, développeur Full-Stack, Symfony, JavaScript, portfolio, projets">
     <meta name="author" content="Cyril BOCHET">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <link id="material-theme-link" rel="stylesheet" href="dist/css/material-theme/theme.light.css">
@@ -100,7 +104,8 @@
         </div>
         <div class="h5 text-center mx-2 mt-2 text-uppercase" data-i18n="nav.brand"></div>
         <div class="sidebar-heading text-center">
-            <img src="/dist/images/profile-picture.webp" alt="Photo de profil" class="img-fluid m-2 rounded" height="50" width="50">
+            <img src="/dist/images/profile-picture.webp" alt="Photo de profil" class="img-fluid m-2 rounded" height="50"
+                 width="50">
         </div>
     </div>
 </nav>
@@ -161,11 +166,15 @@
             <div class="circle circle-green"></div>
             <div class="circle circle-blue"></div>
             <div class="circle circle-red"></div>
-            <div class="triangle"></div>
+            <svg class="star" width="516" height="522" viewBox="0 0 516 522" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M205.035 54.8722C233.979 24.8863 282.021 24.8863 310.965 54.8722V54.8722C325.051 69.4659 344.555 77.6005 364.837 77.3561V77.3561C406.266 76.8568 440.032 110.563 439.544 151.993L439.529 153.241C439.29 173.594 447.349 193.186 461.83 207.491V207.491C491.619 236.916 491.619 285.084 461.83 314.509V314.509C447.349 328.814 439.29 348.406 439.529 368.759L439.544 370.007C440.032 411.437 406.266 445.143 364.837 444.644V444.644C344.555 444.4 325.051 452.534 310.965 467.128V467.128C282.021 497.114 233.979 497.114 205.035 467.128V467.128C190.949 452.534 171.445 444.4 151.163 444.644V444.644C109.734 445.143 75.9682 411.437 76.456 370.007L76.4707 368.759C76.7103 348.406 68.6508 328.814 54.1697 314.509V314.509C24.3807 285.084 24.3807 236.916 54.1697 207.491V207.491C68.6508 193.186 76.7103 173.594 76.4707 153.241L76.456 151.993C75.9682 110.563 109.734 76.8568 151.163 77.3561V77.3561C171.445 77.6005 190.949 69.4659 205.035 54.8722V54.8722Z"
+                      fill="#416277"/>
+            </svg>
             <div class="container d-flex h-100 align-items-center">
                 <div class="mx-auto text-center">
                     <h1 class="me display-large">CYRIL BOCHET</h1>
-                    <svg aria-hidden="true" width="155" height="9" fill="none" xmlns="http://www.w3.org/2000/svg" >
+                    <svg aria-hidden="true" width="155" height="9" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1.5 4.5c5.067-4.667 10.133-4.667 15.2 0s10.133 4.667 15.2 0 10.133-4.667 15.2 0 10.133 4.667 15.2 0 10.133-4.667 15.2 0 10.133 4.667 15.2 0 10.133-4.667 15.2 0 10.133 4.667 15.2 0 10.133-4.667 15.2 0 10.133 4.667 15.2 0"
                               stroke="#a8c7fa" stroke-width="2" stroke-linecap="round"></path>
                     </svg>
@@ -248,46 +257,137 @@
                 <div class="collapsible primary-text">
                     <div class="collapsible-header collapsed" data-bs-toggle="collapse" href="#collapse-ex-3"
                          role="button" aria-expanded="false" aria-controls="collapse-ex-3">
-                        <div class="title-large mb-2" data-i18n="section.experience.afr-cp.job">Chef de Projet IT • AFR financement • Villeneuve-Saint-Germain</div>
+                        <div class="title-large mb-2" data-i18n="section.experience.afr-cp.job">Chef de Projet IT • AFR
+                            financement • Villeneuve-Saint-Germain
+                        </div>
                         <div class="title-medium" data-i18n="section.experience.afr-cp.date">2025 – aujourd'hui</div>
                     </div>
                     <div class="collapsible-body collapsed collapse" id="collapse-ex-3">
                         <ul>
-                            <li data-i18n="section.experience.afr-cp.part1">Gestion et coordination des projets IT, de l’<strong>analyse des besoins</strong> à la mise en production, en passant par la <strong>planification</strong>, le <strong>développement et le suivi d’avancement</strong>. Supervision des équipes de développement internes et externes pour garantir des livraisons <strong>de qualité</strong> et dans les délais impartis.</li>
-                            <li data-i18n="section.experience.afr-cp.part2">Conception, amélioration et maintenance des <strong>applications internes</strong>, sites web et API. Identification des opportunités d’optimisation et proposition de solutions pour améliorer la <strong>performance</strong> des outils numériques.</li>
-                            <li data-i18n="section.experience.afr-cp.part3">Veille technologique et recommandations pour optimiser les <strong>systèmes d’information</strong> et améliorer l’<strong>expérience utilisateur</strong>.</li>
-                            <li data-i18n="section.experience.afr-cp.part4">Sécurisation des systèmes d’information : définition des <strong>standards de sécurité</strong> et mise en place de protocoles garantissant la protection des <strong>données sensibles</strong>.</li>
+                            <li data-i18n="section.experience.afr-cp.part1">Gestion et coordination des projets IT, de
+                                l’<strong>analyse des besoins</strong> à la mise en production, en passant par la
+                                <strong>planification</strong>, le <strong>développement et le suivi
+                                    d’avancement</strong>. Supervision des équipes de développement internes et externes
+                                pour garantir des livraisons <strong>de qualité</strong> et dans les délais impartis.
+                            </li>
+                            <li data-i18n="section.experience.afr-cp.part2">Conception, amélioration et maintenance des
+                                <strong>applications internes</strong>, sites web et API. Identification des
+                                opportunités d’optimisation et proposition de solutions pour améliorer la <strong>performance</strong>
+                                des outils numériques.
+                            </li>
+                            <li data-i18n="section.experience.afr-cp.part3">Veille technologique et recommandations pour
+                                optimiser les <strong>systèmes d’information</strong> et améliorer l’<strong>expérience
+                                    utilisateur</strong>.
+                            </li>
+                            <li data-i18n="section.experience.afr-cp.part4">Sécurisation des systèmes d’information :
+                                définition des <strong>standards de sécurité</strong> et mise en place de protocoles
+                                garantissant la protection des <strong>données sensibles</strong>.
+                            </li>
                         </ul>
                     </div>
 
                     <div class="collapsible-header collapsed" data-bs-toggle="collapse" href="#collapse-ex-2"
                          role="button" aria-expanded="false" aria-controls="collapse-ex-2">
-                        <div class="title-large mb-2" data-i18n="section.experience.afr-fs.job">Développeur full-stack • AFR financement • Villeneuve-Saint-Germain</div>
-                        <div class="title-medium" data-i18n="section.experience.afr-fs.date">5 ans et 5 mois | 2019 – 2025</div>
+                        <div class="title-large mb-2" data-i18n="section.experience.afr-fs.job">Développeur full-stack •
+                            AFR financement • Villeneuve-Saint-Germain
+                        </div>
+                        <div class="title-medium" data-i18n="section.experience.afr-fs.date">5 ans et 5 mois | 2019 –
+                            2025
+                        </div>
                     </div>
                     <div class="collapsible-body collapsed collapse" id="collapse-ex-2">
                         <ul>
-                            <li data-i18n="section.experience.afr-fs.part1">Développement et maintenance d'applications web utilisées par l'ensemble de la franchise AFR Financement, incluant : <ul><li><strong>CRM pour courtiers en crédits - financements particuliers</strong> : Application web en Symfony conçue pour centraliser la gestion des leads, des dossiers clients et des documents contractuels, avec des outils d’analyse et un accès dédié pour les apporteurs d'affaires.</li><li><strong>CRM pour courtiers en crédits - financements professionnels</strong> : Application web offrant des fonctionnalités similaires au CRM précédent, avec une adaptation des processus pour répondre aux spécificités des financements professionnels.</li><li><strong>Comparateur de contrats d'assurance emprunteur</strong> : Connecté à une dizaine d'APIs de compagnies d'assurance, permettant une comparaison automatisée des offres selon les profils clients, avec export vers les extranets pour simplifier les souscriptions.</li><li><strong>Intranet </strong> : Fédère toutes les applications internes, avec des fonctionnalités collaboratives avancées pour centraliser la gestion des utilisateurs et des centres de courtage.</li><li><strong>Formulaires</strong> : Conception et développement de formulaires interactifs pour collecter efficacement les informations des prospects. Ces formulaires sont reliés aux CRM pour un suivi personnalisé et optimisé, avec une conception axée sur la conversion.</li></ul></li>
-                            <li data-i18n="section.experience.afr-fs.part2">API et intégrations API : <ul><li><strong>API Leads</strong> : Développement d'une API externe permettant aux partenaires de transmettre directement des leads aux différents CRM, garantissant un suivi fluide et automatisé.</li><li><strong>Client API Yousign</strong> : Création d'un client API en PHP pour simplifier l'intégration de la signature électronique via l'API Yousign.</li></ul></li>
-                            <li data-i18n="section.experience.afr-fs.part3">Gestion réseau et administration système : <ul><li><strong>Paramétrage de sites sur Windows Server</strong> : Configuration d'applications web et services hébergés sur des serveurs Windows.</li><li><strong>Planification de tâches automatisées</strong> : Mise en place de tâches planifiées pour automatiser des processus tels que la génération de rapports, la sauvegarde des données, ou des alertes.</li></ul></li>
-                            <li data-i18n="section.experience.afr-fs.part4">J'ai joué un rôle clé dans la conception, le développement et la maintenance de solutions web stratégiques pour AFR financement. Mon travail a permis d'améliorer l'efficacité opérationnelle des courtiers, d'automatiser des processus critiques et d'enrichir l'expérience utilisateur à l'échelle de la franchise.</li>
+                            <li data-i18n="section.experience.afr-fs.part1">Développement et maintenance d'applications
+                                web utilisées par l'ensemble de la franchise AFR Financement, incluant :
+                                <ul>
+                                    <li><strong>CRM pour courtiers en crédits - financements particuliers</strong> :
+                                        Application web en Symfony conçue pour centraliser la gestion des leads, des
+                                        dossiers clients et des documents contractuels, avec des outils d’analyse et un
+                                        accès dédié pour les apporteurs d'affaires.
+                                    </li>
+                                    <li><strong>CRM pour courtiers en crédits - financements professionnels</strong> :
+                                        Application web offrant des fonctionnalités similaires au CRM précédent, avec
+                                        une adaptation des processus pour répondre aux spécificités des financements
+                                        professionnels.
+                                    </li>
+                                    <li><strong>Comparateur de contrats d'assurance emprunteur</strong> : Connecté à une
+                                        dizaine d'APIs de compagnies d'assurance, permettant une comparaison automatisée
+                                        des offres selon les profils clients, avec export vers les extranets pour
+                                        simplifier les souscriptions.
+                                    </li>
+                                    <li><strong>Intranet </strong> : Fédère toutes les applications internes, avec des
+                                        fonctionnalités collaboratives avancées pour centraliser la gestion des
+                                        utilisateurs et des centres de courtage.
+                                    </li>
+                                    <li><strong>Formulaires</strong> : Conception et développement de formulaires
+                                        interactifs pour collecter efficacement les informations des prospects. Ces
+                                        formulaires sont reliés aux CRM pour un suivi personnalisé et optimisé, avec une
+                                        conception axée sur la conversion.
+                                    </li>
+                                </ul>
+                            </li>
+                            <li data-i18n="section.experience.afr-fs.part2">API et intégrations API :
+                                <ul>
+                                    <li><strong>API Leads</strong> : Développement d'une API externe permettant aux
+                                        partenaires de transmettre directement des leads aux différents CRM,
+                                        garantissant un suivi fluide et automatisé.
+                                    </li>
+                                    <li><strong>Client API Yousign</strong> : Création d'un client API en PHP pour
+                                        simplifier l'intégration de la signature électronique via l'API Yousign.
+                                    </li>
+                                </ul>
+                            </li>
+                            <li data-i18n="section.experience.afr-fs.part3">Gestion réseau et administration système :
+                                <ul>
+                                    <li><strong>Paramétrage de sites sur Windows Server</strong> : Configuration
+                                        d'applications web et services hébergés sur des serveurs Windows.
+                                    </li>
+                                    <li><strong>Planification de tâches automatisées</strong> : Mise en place de tâches
+                                        planifiées pour automatiser des processus tels que la génération de rapports, la
+                                        sauvegarde des données, ou des alertes.
+                                    </li>
+                                </ul>
+                            </li>
+                            <li data-i18n="section.experience.afr-fs.part4">J'ai joué un rôle clé dans la conception, le
+                                développement et la maintenance de solutions web stratégiques pour AFR financement. Mon
+                                travail a permis d'améliorer l'efficacité opérationnelle des courtiers, d'automatiser
+                                des processus critiques et d'enrichir l'expérience utilisateur à l'échelle de la
+                                franchise.
+                            </li>
                         </ul>
                     </div>
 
                     <div class="collapsible-header collapsed" data-bs-toggle="collapse" href="#collapse-ex-1"
                          role="button"
                          aria-expanded="false" aria-controls="collapse-ex-1">
-                        <div class="title-large mb-2" data-i18n="section.experience.emiled.job">Stagiaire IT • SARL EMILED • Laon</div>
+                        <div class="title-large mb-2" data-i18n="section.experience.emiled.job">Stagiaire IT • SARL
+                            EMILED • Laon
+                        </div>
                         <div class="title-medium" data-i18n="section.experience.emiled.date">11 semaines | 2016 – 2017
                         </div>
                     </div>
                     <div class="collapsible-body collapsed collapse" id="collapse-ex-1">
                         <ul>
-                            <li data-i18n="section.experience.emiled.part1">Participation à des projets visant à renforcer la fidélisation et améliorer l'expérience client sur les plateformes e-commerce.</li>
-                            <li data-i18n="section.experience.emiled.part2">Optimisation et maintenance de sites multi-boutiques sur <strong>Magento</strong>, incluant l'analyse et la correction de problèmes fonctionnels recensés.</li>
-                            <li data-i18n="section.experience.emiled.part3">Recettage et validation d'une solution de personnalisation de produits en ligne, avec création de tutoriels vidéo pour faciliter l'utilisation par les utilisateurs finaux.</li>
-                            <li data-i18n="section.experience.emiled.part4">Réalisation de campagnes de mailing avec <strong>Mailchimp</strong>, depuis la conception jusqu'à l'envoi, pour soutenir les actions marketing.</li>
-                            <li data-i18n="section.experience.emiled.part5">Création de supports graphiques variés à l'aide de <strong>Photoshop</strong>, en lien avec les besoins marketing et la personnalisation de produits.</li>
+                            <li data-i18n="section.experience.emiled.part1">Participation à des projets visant à
+                                renforcer la fidélisation et améliorer l'expérience client sur les plateformes
+                                e-commerce.
+                            </li>
+                            <li data-i18n="section.experience.emiled.part2">Optimisation et maintenance de sites
+                                multi-boutiques sur <strong>Magento</strong>, incluant l'analyse et la correction de
+                                problèmes fonctionnels recensés.
+                            </li>
+                            <li data-i18n="section.experience.emiled.part3">Recettage et validation d'une solution de
+                                personnalisation de produits en ligne, avec création de tutoriels vidéo pour faciliter
+                                l'utilisation par les utilisateurs finaux.
+                            </li>
+                            <li data-i18n="section.experience.emiled.part4">Réalisation de campagnes de mailing avec
+                                <strong>Mailchimp</strong>, depuis la conception jusqu'à l'envoi, pour soutenir les
+                                actions marketing.
+                            </li>
+                            <li data-i18n="section.experience.emiled.part5">Création de supports graphiques variés à
+                                l'aide de <strong>Photoshop</strong>, en lien avec les besoins marketing et la
+                                personnalisation de produits.
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -308,12 +408,22 @@
                     </div>
                     <div class="collapsible-body collapsed collapse" id="collapse-educ-3">
                         <ul>
-                            <li data-i18n="section.education.insset.part1"><strong>Diplôme obtenu :</strong> Master Cloud Computing & Mobility • mention bien.</li>
-                            <i class="text-muted" data-i18n="section.education.insset.description1">Ce Master forme des experts en développement mobile, micro-services et solutions cloud. La formation met l'accent sur la sécurité, l'IoT, et la gestion de projets, préparant les étudiants à des postes d’ingénieurs, chefs de projets ou consultants spécialisés.</i>
+                            <li data-i18n="section.education.insset.part1"><strong>Diplôme obtenu :</strong> Master
+                                Cloud Computing & Mobility • mention bien.
+                            </li>
+                            <i class="text-muted" data-i18n="section.education.insset.description1">Ce Master forme des
+                                experts en développement mobile, micro-services et solutions cloud. La formation met
+                                l'accent sur la sécurité, l'IoT, et la gestion de projets, préparant les étudiants à des
+                                postes d’ingénieurs, chefs de projets ou consultants spécialisés.</i>
                             <br>
                             <br>
-                            <li data-i18n="section.education.insset.part2"><strong>Diplôme obtenu :</strong> Licence Métiers du Numérique.</li>
-                            <i class="text-muted" data-i18n="section.education.insset.description2">La Licence Métiers du Numérique de l'INSSET de Saint-Quentin forme les étudiants aux technologies numériques, web et cloud, avec des compétences en développement d'applications, bases de données, et apprentissage automatique.</i>
+                            <li data-i18n="section.education.insset.part2"><strong>Diplôme obtenu :</strong> Licence
+                                Métiers du Numérique.
+                            </li>
+                            <i class="text-muted" data-i18n="section.education.insset.description2">La Licence Métiers
+                                du Numérique de l'INSSET de Saint-Quentin forme les étudiants aux technologies
+                                numériques, web et cloud, avec des compétences en développement d'applications, bases de
+                                données, et apprentissage automatique.</i>
                         </ul>
                     </div>
                     <div class="collapsible-header collapsed" data-bs-toggle="collapse" href="#collapse-educ-4"
@@ -324,9 +434,17 @@
                     </div>
                     <div class="collapsible-body collapsed collapse" id="collapse-educ-4">
                         <ul>
-                            <li data-i18n="section.education.claudel.part1"><strong>Diplôme obtenu :</strong> BTS Services Informatiques aux Organisations • mention bien.</li>
-                            <li data-i18n="section.education.claudel.part2"><strong> Option :</strong> Solutions logicielles et applications métiers.</li>
-                            <i class="text-muted" data-i18n="section.education.claudel.description">Le BTS SIO prépare les étudiants à concevoir, développer et maintenir des solutions logicielles adaptées aux besoins des entreprises. L'option Solutions logicielles et applications métiers met l'accent sur les technologies de développement, la gestion des bases de données, et l’analyse des besoins métiers.</i>
+                            <li data-i18n="section.education.claudel.part1"><strong>Diplôme obtenu :</strong> BTS
+                                Services Informatiques aux Organisations • mention bien.
+                            </li>
+                            <li data-i18n="section.education.claudel.part2"><strong> Option :</strong> Solutions
+                                logicielles et applications métiers.
+                            </li>
+                            <i class="text-muted" data-i18n="section.education.claudel.description">Le BTS SIO prépare
+                                les étudiants à concevoir, développer et maintenir des solutions logicielles adaptées
+                                aux besoins des entreprises. L'option Solutions logicielles et applications métiers met
+                                l'accent sur les technologies de développement, la gestion des bases de données, et
+                                l’analyse des besoins métiers.</i>
                         </ul>
                     </div>
                     <div class="collapsible-header collapsed" data-bs-toggle="collapse" href="#collapse-educ-5"
@@ -337,9 +455,17 @@
                     </div>
                     <div class="collapsible-body collapsed collapse" id="collapse-educ-5">
                         <ul>
-                            <li data-i18n="section.education.nerval.part1"><strong>Diplôme obtenu :</strong> Baccalauréat technologique • mention très bien.</li>
-                            <li data-i18n="section.education.nerval.part2"><strong> Options :</strong> Systèmes d'information de gestion et cinéma-audiovisuel.</li>
-                            <i class="text-muted" data-i18n="section.education.nerval.description">Le Baccalauréat STMG, option Systèmes d’information de gestion, offre une initiation approfondie au développement web et à la gestion des données. <br> L'option cinéma-audiovisuel enrichit mon parcours avec une approche créative et technique dans le domaine de la production audiovisuelle.</i>
+                            <li data-i18n="section.education.nerval.part1"><strong>Diplôme obtenu :</strong>
+                                Baccalauréat technologique • mention très bien.
+                            </li>
+                            <li data-i18n="section.education.nerval.part2"><strong> Options :</strong> Systèmes
+                                d'information de gestion et cinéma-audiovisuel.
+                            </li>
+                            <i class="text-muted" data-i18n="section.education.nerval.description">Le Baccalauréat STMG,
+                                option Systèmes d’information de gestion, offre une initiation approfondie au
+                                développement web et à la gestion des données. <br> L'option cinéma-audiovisuel enrichit
+                                mon parcours avec une approche créative et technique dans le domaine de la production
+                                audiovisuelle.</i>
                         </ul>
                     </div>
                 </div>
@@ -382,21 +508,21 @@
 
         <!-- Footer -->
         <footer class="footer text-center">
-                <svg class="mb-3" aria-hidden="true" width="100%" height="8" fill="none"
-                     xmlns="http://www.w3.org/2000/svg">
-                    <pattern id="a" width="91" height="8" patternUnits="userSpaceOnUse">
-                        <g clip-path="url(#clip0_2426_11367)">
-                            <path d="M114 4c-5.067 4.667-10.133 4.667-15.2 0S88.667-.667 83.6 4 73.467 8.667 68.4 4 58.267-.667 53.2 4 43.067 8.667 38 4 27.867-.667 22.8 4 12.667 8.667 7.6 4-2.533-.667-7.6 4s-10.133 4.667-15.2 0S-32.933-.667-38 4s-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0"
-                                  stroke="#a8c7fa" stroke-linecap="square"></path>
-                        </g>
-                    </pattern>
-                    <rect width="100%" height="100%" fill="url(#a)"></rect>
-                </svg>
-                <div class="container">
-                    <p class="copyright mb-0 pb-3">
-                        Cyril BOCHET © 2022 - <span id="year"></span> | Tous droits réservés.
-                    </p>
-                </div>
+            <svg class="mb-3" aria-hidden="true" width="100%" height="8" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                <pattern id="a" width="91" height="8" patternUnits="userSpaceOnUse">
+                    <g clip-path="url(#clip0_2426_11367)">
+                        <path d="M114 4c-5.067 4.667-10.133 4.667-15.2 0S88.667-.667 83.6 4 73.467 8.667 68.4 4 58.267-.667 53.2 4 43.067 8.667 38 4 27.867-.667 22.8 4 12.667 8.667 7.6 4-2.533-.667-7.6 4s-10.133 4.667-15.2 0S-32.933-.667-38 4s-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0-10.133-4.667-15.2 0-10.133 4.667-15.2 0"
+                              stroke="#a8c7fa" stroke-linecap="square"></path>
+                    </g>
+                </pattern>
+                <rect width="100%" height="100%" fill="url(#a)"></rect>
+            </svg>
+            <div class="container">
+                <p class="copyright mb-0 pb-3">
+                    Cyril BOCHET © 2022 - <span id="year"></span> | Tous droits réservés.
+                </p>
+            </div>
         </footer>
 
     </div>

@@ -86,30 +86,28 @@ footer a {
     color: var(--md-sys-color-surface);
 }
 
+.circle, .star {
+    transform: scale(0); /* Commence avec une taille réduite */
+    transition: transform 0.9s ease-out; /* Animation fluide */
+    will-change: transform; /* Optimisation pour les animations */
+    position: absolute;
+    z-index: -1;
+}
+
 .circle {
     height: 500px;
     width: 500px;
     border-radius: 50%;
-    position: absolute;
     transform: translate(-50%, -50%);
 }
 
-.triangle {
-    width: 0;
-    height: 0;
-    border-left: 150px solid transparent;
-    border-right: 150px solid transparent;
-    border-bottom: 250px solid #416277;
-    position: absolute;
+.star {
     overflow: hidden;
-    top: 93%;
+    width: 350px;
+    height: 350px;
+    top: 85%;
     left: 25%;
     transform: translate(-50%, -50%);
-}
-
-.circle, .triangle {
-    position: absolute;
-    z-index: -1;
 }
 
 .circle-green {
@@ -131,9 +129,8 @@ footer a {
 .circle-red {
     background-color: var(--md-sys-color-landing-circle3);
     top: 50%;
-    left: 105%;
+    left: 80%;
 }
-
 
 .card {
     /*background-color: var(--md-sys-color-surface);*/

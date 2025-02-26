@@ -49,16 +49,6 @@ function processJson() {
             titleKey = `titre-${langPreference}`;
         }
 
-        // // Shuffle the projects array using Fisher-Yates algorithm
-        // function shuffleArray(array) {
-        //     for (let i = array.length - 1; i > 0; i--) {
-        //         const j = Math.floor(Math.random() * (i + 1));
-        //         [array[i], array[j]] = [array[j], array[i]]; // Swap elements
-        //     }
-        // }
-        //
-        // shuffleArray(projects); // Shuffle before looping
-
         for (let i = 0; i < projects.length; i++) {
             const pathProject = 'dist/images/projets/' + projects[i]["id"] + '/' + projects[i]["miniature"];
             const card = `
@@ -158,4 +148,55 @@ $(document).ready(function () {
         lastScrollTop = currentScrollTop;
     });
 
+});
+document.addEventListener("DOMContentLoaded", function () {
+    const circles = document.querySelectorAll(".circle");
+    const star = document.querySelector(".star");
+
+    let angleCircle = 0;
+    let angleStar = 0;
+
+    // Étape 1 : Appliquer scale(0) initialement
+    circles.forEach(circle => {
+        circle.style.transform = "scale(0) translate(-50%, -50%)";
+    });
+    star.style.transform = "scale(0) translate(-50%, -50%)";
+
+    // Étape 2 : Effet de grossissement après 500ms
+    setTimeout(() => {
+        circles.forEach(circle => {
+            circle.style.transition = "transform 0.6s ease-out";
+            circle.style.transform = "scale(1) translate(-50%, -50%)"; // Effet de grossissement
+        });
+
+        star.style.transition = "transform 0.6s ease-out";
+        star.style.transform = "scale(1) translate(-50%, -50%)"; // Effet de grossissement
+
+        // Étape 3 : Démarrer les animations après l'effet de grossissement
+        setTimeout(() => {
+            function animateCircles() {
+                angleCircle += 0.005;
+
+                circles.forEach((circle, index) => {
+                    const speed = (index + 1) * 0.4;
+                    const amplitude = 60;
+                    const offsetX = Math.sin(angleCircle * speed) * amplitude;
+                    const offsetY = Math.cos(angleCircle * speed) * amplitude;
+
+                    circle.style.transform = `scale(1) translate(-50%, -50%) translate(${offsetX}px, ${offsetY}px)`;
+                });
+
+                requestAnimationFrame(animateCircles);
+            }
+
+            function rotateStar() {
+                angleStar += 0.1;
+                star.style.transform = `scale(1) translate(-50%, -50%) rotate(${angleStar}deg)`;
+                requestAnimationFrame(rotateStar);
+            }
+
+            animateCircles();
+            rotateStar();
+        }, 600); // Attendre la fin de l'animation de grossissement
+    }, 500);
 });
