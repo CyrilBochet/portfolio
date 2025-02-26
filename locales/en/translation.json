@@ -20,11 +20,11 @@
     "about": {
       "text": {
         "part1": "Hello, my name is Cyril, I am",
-        "part2": "years old, and I am an IT Project Manager at AFR Financement, a network of credit brokerage centers based in Villeneuve-Saint-Germain.",
-        "part3": "I oversee the management and coordination of IT projects, supervising the development of internal digital tools while ensuring their performance and security. My role involves steering projects through all phases, from requirements analysis to production deployment, while guaranteeing high-quality delivery.",
-        "part4": "I collaborate with developers and various business departments to design solutions tailored to user needs. I contribute to the evolution and continuous improvement of applications, websites, and APIs by ensuring their maintenance and optimization.",
-        "part5": "My expertise covers a wide range of projects, including the implementation of complex web solutions, API integration, data flow management, and strengthening security standards.",
-        "part6": "I hope you enjoy my portfolio, and I wish you a great visit!"
+        "part2": "years old, and I am an IT Project Manager at AFR Financement in Villeneuve-Saint-Germain.",
+        "part3": "I manage and coordinate IT projects, overseeing the development and security of internal digital tools. My role covers all project phases, from requirements analysis to deployment.",
+        "part4": "I work with developers and business teams to design tailored solutions while ensuring the evolution and maintenance of applications, websites, and APIs.",
+        "part5": "My expertise includes complex web solutions, API integration, data flow management, and security reinforcement.",
+        "part6": "Feel free to explore my portfolio!"
       }
     },
     "experience": {
@@ -38,12 +38,13 @@
       },
       "afr-fs": {
         "date": "5 years and 5 months | 2019 – 2025",
-        "job": "Full-Stack Developer • AFR Financement • Villeneuve-Saint-Germain",
-        "part1": "Development and maintenance of web applications used across the AFR Financement franchise, including: <ul><li><strong>CRM for credit brokers - personal financing</strong>: A Symfony-based web application designed to centralize lead management, client files, and contractual documents, with analytics tools and dedicated access for business introducers.</li><li><strong>CRM for credit brokers - professional financing</strong>: A web application offering similar functionalities to the previous CRM, with process adaptations tailored to professional financing needs.</li><li><strong>Loan insurance contract comparator</strong>: Connected to about ten insurance company APIs, allowing automated offer comparisons based on client profiles, with export features to extranets to streamline subscriptions.</li><li><strong>Intranet</strong>: Centralizes all internal applications, featuring advanced collaborative functionalities for managing users and brokerage centers.</li><li><strong>Forms</strong>: Design and development of interactive forms for collecting prospect information efficiently. These forms are integrated into CRMs for personalized and optimized follow-up, with a focus on conversion.</li></ul>",
-        "part2": "API and API Integrations: <ul><li><strong>API Leads</strong>: Development of an external API enabling partners to directly submit leads to various CRMs, ensuring seamless and automated tracking.</li><li><strong>Yousign API Client</strong>: Development of a PHP API client for integrating electronic signature solutions using the Yousign API.</li></ul>",
-        "part3": "Network management and system administration: <ul><li><strong>Website configuration on Windows Server</strong>: Setting up web applications and services hosted on Windows servers.</li><li><strong>Automated task scheduling</strong>: Implementation of scheduled tasks to automate processes such as report generation, data backups, and alerts.</li></ul>",
-        "part4": "I played a key role in designing, developing, and maintaining strategic web solutions for AFR Financement. My work contributed to improving brokers’ operational efficiency, automating critical processes, and enhancing user experience across the franchise."
+        "job": "<strong>Full-stack Developer</strong> • AFR Financement • Villeneuve-Saint-Germain",
+        "part1": "Development and maintenance of <strong>web applications</strong> for the AFR Financement franchise.",
+        "part2": "Development and use of <strong>APIs</strong>.",
+        "part3": "<strong>Network management</strong> and system administration: <ul><li>Configuration of websites on <strong>Windows Server</strong>.</li><li>Scheduling of <strong>automated tasks</strong> for backups and report generation.</li></ul>",
+        "part4": "Design and maintenance of <strong>strategic web solutions</strong> to improve broker efficiency and automate key processes."
       },
+
       "emiled": {
         "date": "11 weeks | 2016 – 2017",
         "job": "IT Intern • SARL EMILED • Laon",

@@ -1,3 +1,7 @@
+:root {
+    --bs-body-font-size: 1.1rem;
+}
+
 /* For Firefox */
 html {
     scrollbar-color: var(--md-sys-color-primary);
