@@ -36,8 +36,21 @@ hr.divider-light {
     justify-content: center;
     font-size: 3rem;
     font-weight: bold;
-    color: var(--md-sys-color-primary);
+    color: #219F83;
 }
+
+@media (max-width: 768px) {
+    .me {
+        font-size: 2.5rem!important;
+    }
+}
+
+@media (max-width: 480px) {
+    .me {
+        font-size: 2rem!important;
+    }
+}
+
 
 .letter, .space {
     display: inline-block;
