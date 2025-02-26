@@ -34,22 +34,22 @@ hr.divider-light {
 .me {
     display: flex;
     justify-content: center;
-    font-size: 3rem;
+    font-size: clamp(2rem, 6vw, 5rem) !important;
     font-weight: bold;
     color: #219F83;
 }
 
-@media (max-width: 768px) {
-    .me {
-        font-size: 2.5rem!important;
-    }
-}
+/*@media (max-width: 768px) {*/
+/*    .me {*/
+/*        font-size: 2.5rem!important;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 480px) {
-    .me {
-        font-size: 2rem!important;
-    }
-}
+/*@media (max-width: 480px) {*/
+/*    .me {*/
+/*        font-size: 2rem!important;*/
+/*    }*/
+/*}*/
 
 
 .letter, .space {
@@ -60,18 +60,54 @@ hr.divider-light {
 }
 
 /* Délai d'apparition des lettres */
-.letter:nth-child(1) { animation-delay: 0s; }
-.letter:nth-child(2) { animation-delay: 0.1s; }
-.letter:nth-child(3) { animation-delay: 0.2s; }
-.letter:nth-child(4) { animation-delay: 0.3s; }
-.letter:nth-child(5) { animation-delay: 0.4s; }
-.space { width: 10px; display: inline-block; }
-.letter:nth-child(7) { animation-delay: 0.5s; }
-.letter:nth-child(8) { animation-delay: 0.6s; }
-.letter:nth-child(9) { animation-delay: 0.7s; }
-.letter:nth-child(10) { animation-delay: 0.8s; }
-.letter:nth-child(11) { animation-delay: 0.9s; }
-.letter:nth-child(12) { animation-delay: 1s; }
+.letter:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.letter:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.letter:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.letter:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+.letter:nth-child(5) {
+    animation-delay: 0.4s;
+}
+
+.space {
+    width: clamp(10px, 2vw, 20px);
+    display: inline-block;
+}
+
+.letter:nth-child(7) {
+    animation-delay: 0.5s;
+}
+
+.letter:nth-child(8) {
+    animation-delay: 0.6s;
+}
+
+.letter:nth-child(9) {
+    animation-delay: 0.7s;
+}
+
+.letter:nth-child(10) {
+    animation-delay: 0.8s;
+}
+
+.letter:nth-child(11) {
+    animation-delay: 0.9s;
+}
+
+.letter:nth-child(12) {
+    animation-delay: 1s;
+}
 
 /* Animation du SVG (Soulignement) */
 .underline-svg {
@@ -227,7 +263,7 @@ footer a {
     left: 80%;
 }
 
-.brand{
+.brand {
     font-weight: 600;
 }
 
@@ -284,11 +320,13 @@ footer a {
     color: var(--md-sys-color-secondary);
     font-family: var(--md-sys-typescale-display-small-font-family-name);
 }
+
 .badge-date {
     background-color: var(--md-sys-color-tertiary-container);
     color: var(--md-sys-color-tertiary);
     font-family: var(--md-sys-typescale-display-small-font-family-name);
 }
+
 .collapsible {
     margin-bottom: 10px;
     border-radius: 4px;
