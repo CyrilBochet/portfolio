@@ -87,8 +87,8 @@ footer a {
 }
 
 .circle, .star {
-    transform: scale(0); /* Commence avec une taille réduite */
-    transition: transform 0.9s ease-out; /* Animation fluide */
+    transform: scale(0);
+    transition: transform 0.9s ease-out;
     will-change: transform; /* Optimisation pour les animations */
     position: absolute;
     z-index: -1;

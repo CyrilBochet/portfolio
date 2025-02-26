@@ -197,6 +197,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
             animateCircles();
             rotateStar();
-        }, 600); // Attendre la fin de l'animation de grossissement
-    }, 500);
+        }, 400); // Attendre la fin de l'animation de grossissement
+    }, 300);
 });
