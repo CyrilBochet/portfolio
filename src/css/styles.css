@@ -188,7 +188,11 @@ footer a {
     color: var(--md-sys-color-secondary);
     font-family: var(--md-sys-typescale-display-small-font-family-name);
 }
-
+.badge-date {
+    background-color: var(--md-sys-color-tertiary-container);
+    color: var(--md-sys-color-tertiary);
+    font-family: var(--md-sys-typescale-display-small-font-family-name);
+}
 .collapsible {
     margin-bottom: 10px;
     border-radius: 4px;

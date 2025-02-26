@@ -1,5 +1,5 @@
 {
-  "job": "Full-Stack Developer",
+  "job": "IT Project Manager",
   "nav": {
     "lang": "Language",
     "contact": "Contact Me",
@@ -20,48 +20,56 @@
     "about": {
       "text": {
         "part1": "Hello, my name is Cyril, I am",
-        "part2": "years old, and I am a Full-Stack Developer at AFR Financement, a network of credit brokerage centers located in Villeneuve-Saint-Germain.",
-        "part3": "As a member of a development team, I work closely with my colleagues to design innovative digital solutions that meet the needs and expectations of our end users.",
-        "part4": "In my current role, I am involved in all phases of web project development, from initial design to production deployment.",
-        "part5": "I have worked on projects of all sizes, including simple websites, complex web applications, e-commerce projects, and even small mobile applications.",
-        "part6": "I hope you enjoy my portfolio and have a great visit!"
+        "part2": "years old, and I am an IT Project Manager at AFR Financement, a network of credit brokerage centers based in Villeneuve-Saint-Germain.",
+        "part3": "I oversee the management and coordination of IT projects, supervising the development of internal digital tools while ensuring their performance and security. My role involves steering projects through all phases, from requirements analysis to production deployment, while guaranteeing high-quality delivery.",
+        "part4": "I collaborate with developers and various business departments to design solutions tailored to user needs. I contribute to the evolution and continuous improvement of applications, websites, and APIs by ensuring their maintenance and optimization.",
+        "part5": "My expertise covers a wide range of projects, including the implementation of complex web solutions, API integration, data flow management, and strengthening security standards.",
+        "part6": "I hope you enjoy my portfolio, and I wish you a great visit!"
       }
     },
     "experience": {
-      "afr": {
-        "date": "2019 – Present",
-        "job": "Full-Stack Developer",
-        "part1": "Development and maintenance of web applications used across the entire AFR Financement franchise, including: <ul><li><strong>CRM for credit brokers - personal financing</strong>: A Symfony-based web application designed to centralize lead management, client files, and contractual documents, with analytical tools and dedicated access for business introducers.</li><li><strong>CRM for credit brokers - professional financing</strong>: A web application offering similar functionalities to the personal financing CRM, but tailored to the specifics of professional financing processes.</li><li><strong>Borrower insurance contract comparison tool</strong>: Connected to around ten insurance company APIs, enabling automated comparisons of offers based on client profiles, with direct export to extranets to simplify subscriptions.</li><li><strong>Intranet</strong>: Centralizes all internal applications with advanced collaborative features to streamline user and brokerage center management.</li><li><strong>Forms</strong>: Design and development of interactive forms to efficiently collect prospect information. These forms are linked to CRMs for personalized and optimized follow-up, focusing on conversions.</li></ul>",
-        "part2": "API and API integrations: <ul><li><strong>API for leads</strong>: Development of an external API enabling partners to directly send leads to the various CRMs, ensuring smooth and automated tracking.</li><li><strong>Yousign API Client</strong>: Creation of a PHP-based client to facilitate the integration of electronic signatures via the Yousign API.</li></ul>",
-        "part3": "Network and system administration: <ul><li><strong>Site configuration on Windows Server</strong>: Setup of web applications and services hosted on Windows servers.</li><li><strong>Automated task scheduling</strong>: Implementation of scheduled tasks to automate processes such as report generation, data backups, or alerts.</li></ul>",
-        "part4": "I played a key role in the design, development, and maintenance of strategic web solutions for AFR Financement. My work improved the operational efficiency of brokers, automated critical processes, and enhanced the user experience across the franchise."
+      "afr-cp": {
+        "date": "2025 – Present",
+        "job": "IT Project Manager • AFR Financement • Villeneuve-Saint-Germain",
+        "part1": "Management and coordination of IT projects, from <strong>requirements analysis</strong> to deployment, including <strong>planning</strong>, <strong>development, and progress tracking</strong>. Supervision of internal and external development teams to ensure <strong>high-quality</strong> deliveries within set deadlines.",
+        "part2": "Design, enhancement, and maintenance of <strong>internal applications</strong>, websites, and APIs. Identifying optimization opportunities and proposing solutions to improve <strong>performance</strong> and efficiency.",
+        "part3": "Technology watch and strategic recommendations to optimize <strong>IT systems</strong> and enhance <strong>user experience</strong>.",
+        "part4": "IT security management: defining <strong>security standards</strong> and implementing protocols to protect <strong>sensitive data</strong>."
+      },
+      "afr-fs": {
+        "date": "5 years and 5 months | 2019 – 2025",
+        "job": "Full-Stack Developer • AFR Financement • Villeneuve-Saint-Germain",
+        "part1": "Development and maintenance of web applications used across the AFR Financement franchise, including: <ul><li><strong>CRM for credit brokers - personal financing</strong>: A Symfony-based web application designed to centralize lead management, client files, and contractual documents, with analytics tools and dedicated access for business introducers.</li><li><strong>CRM for credit brokers - professional financing</strong>: A web application offering similar functionalities to the previous CRM, with process adaptations tailored to professional financing needs.</li><li><strong>Loan insurance contract comparator</strong>: Connected to about ten insurance company APIs, allowing automated offer comparisons based on client profiles, with export features to extranets to streamline subscriptions.</li><li><strong>Intranet</strong>: Centralizes all internal applications, featuring advanced collaborative functionalities for managing users and brokerage centers.</li><li><strong>Forms</strong>: Design and development of interactive forms for collecting prospect information efficiently. These forms are integrated into CRMs for personalized and optimized follow-up, with a focus on conversion.</li></ul>",
+        "part2": "API and API Integrations: <ul><li><strong>API Leads</strong>: Development of an external API enabling partners to directly submit leads to various CRMs, ensuring seamless and automated tracking.</li><li><strong>Yousign API Client</strong>: Development of a PHP API client for integrating electronic signature solutions using the Yousign API.</li></ul>",
+        "part3": "Network management and system administration: <ul><li><strong>Website configuration on Windows Server</strong>: Setting up web applications and services hosted on Windows servers.</li><li><strong>Automated task scheduling</strong>: Implementation of scheduled tasks to automate processes such as report generation, data backups, and alerts.</li></ul>",
+        "part4": "I played a key role in designing, developing, and maintaining strategic web solutions for AFR Financement. My work contributed to improving brokers’ operational efficiency, automating critical processes, and enhancing user experience across the franchise."
       },
       "emiled": {
         "date": "11 weeks | 2016 – 2017",
-        "job": "IT Intern",
-        "part1": "Participation in projects aimed at enhancing customer loyalty and improving the user experience on e-commerce platforms.",
-        "part2": "Optimization and maintenance of multi-store websites on <strong>Magento</strong>, including analysis and resolution of identified functional issues.",
-        "part3": "Testing and validation of an online product customization solution, along with the creation of video tutorials to facilitate end-user adoption.",
-        "part4": "Design and execution of email campaigns using <strong>Mailchimp</strong>, from conception to dispatch, to support marketing initiatives.",
-        "part5": "Creation of various graphic assets using <strong>Photoshop</strong>, tailored to marketing needs and product personalization."
+        "job": "IT Intern • SARL EMILED • Laon",
+        "part1": "Participation in projects aimed at strengthening customer loyalty and improving user experience on e-commerce platforms.",
+        "part2": "Optimization and maintenance of multi-store websites on <strong>Magento</strong>, including analysis and resolution of reported functional issues.",
+        "part3": "Testing and validation of an online product customization solution, along with the creation of video tutorials to assist end-users.",
+        "part4": "Management of mailing campaigns using <strong>Mailchimp</strong>, from content design to sending, supporting marketing actions.",
+        "part5": "Creation of various graphic materials using <strong>Photoshop</strong>, in line with marketing needs and product customization."
       }
     },
     "education": {
       "insset": {
-        "part1": "<strong>Degree:</strong> Master's in Cloud Computing & Mobility • with honors.",
-        "part2": "<strong>Degree:</strong> Bachelor's in Digital Careers.",
-        "description1": "This Master's program trains experts in mobile development, microservices, and cloud solutions. The curriculum emphasizes security, IoT, and project management, preparing students for roles such as engineers, project managers, or specialized consultants.",
-        "description2": "The Bachelor's in Digital Careers at INSSET provides a strong foundation in digital technologies, web development, and cloud computing. It focuses on practical skills in application development, database management, and introductory machine learning, opening pathways to careers in the tech industry."
+        "part1": "<strong>Degree obtained:</strong> Master’s in Cloud Computing & Mobility • Honors.",
+        "part2": "<strong>Degree obtained:</strong> Bachelor's in Digital Professions.",
+        "description1": "This Master's program trains experts in mobile development, microservices, and cloud solutions. The curriculum focuses on security, IoT, and project management, preparing students for roles as engineers, project managers, or specialized consultants.",
+        "description2": "The Bachelor's in Digital Professions at INSSET in Saint-Quentin trains students in digital, web, and cloud technologies, with skills in application development, databases, and machine learning."
       },
       "claudel": {
-        "part1": "<strong>Degree:</strong> BTS in IT Services to Organizations • with honors.",
-        "part2": "<strong>Specialization:</strong> Software Solutions and Business Applications.",
-        "description": "The BTS SIO trains professionals to design, develop, and maintain software solutions tailored to business needs. The Software Solutions and Business Applications specialization emphasizes development technologies, database management, and adapting digital tools to organizational requirements."
+        "part1": "<strong>Degree obtained:</strong> BTS in IT Services for Organizations • Honors.",
+        "part2": "<strong>Option:</strong> Software Solutions and Business Applications.",
+        "description": "The BTS SIO program prepares students to design, develop, and maintain software solutions tailored to business needs. The Software Solutions and Business Applications option emphasizes development technologies, database management, and business needs analysis."
       },
       "nerval": {
-        "part1": "<strong>Degree:</strong> Technological Baccalaureate • with high honors.",
-        "part2": "<strong>Specializations:</strong> Information Systems Management and Film/Audio-Visual Studies.",
-        "description": "The STMG Baccalaureate with the Information Systems Management option introduces students to web development and data management fundamentals. The Film/Audio-Visual option complements this with a technical and creative approach to multimedia production."
+        "part1": "<strong>Degree obtained:</strong> Technological Baccalaureate • High Honors.",
+        "part2": "<strong>Options:</strong> Information Systems Management and Cinema-Audiovisual.",
+        "description": "The STMG Baccalaureate, with a specialization in Information Systems Management, provides an in-depth introduction to web development and data management. \n The cinema-audiovisual option enriches my background with a creative and technical approach to audiovisual production."
       }
     },
     "filter": {
