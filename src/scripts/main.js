@@ -49,15 +49,15 @@ function processJson() {
             titleKey = `titre-${langPreference}`;
         }
 
-        // Shuffle the projects array using Fisher-Yates algorithm
-        function shuffleArray(array) {
-            for (let i = array.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [array[i], array[j]] = [array[j], array[i]]; // Swap elements
-            }
-        }
-
-        shuffleArray(projects); // Shuffle before looping
+        // // Shuffle the projects array using Fisher-Yates algorithm
+        // function shuffleArray(array) {
+        //     for (let i = array.length - 1; i > 0; i--) {
+        //         const j = Math.floor(Math.random() * (i + 1));
+        //         [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+        //     }
+        // }
+        //
+        // shuffleArray(projects); // Shuffle before looping
 
         for (let i = 0; i < projects.length; i++) {
             const pathProject = 'dist/images/projets/' + projects[i]["id"] + '/' + projects[i]["miniature"];
@@ -107,16 +107,19 @@ function processJson() {
 
         const description = project[descriptionKey];
         const titre = project[titleKey];
+        const date = project["date"];
         const tag = project["tag"];
         const images = project["images"];
 
         $('#project-description').html(description);
         $('#project-title').text(titre);
+        $('#project-date').empty();
         $('#project-tags').empty();
         $('#project-images').empty();
 
         const tagsHtml = tag.map(t => `<span class="badge badge-project me-2">#${t}</span>`).join('');
         $('#project-tags').html(tagsHtml);
+        $('#project-date').html(`<span class="badge badge-date me-2">${date}</span>`);
 
         const imagesHtml = images.map((img, index) => `
             <a href="dist/images/projets/${projectId}/${img}">
