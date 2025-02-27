@@ -39,24 +39,12 @@ hr.divider-light {
     color: #219F83;
 }
 
-/*@media (max-width: 768px) {*/
-/*    .me {*/
-/*        font-size: 2.5rem!important;*/
-/*    }*/
-/*}*/
-
-/*@media (max-width: 480px) {*/
-/*    .me {*/
-/*        font-size: 2rem!important;*/
-/*    }*/
-/*}*/
-
-
 .letter, .space {
     display: inline-block;
     opacity: 0;
     transform: translateY(20px);
     animation: fadeInUp 0.8s ease-out forwards;
+    mix-blend-mode: difference;
 }
 
 /* Délai d'apparition des lettres */

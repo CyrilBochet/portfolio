@@ -156,13 +156,13 @@ document.addEventListener("DOMContentLoaded", function () {
     let angleCircle = 0;
     let angleStar = 0;
 
-    // Étape 1 : Appliquer scale(0) initialement
+    // Appliquer scale(0) initialement
     circles.forEach(circle => {
         circle.style.transform = "scale(0) translate(-50%, -50%)";
     });
     star.style.transform = "scale(0) translate(-50%, -50%)";
 
-    // Étape 2 : Effet de grossissement après 500ms
+    // Effet de grossissement après 500ms
     setTimeout(() => {
         circles.forEach(circle => {
             circle.style.transition = "transform 0.6s ease-out";
@@ -172,7 +172,7 @@ document.addEventListener("DOMContentLoaded", function () {
         star.style.transition = "transform 0.6s ease-out";
         star.style.transform = "scale(1) translate(-50%, -50%)"; // Effet de grossissement
 
-        // Étape 3 : Démarrer les animations après l'effet de grossissement
+        // Démarrer les animations après l'effet de grossissement
         setTimeout(() => {
             function animateCircles() {
                 angleCircle += 0.005;
