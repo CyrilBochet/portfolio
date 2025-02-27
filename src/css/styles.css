@@ -14,8 +14,7 @@ strong {
 .landing-bg {
     position: relative;
     width: 100%;
-    height: auto;
-    min-height: 35rem;
+    height: 100vh;
     padding: 15rem 0;
     overflow: hidden;
 }
@@ -214,16 +213,18 @@ footer a {
 }
 
 .circle {
-    height: 500px;
-    width: 500px;
+    /*height: 500px;*/
+    /*width: 500px;*/
     border-radius: 50%;
     transform: translate(-50%, -50%);
 }
 
 .star {
     overflow: hidden;
-    width: 350px;
-    height: 350px;
+    /*width: 350px;*/
+    /*height: 350px;*/
+    height: 40vw;
+    width: 40vw;
     top: 85%;
     left: 25%;
     transform: translate(-50%, -50%);
@@ -233,22 +234,28 @@ footer a {
     background-color: var(--md-sys-color-landing-circle1);
     top: 10%;
     left: 25%;
-    height: 350px;
-    width: 350px;
+    /*height: 350px;*/
+    /*width: 350px;*/
+    height: 25vw;
+    width: 25vw;
 }
 
 .circle-blue {
     background-color: var(--md-sys-color-landing-circle2);
     top: 3%;
     left: 45%;
-    height: 450px;
-    width: 450px;
+    /*height: 450px;*/
+    /*width: 450px;*/
+    height: 30vw;
+    width: 30vw;
 }
 
 .circle-red {
     background-color: var(--md-sys-color-landing-circle3);
     top: 50%;
     left: 80%;
+    height: 35vw;
+    width: 35vw;
 }
 
 .brand {
