@@ -1,19 +1,37 @@
 {
-  "name": "Cyril BOCHET - Portfolio de développeur Full-Stack",
-  "short_name": "Cyril BOCHET - Portfolio",
+  "name": "Cyril BOCHET - Portfolio de Chef de Projet IT",
+  "short_name": "Cyril BOCHET - Portfolio IT",
+  "description": "Portfolio de Cyril Bochet, Chef de Projet IT et expert en applications web.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#e8f2ef",
+  "theme_color": "#219F83",
   "icons": [
     {
       "src": "dist/images/favicons/android-chrome-192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "dist/images/favicons/android-chrome-512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
-  "theme_color": "#219F83",
-  "background_color": "#219F83",
-  "display": "standalone"
+  "screenshots": [
+    {
+      "src": "dist/images/screenshots/homepage.webp",
+      "sizes": "1280x720",
+      "type": "image/webp",
+      "form_factor": "wide"
+    },
+    {
+      "src": "dist/images/screenshots/mobile-view.webp",
+      "sizes": "720x1280",
+      "type": "image/webp",
+      "form_factor": "narrow"
+    }
+  ]
 }
