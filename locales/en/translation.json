@@ -2,9 +2,9 @@
   "job": "IT Project Manager",
   "nav": {
     "lang": "Language",
-    "contact": "Contact Me",
+    "contact": "Contact me",
     "projects": "Projects",
-    "experience": "Work Experience",
+    "experience": "Work experience",
     "education": "Education",
     "profile": "About me",
     "brand": "Portfolio"
@@ -12,10 +12,10 @@
   "section": {
     "title": {
       "about": "About me",
-      "projects": "My Projects",
-      "experience": "Work Experience",
+      "projects": "My projects",
+      "experience": "Work experience",
       "education": "Education",
-      "contact": "Contact Me"
+      "contact": "Contact me"
     },
     "about": {
       "text": {
@@ -87,7 +87,7 @@
     },
     "btn": {
       "send": "SEND",
-      "linkedin": "My LinkedIn Profile",
+      "linkedin": "My LinkedIn profile",
       "details": "+ Details"
     }
   }
