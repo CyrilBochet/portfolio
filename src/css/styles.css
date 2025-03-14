@@ -366,3 +366,24 @@ footer a {
     z-index: -999999;
     opacity: 0;
 }
+
+.btn-cookie {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    padding: 6px;
+    cursor: pointer;
+    z-index: 1000;
+    border: none;
+    border-radius: 50%;
+    background-color: greenyellow;
+    color: white;
+}
+
+.btn-cookie:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+
+
