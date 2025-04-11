@@ -99,7 +99,8 @@ function processJson() {
         const titre = project[titleKey];
         const date = project["date"];
         const tag = project["tag"];
-        const images = project["images"];
+        const media = project["images"];
+        const videoExtensions = ['.mp4', '.webm', '.ogg'];
 
         $('#project-description').html(description);
         $('#project-title').text(titre);
@@ -111,13 +112,26 @@ function processJson() {
         $('#project-tags').html(tagsHtml);
         $('#project-date').html(`<span class="badge badge-date me-2">${date}</span>`);
 
-        const imagesHtml = images.map((img, index) => `
-            <a href="dist/images/projets/${projectId}/${img}">
-                <img class="img-fluid img-project" src="dist/images/projets/${projectId}/${img}" 
-                     data-fancybox="project-${projectId}" 
-                     data-caption="${titre} - Image ${index + 1}">
-            </a>`).join('');
-        $('#project-images').html(imagesHtml);
+        const mediaHtml = media.map((item, index) => {
+            const isVideo = videoExtensions.some(ext => item.toLowerCase().endsWith(ext));
+            const path = `dist/images/projets/${projectId}/${item}`;
+
+            if (isVideo) {
+                return `
+        <a href="${path}" data-fancybox="project-${projectId}" data-caption="${titre} - Vidéo ${index + 1}">
+            <video class="img-fluid img-project" muted autoplay loop playsinline>
+                <source src="${path}" type="video/${item.split('.').pop()}">
+                Votre navigateur ne supporte pas les vidéos HTML5.
+            </video>
+        </a>`;
+            } else {
+                return `
+        <a href="${path}" data-fancybox="project-${projectId}" data-caption="${titre} - Image ${index + 1}">
+            <img class="img-fluid img-project" src="${path}">
+        </a>`;
+            }
+        }).join('');
+        $('#project-images').html(mediaHtml);
 
         Fancybox.bind('[data-fancybox=project-' + projectId + ']', {});
     }

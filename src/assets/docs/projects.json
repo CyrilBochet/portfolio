@@ -251,5 +251,26 @@
     ],
     "type": "web",
     "date": "2024"
+  },
+  {
+    "id": 14,
+    "titre-fr": "Popping Balloons",
+    "description-fr": "Ce jeu mobile, développé dans le cadre d'une <strong>initiation à Unity</strong>, plonge le joueur dans une expérience simple pour tester ses réflexes. Le principe est clair : <strong>toucher les ballons pour les faire exploser</strong> avant qu'ils n'atteignent le haut de l'écran. Chaque ballon manqué fait perdre une vie, et le joueur en dispose de trois. Chaque ballon éclaté rapporte un point.<br><br><ul><li><strong>Objectif</strong> : Survivre le plus longtemps possible en explosant les ballons à temps.</li><li><strong>Difficulté progressive</strong> : La vitesse d’apparition et de montée des ballons augmente au fil du temps.</li><li><strong>Variété visuelle</strong> : Un arrière-plan aléatoire est sélectionné à chaque partie pour renouveler l’ambiance.</li><li><strong>Menus complets</strong> : Écran d’accueil, écran de score, paramètres audio (musique et effets), et classement des meilleures performances.</li><li><strong>Design doux et cosy</strong> : Univers graphique apaisant à base de nuages et de couleurs pastel.</li></ul>",
+    "titre-en": "Popping Balloons",
+    "description-en": "This mobile game, developed as part of a <strong>Unity beginner project</strong>, offers a simple and fun way to test your reflexes. The goal is to <strong>tap balloons to pop them</strong> before they reach the top of the screen. Missing a balloon costs a life, and the player has three. Each popped balloon earns one point.<br><br><ul><li><strong>Goal</strong>: Stay alive as long as possible by popping balloons in time.</li><li><strong>Progressive difficulty</strong>: Balloon speed increases as time goes on.</li><li><strong>Visual variety</strong>: A random background is selected for each session to keep things fresh.</li><li><strong>Full menu system</strong>: Includes home screen, score screen, audio settings (music and effects), and highscore tracking.</li><li><strong>Cozy, soft design</strong>: Relaxing atmosphere with cloud backgrounds and pastel colors.</li></ul>",
+    "miniature": "miniature-popping-balloons",
+    "images": [
+      "popping-balloons.mp4"
+    ],
+    "tag": [
+      "Initiation",
+      "Unity",
+      "Jeu mobile",
+      "C#",
+      "Casual",
+      "Game Design"
+    ],
+    "type": "mobile",
+    "date": "2024"
   }
 ]
