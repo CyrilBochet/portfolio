@@ -7,8 +7,6 @@ import './scripts/main';
 import './scripts/prefers-color-scheme';
 import './scripts/projects-filter';
 import './scripts/contact-form';
-import './scripts/cookieconsent-config'
-
 
 import './css/product-sans.css';
 import './css/material-theme/tokens.css';
@@ -17,4 +15,3 @@ import './css/boostrap.css';
 import './css/material-symbols.css';
 import './css/navbar.css';
 import './css/media-queries.css';
-import 'vanilla-cookieconsent/dist/cookieconsent.css'
