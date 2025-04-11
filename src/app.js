@@ -8,7 +8,6 @@ import './scripts/prefers-color-scheme';
 import './scripts/projects-filter';
 import './scripts/contact-form';
 
-
 import './css/product-sans.css';
 import './css/material-theme/tokens.css';
 import './css/styles.css';

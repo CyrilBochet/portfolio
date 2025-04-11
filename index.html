@@ -2,12 +2,17 @@
 <html lang="fr">
 <head>
     <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KYWZX69H0B"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'G-KYWZX69H0B');
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/gtag/js?id=G-KYWZX69H0B"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+
+    <script type="text/plain" data-service="Google Analytics" data-category="analytics">
+        console.log("test");
+                window.dataLayer = window.dataLayer || [];
+          function gtag() { dataLayer.push(arguments); }
+          gtag('js', new Date());
+          gtag('config', 'G-KYWZX69H0B');
     </script>
 
     <!-- Métadonnées de la page -->
@@ -15,13 +20,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="robots" content="index, follow">
     <title>Cyril BOCHET - Portfolio de Chef de Projet IT</title>
-    <meta name="description" content="Chef de Projet IT spécialisé en applications web et API. Découvrez mon parcours et mes réalisations sur mon portfolio.">
+    <meta name="description"
+          content="Chef de Projet IT spécialisé en applications web et API. Découvrez mon parcours et mes réalisations sur mon portfolio.">
     <meta name="keywords" content="Chef de Projet IT, gestion de projets, Symfony, API, CRM, web, développement">
     <meta name="author" content="Cyril BOCHET">
 
     <!-- SEO & Open Graph -->
     <meta property="og:title" content="Portfolio de Chef de Projet IT | Cyril BOCHET">
-    <meta property="og:description" content="Découvrez mes compétences en gestion de projets IT, mes réalisations et mon parcours professionnel.">
+    <meta property="og:description"
+          content="Découvrez mes compétences en gestion de projets IT, mes réalisations et mon parcours professionnel.">
     <meta property="og:image" content="https://cyril-bochet.dev/dist/images/screenshots/og-image.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -33,7 +40,8 @@
     <meta name="twitter:title" content="Portfolio de Chef de Projet IT | Cyril BOCHET">
     <meta property="twitter:image:width" content="1200">
     <meta property="twitter:image:height" content="630">
-    <meta name="twitter:description" content="Découvrez mes compétences en gestion de projets IT, mes réalisations et mon parcours professionnel.">
+    <meta name="twitter:description"
+          content="Découvrez mes compétences en gestion de projets IT, mes réalisations et mon parcours professionnel.">
     <meta name="twitter:image" content="https://cyril-bochet.dev/dist/images/screenshots/og-image.webp">
 
     <!-- Favicon -->
@@ -55,7 +63,6 @@
     <link rel="canonical" href="https://cyril-bochet.dev/">
 </head>
 <body>
-
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg fixed-top" aria-label="navigation">
     <div class="container-fluid">
