@@ -40,9 +40,12 @@ nav.fixed-top .navbar-toggler:focus {
     background-color: #000000;
 }
 
-#sidebar-wrapper .sidebar-heading img {
+#sidebar-wrapper .sidebar-heading .rounded-profile-picture {
+    width: 90px;
+}
+
+.rounded-profile-picture {
     border-radius: 50px;
-    width: 70px;
 }
 
 #sidebar-wrapper .list-group-item {
